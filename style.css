@@ -58,7 +58,7 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1205px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -68,6 +68,15 @@ body {
   gap: 50px;
 }
 
+.header_nav_list_item_link:hover{
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+.header_number_link:hover{
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
 /* IntroSection */
 
 .intro_section {
@@ -94,16 +103,16 @@ body {
 .intro__heading {
   font-weight: var(--weight-700);
   font-size: 96px;
-  line-height: 109%;
-  letter-spacing: 0.02em;
+  line-height: 108%;
   text-align: center;
   color: var(--white);
+  letter-spacing: 0.019em;
 }
 
 .intro__description {
   font-weight: var(--weight-400);
   font-size: var(--size-20);
-  line-height: 142%;
+  line-height: 144%;
   text-align: center;
   color: var(--white);
   max-width: 562px;
@@ -118,7 +127,17 @@ body {
 
   border-radius: 10px;
   cursor: pointer;
-  width: 122px;
-  height: 37px;
+  width: 118px;
+  height: 34px;
   background: var(--white);
+  border: none;
+  transition: 0.3s ease;
+}
+
+.intro__btn:hover{
+  background-color: var(--orange-200);
+}
+
+.intro__btn:active{
+  background: var(--orange-100);
 }
