@@ -1,0 +1,75 @@
+:root {
+  /* Colors */
+  --black: #1b1f2b;
+  --white: #ffffff;
+  --orange-200: #efa501;
+  --orange-100: #f8e6be;
+  --green-400: #286562;
+  --green-300: #3b7e7b;
+  --green-200: #627f7e;
+  --green-100: #e0f0e5;
+  --gray-300: #a6a6a6;
+  --gray-200: #d9dfdb;
+  --gray-100: #f1f3f2;
+  --beige-200: #f4f0e9;
+  --beige-100: #f9f7f4;
+
+  /* Fonts */
+  --roboto: "Roboto", sans-serif;
+  --weight-400: 400;
+  --weight-500: 500;
+  --weight-700: 700;
+
+  /* Sizes */
+  --size-17: 17px;
+  --size-20: 20px;
+  --size-23: 23px;
+  --size-35: 35px;
+  --size-59: 59px;
+
+}
+
+body{
+  background-color: var(--beige-100);
+  color: var(--white);
+  font-family: var(--roboto);
+  font-weight: var(--weight-400);
+}
+
+.intro_section{
+  background: url(./src/images/intro-section/header-img.png);
+}
+
+.header{
+  background-color: transparent;
+  align-items: center;
+  padding: 20px 0;
+  height: 88px;
+}
+
+.header_content{
+  max-width: 1168px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 142%;
+  font-size: var(--size-20);
+}
+
+.logo{
+  padding-top: 5px;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+
+
+
+.header_nav_list{
+  display: flex;
+  gap: 50px;
+}
+
