@@ -198,17 +198,33 @@ body {
   border-radius: 50px;
   padding: 50px;
   width: 370px;
-  height: 531px;
+  min-height: 531px;
   position: relative;
   margin-top: 5px;
-  background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%);
   transition: 0.3s ease;
 }
 
-.choose_your_tour__card:hover{
+.choose_your_tour__card::before {
+  border-radius: 50px;
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    360deg,
+    rgba(0, 0, 0, 0.4) 0%,
+    rgba(0, 0, 0, 0.06) 48.44%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  transition: 0.3s ease;
+}
+
+.choose_your_tour__card:hover {
   cursor: pointer;
   transform: scale(1.2);
-  background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%);
 }
 
 .choose_your_tour__card-img {
@@ -220,8 +236,7 @@ body {
   bottom: 0;
   width: 100%;
   height: 100%;
-  z-index: -1;
-
+  z-index: -2;
 }
 
 .choose_your_tour__card-content {
@@ -247,20 +262,39 @@ body {
 }
 
 .choose_your_tour__card-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
   cursor: pointer;
-  width: 159px;
-  height: 28px;
+  position: absolute;
+  border-radius: 50px;
+  bottom: 1.9em;
+  left: 1.2em;
+  width: 199px;
+  height: 42px;
+  padding: 7px 20px;
   background-color: transparent;
-  padding-left: 0;
+  text-align: center;
   border: none;
   color: var(--white);
-  font-weight: 700;
-  font-size: 23px;
-  line-height: 120%;
+  font-weight: var(--weight-700);
+  font-size: var(--size-23);
+  line-height: 122%;
+  transition: 0.3s ease;
 }
+
+
+.choose_your_tour__card:hover .choose_your_tour__card-button {
+  background-color: var(--green-400);
+  
+}
+
+
+/* .choose_your_tour__card-button:hover {
+  background-color: var(--green-400);
+  border-radius: 50px;
+} */
+
 .choose_your_tour__card-button img{
   margin-left: 9px;
 }
-
-
-
