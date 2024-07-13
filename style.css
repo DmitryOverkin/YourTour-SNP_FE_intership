@@ -356,7 +356,7 @@ body {
 .take_your_tour__form-select {
   border: 1px solid var(--beige-200);
   border-radius: 10px;
-  padding: 15px;
+  padding: 20px;
   width: 500px;
   height: 68px;
 
@@ -365,11 +365,28 @@ body {
   line-height: 142%;
   color: var(--gray-300);
   background-color: var(--beige-100);
+
+  background-image: url("./src/images/icons/ic-dropdown.png");
+  background-repeat: no-repeat;
+  background-position: calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px), 100% 0;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 
 .take_your_tour__form-select:hover {
   border: 1px solid var(--beige-200);
   background: var(--beige-200);
+
+  background-image: url("./src/images/icons/ic-dropdown.png");
+  background-repeat: no-repeat;
+  background-position: calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px), 100% 0;
 }
 
 input[type="date"] {
@@ -377,11 +394,154 @@ input[type="date"] {
   font-weight: var(--weight-400);
   font-size: var(--size-20);
   line-height: 142%;
+  letter-spacing: -0.03em;
   color: var(--gray-300);
   text-transform: uppercase;
 }
 
-
-input[type=date]::-webkit-calendar-picker-indicator {
+input[type="date"]::-webkit-calendar-picker-indicator {
   opacity: 0;
+}
+
+.take_your_tour__form__textarea {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.take_your_tour__form-textarea-label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.take_your_tour__form-textarea-input {
+  display: block;
+  background: var(--beige-100);
+  border: 1px solid var(--beige-200);
+  border-radius: 10px;
+  padding: 20px;
+  height: 152px;
+  width: 100%;
+  resize: none;
+}
+
+.take_your_tour__form-textarea-input:hover {
+  border: 1px solid var(--beige-200);
+  background: var(--beige-200);
+}
+
+.take_your_tour__form-textarea-input:focus {
+  border: 1px solid var(--gray-300);
+  background: var(--beige-200);
+}
+
+.take_your_tour__form-radio-btns {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  position: relative;
+  top: -3px;
+}
+
+.take_your_tour__form-radio-label {
+  display: block;
+  margin-bottom: 9px;
+}
+
+.take_your_tour__form-radio-wrapper {
+  display: flex;
+  gap: 31px;
+}
+
+.take_your_tour__form-radio {
+  display: block;
+  transform: scale(2);
+  margin-right: -13px;
+  margin-left: 5px;
+}
+
+.take_your_tour__form-checkbox-wrapper {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  position: relative;
+  top: -7px;
+}
+
+.take_your_tour__form-checkbox {
+  transform: scale(2);
+  margin-left: 5px;
+  margin-right: 21px;
+}
+.take_your_tour__form-checkbox-label {
+  font-weight: var(--weight-400);
+  font-size: var(--size-17);
+  letter-spacing: -0.01em;
+  color: var(--gray-300);
+}
+
+.take_your_tour__form-checkbox-link {
+  color: var(--black);
+}
+
+.take_your_tour__form-checkbox-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.take_your_tour__form-checkbox-link:active {
+  color: var(--green-400);
+}
+
+.take_your_tour__form-btns {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: flex;
+  gap: 30px;
+  position: relative;
+  top: -9px;
+}
+
+.take_your_tour__form-btns-submit {
+  border: none;
+  border-radius: 10px;
+  padding: 15px 30px;
+  background: var(--green-400);
+  width: 235px;
+  height: 58px;
+
+  font-weight: var(--weight-400);
+  font-size: var(--size-20);
+  line-height: 142%;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.take_your_tour__form-btns-reset {
+  border: none;
+  border-radius: 10px;
+  padding: 15px 30px;
+  width: 235px;
+  height: 58px;
+
+  background: var(--green-100);
+
+  font-weight: var(--weight-400);
+  font-size: var(--size-20);
+  line-height: 142%;
+  color: var(--green-400);
+  cursor: pointer;
+}
+
+.take_your_tour__form-btns-submit:hover{
+  background: var(--green-300);
+}
+
+.take_your_tour__form-btns-submit:active{
+  background: var(--green-200);
+}
+
+.take_your_tour__form-btns-reset:hover{
+  background: var(--gray-100);
+}
+
+.take_your_tour__form-btns-reset:active{
+  background: var(--gray-200);
 }
