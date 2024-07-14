@@ -530,18 +530,117 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   cursor: pointer;
 }
 
-.take_your_tour__form-btns-submit:hover{
+.take_your_tour__form-btns-submit:hover {
   background: var(--green-300);
 }
 
-.take_your_tour__form-btns-submit:active{
+.take_your_tour__form-btns-submit:active {
   background: var(--green-200);
 }
 
-.take_your_tour__form-btns-reset:hover{
+.take_your_tour__form-btns-reset:hover {
   background: var(--gray-100);
 }
 
-.take_your_tour__form-btns-reset:active{
+.take_your_tour__form-btns-reset:active {
   background: var(--gray-200);
+}
+
+/* Reviews */
+
+.reviews {
+  padding: 135px 0;
+}
+
+.reviews__content {
+}
+
+.reviews__content-heading {
+  position: relative;
+  top: -5px;
+  line-height: 120%;
+}
+
+.reviews__content-paragraph {
+  position: relative;
+  top: -7px;
+}
+
+.reviews__cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.reviews__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 50px;
+
+  border-radius: 50px;
+  padding: 40px;
+  width: 570px;
+  height: 673px;
+
+  background: var(--beige-200);
+
+  position: relative;
+  top: -8px;
+}
+
+.reviews__card-text {
+  font-weight: var(--weight-700);
+  font-size: var(--size-23);
+  line-height: 122%;
+
+  letter-spacing: -0.001em;
+  position: relative;
+  left: -1px;
+}
+
+.reviews__card-author {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reviews__card-author-name {
+  font-weight: var(--weight-500);
+  font-size: var(--size-35);
+  line-height: 122%;
+}
+/* .reviews__card-author  {
+  margin-left: 2px;
+} */
+
+.reviews__card-author-names {
+  position: relative;
+  left: -2px;
+}
+
+.reviews__card-author-name {
+  margin-bottom: 7px;
+}
+
+.reviews__card-author-name-of-tour {
+  font-weight: var(--weight-400);
+  font-size: var(--size-17);
+  line-height: 142%;
+  letter-spacing: -0.01em;
+  color: var(--gray-300);
+}
+
+.reviews__card-author-photo {
+  position: relative;
+  border-radius: 100px;
+  width: 75px;
+  height: 75px;
+}
+
+.reviews__card-author-photo img {
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
