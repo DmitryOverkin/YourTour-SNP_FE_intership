@@ -933,9 +933,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   margin-right: 61px;
 }
 
-.footer__content__link:hover{
-text-decoration: underline;
-text-underline-offset: 5px;
+.footer__content__link:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
 }
 
 .footer__content__link-img {
