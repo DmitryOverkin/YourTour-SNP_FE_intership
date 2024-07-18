@@ -285,6 +285,10 @@ body {
   background-color: var(--green-400);
 }
 
+.choose_your_tour__card:active .choose_your_tour__card-button {
+  background-color: var(--orange-200);
+}
+
 .choose_your_tour__card-button img {
   margin-left: 9px;
 }
@@ -336,7 +340,7 @@ body {
   border: 1px solid var(--beige-200);
   border-radius: 10px;
   padding: 18px;
-  width: 500px;
+  width: 100%;
   height: 68px;
   background: var(--beige-100);
 }
@@ -608,9 +612,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   font-size: var(--size-35);
   line-height: 122%;
 }
-/* .reviews__card-author  {
-  margin-left: 2px;
-} */
 
 .reviews__card-author-names {
   position: relative;
@@ -703,7 +704,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 /* Travel histories */
 
-.travels_histories {
+.travel_histories {
+  margin-bottom: 115px;
 }
 
 .travel_histories__heading,
@@ -724,10 +726,17 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   border-radius: 50px;
   width: 100%;
   height: 567px;
+  padding: 60px;
   overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   cursor: pointer;
   transition: 0.3s ease;
+
+  color: var(--white);
 }
 
 .travel_histories__card::before {
@@ -759,4 +768,178 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .travel_histories__card:hover .travel_histories__card-img {
   transform: scale(1.2);
+}
+
+.travel_histories__card-heading {
+  font-weight: var(--weight-500);
+  font-size: var(--size-35);
+  line-height: 122%;
+  margin-bottom: 37px;
+}
+
+.travel_histories__card-paragraph {
+  max-width: 560px;
+  padding-bottom: 37px;
+
+  font-weight: var(--weight-400);
+  font-size: var(--size-20);
+  line-height: 142%;
+}
+
+.travel_histories__card-list {
+  font-weight: var(--weight-400);
+  font-size: var(--size-20);
+  line-height: 122%;
+}
+
+.travel_histories__card-list-item {
+  position: relative;
+
+  left: 29px;
+  top: -10px;
+  list-style-type: disc;
+}
+
+.travel_histories__card-list-item:not(:last-child) {
+  margin-bottom: 5px;
+}
+.travel_histories__card-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.travel_histories__card-links-btn {
+  position: relative;
+  left: -22px;
+  top: 6px;
+}
+
+.travel_histories__card:hover .choose_your_tour__card-button {
+  background-color: var(--green-400);
+}
+
+.travel_histories__card:active .travel_histories__card-links-btn {
+  background-color: var(--orange-200);
+}
+
+.travel_histories__card-social-media {
+  position: relative;
+  top: 6px;
+  left: 2px;
+}
+
+.travel_histories__card-social-media {
+  display: flex;
+  gap: 35px;
+
+  font-weight: var(--weight-400);
+  font-size: var(--size-20);
+  line-height: 142%;
+}
+
+.travel_histories__card-social-media-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+.travel_histories__card-social-media-link:active {
+  color: var(--orange-200);
+}
+
+.travel_histories__card:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+/* Call to Action */
+
+.call_to_action__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.call_to_action__img {
+  border-radius: 50px;
+  width: 370px;
+  height: 370px;
+}
+
+.call_to_action__text {
+  max-width: 371px;
+}
+
+.call_to_action__heading {
+  font-weight: var(--weight-500);
+  font-size: var(--size-35);
+  line-height: 122%;
+  color: var(--black);
+
+  margin-bottom: 20px;
+}
+
+.call_to_action__paragraph {
+  font-family: var(--font-family);
+  font-weight: var(--weight-400);
+  font-size: var(--size-20);
+  line-height: 142%;
+  color: var(--gray-300);
+}
+
+.call_to_action__paragraph a {
+  color: var(--black);
+}
+
+.call_to_action__paragraph a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+
+.footer {
+  background: var(--beige-200);
+  width: 100%;
+  padding: 30px 0;
+  margin-top: 135px;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__content__paragraph {
+  font-family: var(--font-family);
+  font-weight: var(--weight-400);
+  font-size: var(--size-20);
+  line-height: 142%;
+  color: var(--gray-300);
+}
+
+.footer__content__links {
+  display: flex;
+}
+.footer__content__link {
+  font-family: var(--font-family);
+  font-weight: var(--weight-400);
+  font-size: var(--size-20);
+  line-height: 142%;
+  color: var(--black);
+
+  position: relative;
+}
+
+.footer__content__link:not(:last-child) {
+  margin-right: 61px;
+}
+
+.footer__content__link:hover{
+text-decoration: underline;
+text-underline-offset: 5px;
+}
+
+.footer__content__link-img {
+  position: absolute;
+
+  left: -36px;
 }
