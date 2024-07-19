@@ -248,6 +248,10 @@ body {
   justify-content: space-between;
 }
 
+.choose_your_tour__card-text {
+  width: 200px;
+}
+
 .choose_your_tour__card-heading {
   font-weight: var(--weight-500);
   font-size: var(--size-35);
@@ -980,7 +984,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     top: -1px;
     left: -1px;
     max-width: 410px;
-    line-height: 131%;
+    line-height: 134%;
   }
 
   .intro__btn {
@@ -990,30 +994,103 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     height: 34px;
 
     position: relative;
-    left: -3px;
+    left: -1px;
   }
 
   /* ChooseYourTour Section */
   .choose_your_tour__content-heading {
-    line-height: 113%;
+    line-height: 117%;
     position: relative;
-    left: -3px;
+    left: -2px;
   }
-  .choose_your_tour__content-list-item{
+  .choose_your_tour__content-list-item {
     position: relative;
-    left: -4px;
+    top: 1px;
+    left: -2px;
+  }
+
+  .choose_your_tour__content-list-item-link {
+    letter-spacing: 0.002em;
   }
 
   .choose_your_tour__cards {
     grid-template-columns: 1fr 1fr;
-    gap: 14px 18px;
-    
+    gap: 13px 18px;
   }
 
   .choose_your_tour__card {
-    max-width: 450px;
-    width: 100%;
+    width: 450px;
     position: relative;
     left: -6px;
+    top: 1px;
+  }
+
+  .choose_your_tour__card-text {
+    width: 350px;
+  }
+
+  .choose_your_tour__card-heading {
+    line-height: 113%;
+  }
+
+  .choose_your_tour__card-button {
+    bottom: 1.95em;
+  }
+
+  .choose_your_tour__card-button img {
+    position: relative;
+    left: 5px;
+  }
+
+  /* TakeYourTour Section */
+
+  .take_your_tour__form {
+    padding: 60px 55px;
+    gap: 33px 20px;
+  }
+
+  .take_your_tour__form-select {
+    width: 100%;
+  }
+
+  .take_your_tour__form-select {
+    background-position: calc(100% - 21px) calc(1em + 1px),
+      calc(100% - 15px) calc(1em + 2px), 100% 0;
+  }
+
+  .take_your_tour__form-radio-label {
+    position: relative;
+    top: 3px;
+
+    margin-bottom: 13px;
+  }
+
+  .take_your_tour__form-radio-wrapper {
+    gap: 32px;
+  }
+
+  .take_your_tour__form-checkbox{
+    margin-left: 6px;
+    margin-right: 13px;
+  }
+
+  /* Reviews */
+
+  .reviews__content-heading{
+    line-height: 120%;
+  }
+
+  .reviews__cards{
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .reviews__card{
+    height: 841px;
+    width: 450px;
+    padding: 40px 37px;
+  }
+
+  .reviews__card-author-photo img{
+    left: 3px;
   }
 }
