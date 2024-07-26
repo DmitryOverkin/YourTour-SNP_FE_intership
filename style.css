@@ -21,9 +21,11 @@
   --weight-700: 700;
 
   /* Sizes */
+  --size-16: 16px;
   --size-17: 17px;
   --size-20: 20px;
   --size-23: 23px;
+  --size-34: 34px;
   --size-35: 35px;
   --size-59: 59px;
 }
@@ -1211,17 +1213,196 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     left: -4px;
   }
 
-  .footer__content__link:not(:last-child){
+  .footer__content__link:not(:last-child) {
     margin-right: 60px;
   }
 
-  .footer__content__link:nth-child(3){
+  .footer__content__link:nth-child(3) {
     position: relative;
     left: 3px;
   }
 
-  .footer__content__link:nth-child(2){
+  .footer__content__link:nth-child(2) {
     position: relative;
     left: 1px;
+  }
+}
+
+@media (max-width: 360px) {
+  /* Header */
+
+  .header_nav {
+    display: none;
+  }
+
+  .logo_img {
+    width: 133px;
+    height: 22px;
+  }
+
+  .header_number_link {
+    font-size: var(--size-16);
+  }
+
+  .intro_section {
+    height: 488px;
+  }
+  .intro {
+    padding: 0;
+  }
+
+  .intro__content {
+    gap: 0;
+  }
+
+  .intro__heading {
+    font-size: var(--size-34);
+    line-height: 112%;
+    letter-spacing: 0.02em;
+    margin-bottom: 15px;
+  }
+
+  .intro__description {
+    font-size: var(--size-16);
+    line-height: 142%;
+    max-width: 310px;
+    margin-bottom: 40px;
+  }
+
+  /* Choose your tour section */
+
+  .choose_your_tour {
+    padding: 75px 0;
+  }
+
+  .choose_your_tour__content-heading {
+    font-size: var(--size-34);
+    line-height: 112%;
+    letter-spacing: 0.02em;
+    margin-bottom: 30px;
+  }
+
+  .choose_your_tour__content-list {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .choose_your_tour__content-list-item-link {
+    font-size: var(--size-16);
+    line-height: 142%;
+  }
+
+  .choose_your_tour__content-nav {
+    margin-bottom: 50px;
+  }
+
+  .choose_your_tour__card-content {
+    width: 268px;
+  }
+
+  .choose_your_tour__cards {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .choose_your_tour__card {
+    border-radius: 20px;
+    padding: 25px;
+
+    min-height: 318px;
+
+    left: 0;
+    top: 0;
+  }
+
+  .choose_your_tour__card-heading {
+    font-size: var(--size-23);
+    line-height: 120%;
+    letter-spacing: 0.04em;
+  }
+
+  .choose_your_tour__card-price,
+  .choose_your_tour__card-button {
+    font-size: var(--size-16);
+    line-height: 142%;
+  }
+
+  /* Take your tour */
+
+  .take_your_tour__paragraph {
+    font-size: var(--size-16);
+    line-height: 142%;
+    margin-bottom: 40px;
+  }
+
+  .take_your_tour__form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 30px;
+  }
+
+  .take_your_tour__form-label {
+    font-size: var(--size-16);
+    line-height: 142%;
+  }
+
+  .take_your_tour__form__input-name,
+  .take_your_tour__form-select {
+    font-size: var(--size-16);
+    line-height: 142%;
+
+    border-radius: 10px;
+    padding: 10px;
+    width: 278px;
+    height: 43px;
+  }
+  .take_your_tour__form-textarea-label,
+  .take_your_tour__form-radio-label {
+    font-size: var(--size-16);
+    line-height: 142%;
+  }
+
+  .take_your_tour__form-select {
+    background-position: calc(103% - 21px) calc(1em + -9px),
+      calc(100% - 15px) calc(1em + 2px), 100% 0;
+  }
+
+  .take_your_tour__form-textarea-input {
+    border-radius: 10px;
+    padding: 10px;
+    width: 278px;
+    height: 132px;
+  }
+
+  .take_your_tour__form-radio-wrapper span {
+    font-size: var(--size-16);
+    line-height: 142%;
+  }
+  .take_your_tour__form-radio {
+    display: block;
+    transform: scale(1.7);
+    margin-right: -13px;
+    margin-left: 5px;
+  }
+
+  .take_your_tour__form-checkbox {
+    transform: scale(1.7);
+  }
+  .take_your_tour__form-checkbox-label {
+    font-size: var(--size-16);
+    line-height: 142%;
+    width: 278px;
+  }
+
+  .take_your_tour__form-btns-submit,
+  .take_your_tour__form-btns-reset {
+    font-size: var(--size-16);
+    line-height: 142%;
+
+    border-radius: 10px;
+    padding: 15px 20px;
+    width: 134px;
+    height: 47px;
   }
 }
