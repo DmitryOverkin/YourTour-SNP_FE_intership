@@ -1229,6 +1229,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 @media (max-width: 360px) {
+  /* Container */
+  .container {
+    max-width: 360px;
+  }
+
   /* Header */
 
   .header_nav {
@@ -1404,5 +1409,213 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     padding: 15px 20px;
     width: 134px;
     height: 47px;
+  }
+
+  /* Reviews */
+
+  .reviews {
+    padding: 75px 0;
+  }
+
+  .reviews__content-heading {
+    margin-bottom: 20px;
+  }
+
+  .reviews__content-paragraph {
+    margin-bottom: 50px;
+  }
+
+  .reviews__card {
+    border-radius: 20px;
+    padding: 20px;
+    width: 318px;
+    height: 592px;
+  }
+
+  .reviews__cards {
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .reviews__card-text {
+    font-size: var(--size-16);
+    line-height: 142%;
+  }
+
+  .reviews__card-author-name {
+    font-size: var(--size-20);
+    line-height: 120%;
+    letter-spacing: 0.04em;
+  }
+
+  .reviews__card-author-name-of-tour {
+    font-size: var(--size-16);
+    line-height: 142%;
+    letter-spacing: -0.01em;
+  }
+
+  /* Travels Photos */
+
+  .travels_photos {
+    margin: 0 auto 75px auto;
+  }
+
+  .travels_photos__heading {
+    margin-bottom: 20px;
+  }
+
+  .travels_photos__paragraph {
+    margin-bottom: 50px;
+  }
+
+  .travels_photos-images-col:nth-child(3) img {
+    display: none;
+  }
+
+  .travels_photos-images-row:first-child
+    .travels_photos-images-col:nth-child(1)
+    img,
+  .travels_photos-images-row:first-child
+    .travels_photos-images-col:nth-child(4)
+    img,
+  .travels_photos-images-row:last-child
+    .travels_photos-images-col:nth-child(1)
+    img,
+  .travels_photos-images-row:last-child
+    .travels_photos-images-col:nth-child(2)
+    img {
+    border-radius: 20px;
+    width: 150px;
+    height: 110px;
+  }
+
+  .travels_photos-images-row:nth-child(2) .travels_photos-images-col img {
+    border-radius: 20px;
+    width: 99px;
+    height: 110px;
+  }
+
+  .travels_photos-images-row:first-child {
+    gap: 18px;
+  }
+
+  .travels_photos-images-row:last-child,
+  .travels_photos-images-row:nth-child(2) {
+    gap: 10px;
+  }
+
+  /* Travel Histories */
+
+  .travel_histories {
+    margin-bottom: 75px;
+  }
+
+  .travel_histories__heading {
+    line-height: 112%;
+    letter-spacing: 0.02em;
+    margin-bottom: 20px;
+  }
+
+  .travel_histories__paragraph {
+    line-height: 142%;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .travel_histories__cards {
+    gap: 20px;
+  }
+
+  .travel_histories__card {
+    border-radius: 20px;
+    width: 318px;
+    height: 455px;
+    padding: 30px;
+
+    overflow: hidden;
+  }
+
+  .travel_histories__card:not(:last-child) {
+    margin-bottom: 0;
+  }
+
+  .travel_histories__card-heading {
+    font-size: var(--size-23);
+    line-height: 120%;
+    letter-spacing: 0.04em;
+    margin: 0 0 20px 0;
+  }
+
+  .travel_histories__card-paragraph,
+  .travel_histories__card-list {
+    font-size: var(--size-16);
+    line-height: 142%;
+  }
+
+  .travel_histories__card-paragraph {
+    padding: 0 0 20px 0;
+  }
+
+  .travel_histories__card-img {
+    border-radius: 20px;
+    width: 318px;
+    height: 455px;
+    object-fit: cover;
+  }
+  .travel_histories__card-social-media {
+    display: none;
+  }
+
+  /* Call to action section  */
+
+  .call_to_action__content {
+    flex-direction: column;
+  }
+
+  .call_to_action__img {
+    border-radius: 20px;
+    width: 130px;
+    height: 133px;
+  }
+
+  .call_to_action__text {
+    text-align: center;
+  }
+
+  .call_to_action__heading {
+    font-weight: var(--weight-700);
+    font-size: var(--size-23);
+    line-height: 120%;
+    letter-spacing: 0.04em;
+
+    margin-bottom: 20px;
+  }
+
+  .call_to_action__paragraph {
+    font-weight: var(--weight-400);
+    font-size: var(--size-16);
+    line-height: 142%;
+  }
+
+  .footer {
+    margin-top: 75px;
+  }
+
+  .footer__content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__content__paragraph {
+    font-size: var(--size-16);
+    line-height: 142%;
+  }
+
+  .footer__content__link:not(:last-child) {
+    margin-right: 41px;
+  }
+  .footer__content__link {
+    font-size: var(--size-16);
+    line-height: 142%;
   }
 }
