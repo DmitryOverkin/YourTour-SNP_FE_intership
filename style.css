@@ -1240,9 +1240,25 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     display: none;
   }
 
-  .logo_img {
+  .logo {
     width: 133px;
     height: 22px;
+    position: relative;
+  }
+
+  .logo_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+
+    width: 133px;
+    height: 22px;
+  }
+
+  .header_number {
+    position: relative;
+    top: 0;
   }
 
   .header_number_link {
@@ -1264,7 +1280,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     font-size: var(--size-34);
     line-height: 112%;
     letter-spacing: 0.02em;
-    margin-bottom: 15px;
+    margin-bottom: 9px;
+
+    position: relative;
+    top: -7px;
+    left: -2px;
   }
 
   .intro__description {
@@ -1274,10 +1294,19 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     margin-bottom: 40px;
   }
 
+  .intro__btn {
+    padding: 5px 15px;
+    width: 114px;
+    height: 34px;
+    letter-spacing: -0.03em;
+    position: relative;
+    top: -2px;
+  }
+
   /* Choose your tour section */
 
   .choose_your_tour {
-    padding: 75px 0;
+    padding: 68px 0 75px 0;
   }
 
   .choose_your_tour__content-heading {
@@ -1292,13 +1321,23 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     gap: 10px;
   }
 
+  .choose_your_tour__content-list-item {
+    left: -1px;
+    top: 0px;
+  }
+
   .choose_your_tour__content-list-item-link {
     font-size: var(--size-16);
     line-height: 142%;
   }
 
+  .choose_your_tour__content-list-item-link:active {
+    font-size: var(--size-16);
+    line-height: 142%;
+    text-underline-offset: 4px;
+  }
   .choose_your_tour__content-nav {
-    margin-bottom: 50px;
+    margin-bottom: 45px;
   }
 
   .choose_your_tour__card-content {
@@ -1307,23 +1346,32 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
   .choose_your_tour__cards {
     grid-template-columns: 1fr;
-    gap: 18px;
+    gap: 13px;
   }
 
   .choose_your_tour__card {
     border-radius: 20px;
     padding: 25px;
-
+    width: 318px;
     min-height: 318px;
 
     left: 0;
     top: 0;
   }
 
+  .choose_your_tour__card::before {
+    border-radius: 20px;
+  }
+
+  .choose_your_tour__card-img {
+    border-radius: 20px;
+  }
+
   .choose_your_tour__card-heading {
     font-size: var(--size-23);
     line-height: 120%;
     letter-spacing: 0.04em;
+    margin-bottom: 14px;
   }
 
   .choose_your_tour__card-price,
@@ -1332,19 +1380,37 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     line-height: 142%;
   }
 
+  .choose_your_tour__card-button {
+    padding: 0;
+    bottom: 1.07em;
+
+    left: 4px;
+  }
+
+  .choose_your_tour__card-button img {
+    left: -35px;
+  }
+
   /* Take your tour */
 
   .take_your_tour__paragraph {
     font-size: var(--size-16);
     line-height: 142%;
-    margin-bottom: 40px;
+    margin-bottom: 31px;
+    position: relative;
+    top: -9px;
   }
 
   .take_your_tour__form {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+
     gap: 30px;
+
+    border-radius: 30px;
+    padding: 20px 20px 40px 20px;
+    width: 318px;
+    height: 1110px;
   }
 
   .take_your_tour__form-label {
