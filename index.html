@@ -21,6 +21,7 @@
     />
     <link rel="stylesheet" href="./normilize.css" />
     <link rel="stylesheet" href="./style.css" />
+    <script src="./main.js" defer></script>
     <title>YourTour</title>
   </head>
   <body>
@@ -39,16 +40,28 @@
             <nav class="header_nav">
               <ul class="header_nav_list">
                 <li class="header_nav_list_item">
-                  <a href="#" class="header_nav_list_item_link">Туры</a>
+                  <a
+                    href="#choose_your_tour_id"
+                    class="header_nav_list_item_link"
+                    >Туры</a
+                  >
                 </li>
                 <li class="header_nav_list_item">
-                  <a href="#" class="header_nav_list_item_link">Создать тур</a>
+                  <a href="#take_your_tour_id" class="header_nav_list_item_link"
+                    >Создать тур</a
+                  >
                 </li>
                 <li class="header_nav_list_item">
-                  <a href="#" class="header_nav_list_item_link">Отзывы</a>
+                  <a href="#review_id" class="header_nav_list_item_link"
+                    >Отзывы</a
+                  >
                 </li>
                 <li class="header_nav_list_item">
-                  <a href="#" class="header_nav_list_item_link">Истории</a>
+                  <a
+                    href="#travel_histories_id"
+                    class="header_nav_list_item_link"
+                    >Истории</a
+                  >
                 </li>
               </ul>
             </nav>
@@ -73,7 +86,7 @@
       </section>
     </section>
     <main>
-      <section class="choose_your_tour">
+      <section class="choose_your_tour" id="choose_your_tour_id">
         <div class="container">
           <div class="choose_your_tour__content">
             <h2 class="choose_your_tour__content-heading">Выбери свой тур</h2>
@@ -245,7 +258,7 @@
           </div>
         </div>
       </section>
-      <section class="take_your_tour">
+      <section class="take_your_tour" id="take_your_tour_id">
         <div class="container">
           <div class="take_your_tour__content">
             <div class="take_your_tour__text">
@@ -306,7 +319,9 @@
                 />
               </div>
               <div>
-                <label for="date-from" class="take_your_tour__form-label label_date"
+                <label
+                  for="date-from"
+                  class="take_your_tour__form-label label_date"
                   >Дата от</label
                 >
 
@@ -317,7 +332,9 @@
                 />
               </div>
               <div>
-                <label for="date-to" class="take_your_tour__form-label label_date"
+                <label
+                  for="date-to"
+                  class="take_your_tour__form-label label_date"
                   >Дата до</label
                 >
 
@@ -386,7 +403,7 @@
           </div>
         </div>
       </section>
-      <section class="reviews">
+      <section class="reviews" id="review_id">
         <div class="container">
           <div class="reviews__content">
             <h2
@@ -449,7 +466,7 @@
           </div>
         </div>
       </section>
-      <section class="travels_photos">
+      <section class="travels_photos" id="travel_photos_id">
         <div class="travels_photos__content">
           <div class="travels_photos__text">
             <h2
@@ -550,7 +567,7 @@
           </div>
         </div>
       </section>
-      <section class="travel_histories">
+      <section class="travel_histories" id="travel_histories_id">
         <div class="container">
           <h2
             class="choose_your_tour__content-heading travel_histories__heading"
