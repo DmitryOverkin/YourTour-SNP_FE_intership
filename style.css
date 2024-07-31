@@ -50,6 +50,17 @@ body {
   height: 88px;
 }
 
+.scroll_header {
+  backdrop-filter: blur(54px);
+  background: rgba(243, 239, 232, 0.6);
+  position: fixed;
+  width: 100vw;
+  transition: 0.3s ease;
+  color: var(--black);
+  z-index: 100;
+}
+
+
 .header_content {
   max-width: 1168px;
   display: flex;
@@ -62,6 +73,15 @@ body {
 .logo {
   padding-top: 5px;
 }
+
+.logo_img{
+  transition: filter 0.3s ease;
+}
+
+.logo_img.black{
+  filter: brightness(0) invert(0);
+}
+
 
 .container {
   max-width: 1205px;
