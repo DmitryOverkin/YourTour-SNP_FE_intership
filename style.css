@@ -48,18 +48,19 @@ body {
   align-items: center;
   padding: 20px 0;
   height: 88px;
+  position: absolute;
+  width: 100%;
 }
 
 .scroll_header {
   backdrop-filter: blur(5px);
   background: rgba(243, 239, 232, 0.6);
   position: fixed;
-  width: 100vw;
+  width: 100%;
   transition: 0.3s ease;
   color: var(--black);
   z-index: 100;
 }
-
 
 .header_content {
   max-width: 1168px;
@@ -74,14 +75,13 @@ body {
   padding-top: 5px;
 }
 
-.logo_img{
+.logo_img {
   transition: filter 0.3s ease;
 }
 
-.logo_img.black{
+.logo_img.black {
   filter: brightness(0) invert(0);
 }
-
 
 .container {
   max-width: 1205px;
@@ -102,16 +102,24 @@ body {
 .header_number_link:hover {
   text-decoration: underline;
   text-underline-offset: 5px;
+  transition: all 0.3s ease;
 }
 /* IntroSection */
 
 .intro_section {
-  background-image: url("./src/images/intro-section/header-img.png");
+  /* background: url("./src/images/intro-section/header-img.png"); */
   height: 831px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
   color: var(--white);
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    url("./src/images/intro-section/header-img.png");
 }
 
 .intro {
@@ -174,7 +182,7 @@ body {
 /* Choose Your Tour Section */
 
 .choose_your_tour {
-  padding: 135px 0;
+  padding-top: 135px;
 }
 
 .choose_your_tour__content-heading {
@@ -331,6 +339,15 @@ body {
 }
 
 /* Take Your Tour Section */
+
+.take_your_tour {
+  padding-top: 135px;
+}
+
+input,
+textarea {
+  transition: all 0.3s ease;
+}
 
 .take_your_tour__content {
   display: flex;
@@ -552,6 +569,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   line-height: 142%;
   color: var(--white);
   cursor: pointer;
+
+  transition: all 0.3s ease;
 }
 
 .take_your_tour__form-btns-reset {
@@ -568,6 +587,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   line-height: 142%;
   color: var(--green-400);
   cursor: pointer;
+
+  transition: all 0.3s ease;
 }
 
 .take_your_tour__form-btns-submit:hover {
@@ -589,7 +610,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 /* Reviews */
 
 .reviews {
-  padding: 135px 0;
+  padding-top: 135px;
 }
 
 .reviews__content {
@@ -687,8 +708,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .travels_photos {
   max-width: 1920px;
   width: 100%;
-  margin: 0 auto 135px auto;
-  padding: 0 20px;
+  margin: 0 auto;
+  padding: 135px 20px 0 20px;
 }
 
 .travels_photos__text {
@@ -743,7 +764,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 /* Travel histories */
 
 .travel_histories {
-  margin-bottom: 115px;
+  padding-top: 135px;
 }
 
 .travel_histories__heading,
@@ -897,6 +918,10 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 /* Call to Action */
+
+.call_to_action{
+  padding-top: 135px;
+}
 
 .call_to_action__content {
   display: flex;
@@ -1170,7 +1195,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     left: -2px;
   }
 
-  .travels_photos-images-row:nth-child(2)
+  .travels_photos-images-row:nth-child(3)
     .travels_photos-images-col:nth-child(3)
     img {
     width: 103%;
@@ -1206,7 +1231,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   }
 
   .travels_photos-images-row:nth-child(2)
-    .travels_photos-images-col:nth-child(2) {
+    .travels_photos-images-col:nth-child(3) {
     display: none;
   }
 
