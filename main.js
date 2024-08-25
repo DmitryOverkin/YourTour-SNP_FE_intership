@@ -18,7 +18,6 @@ menuItemLinks.forEach((item) => {
 
 const header = document.querySelector(".header");
 const logo = document.querySelector(".logo_img");
-console.log(logo);
 
 window.addEventListener("scroll", function () {
   if (this.scrollY > 450) {
@@ -27,5 +26,16 @@ window.addEventListener("scroll", function () {
   } else {
     header.classList.remove("scroll_header");
     logo.classList.remove("black");
+  }
+});
+
+const selectElement = document.querySelector(".take_your_tour__form-select");
+
+selectElement.addEventListener("change", (event) => {
+  const selectedValue = event.target.value;
+  if (selectedValue) {
+    selectElement.classList.add("selected");
+  } else {
+    selectElement.classList.remove("selected");
   }
 });

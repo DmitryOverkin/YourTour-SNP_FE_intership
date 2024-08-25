@@ -120,10 +120,12 @@ body {
       rgba(0, 0, 0, 0.4) 100%
     ),
     url("./src/images/intro-section/header-img.png");
+
+  box-shadow: 0px 100px 67px -39px rgba(0, 0, 0, 0.2) inset;
 }
 
 .intro {
-  padding: 119px 0;
+  padding: 207px 0;
 }
 
 .intro__content {
@@ -446,6 +448,14 @@ textarea {
     calc(100% - 15px) calc(1em + 2px), 100% 0;
 }
 
+.take_your_tour__form-select option {
+  color: var(--black);
+}
+
+.take_your_tour__form-select.selected {
+  color: var(--black);
+}
+
 input[type="date"] {
   font-family: var(--font-family);
   font-weight: var(--weight-400);
@@ -458,6 +468,10 @@ input[type="date"] {
 
 input[type="date"]::-webkit-calendar-picker-indicator {
   opacity: 0;
+}
+
+input[type="date"]:valid {
+  color: var(--black);
 }
 
 .take_your_tour__form__textarea {
@@ -818,6 +832,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .travel_histories__card-img {
   display: block;
   border-radius: 50px;
+
   position: absolute;
   top: 0;
   left: 0;
@@ -919,8 +934,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 /* Call to Action */
 
-.call_to_action{
-  padding-top: 135px;
+.call_to_action {
+  padding-top: 115px;
 }
 
 .call_to_action__content {
@@ -1103,7 +1118,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
   .choose_your_tour__card-button img {
     position: relative;
-    left: 5px;
+    left: 1px;
   }
 
   /* TakeYourTour Section */
@@ -1335,7 +1350,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     height: 480px;
   }
   .intro {
-    padding: 0;
+    padding-top: 139px;
   }
 
   .intro__content {
@@ -1459,6 +1474,10 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
   /* Take your tour */
 
+  .take_your_tour {
+    padding-top: 0;
+  }
+
   .take_your_tour__paragraph {
     font-size: var(--size-16);
     line-height: 142%;
@@ -1500,6 +1519,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   .take_your_tour__form-radio-label {
     font-size: var(--size-16);
     line-height: 142%;
+  }
+
+  .take_your_tour__form-radio {
+    top: -3px;
+    left: -1px;
   }
 
   .label_direction,
@@ -1602,13 +1626,13 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     width: 133px;
     height: 47px;
     position: relative;
-    top: -11px;
+    top: -12px;
   }
 
   /* Reviews */
 
   .reviews {
-    padding: 81px 0;
+    padding: 79px 0;
   }
 
   .reviews__content-heading {
@@ -1616,7 +1640,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   }
 
   .reviews__content-paragraph {
-    margin-bottom: 49px;
+    margin-bottom: 50px;
   }
 
   .reviews__card {
@@ -1664,7 +1688,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   /* Travels Photos */
 
   .travels_photos {
-    margin: 0 auto 75px auto;
+    margin: -133px auto 75px auto;
   }
 
   .travels_photos__heading {
@@ -1721,19 +1745,30 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   }
 
   .travels_photos-images-row:nth-child(2)
+    .travels_photos-images-col:nth-child(1)
+    img {
+    width: 100%;
+  }
+
+  .travels_photos-images-row:nth-child(2)
     .travels_photos-images-col:nth-child(4)
     img {
-    width: 102%;
+    width: 98%;
     position: relative;
-    left: -7px;
+    left: -1px;
   }
 
   .travels_photos-images-row:nth-child(2)
     .travels_photos-images-col:nth-child(5)
     img {
-    width: 100%;
+    width: 99%;
     position: relative;
-    left: -4px;
+    left: -1px;
+  }
+
+  .travels_photos-images-row:nth-child(2)
+    .travels_photos-images-col:nth-child(2) {
+    display: none;
   }
 
   .travels_photos-images-row:first-child {
@@ -1763,6 +1798,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
   .travel_histories {
     margin-bottom: 55px;
+    padding-top: 1px;
   }
 
   .travel_histories__heading {
@@ -1842,8 +1878,13 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
   /* Call to action section  */
 
+  .call_to_action {
+    padding-top: 0;
+  }
+
   .call_to_action__content {
     flex-direction: column;
+    gap: 31px;
   }
 
   .call_to_action__img {
@@ -1862,7 +1903,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     line-height: 120%;
     letter-spacing: 0.04em;
 
-    margin-bottom: 20px;
+    margin-bottom: 19px;
   }
 
   .call_to_action__paragraph {
