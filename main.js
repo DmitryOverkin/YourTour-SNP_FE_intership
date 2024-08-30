@@ -29,6 +29,8 @@ window.addEventListener("scroll", function () {
   }
 });
 
+// Изменение цвета шрифта при выборе места путешествия
+
 const selectElement = document.querySelector(".take_your_tour__form-select");
 
 selectElement.addEventListener("change", (event) => {
@@ -38,4 +40,25 @@ selectElement.addEventListener("change", (event) => {
   } else {
     selectElement.classList.remove("selected");
   }
+});
+
+// Изменение цвета шрифта если в поле date
+// есть какое - либо значение
+
+function updateDateInputColor(input) {
+  if (input.value) {
+    input.classList.add("has-value");
+  } else {
+    input.classList.remove("has-value");
+  }
+}
+
+const dateInputs = document.querySelectorAll('input[type="date"]');
+
+dateInputs.forEach((input) => {
+  updateDateInputColor(input);
+
+  input.addEventListener("input", function () {
+    updateDateInputColor(input);
+  });
 });
