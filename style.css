@@ -1275,13 +1275,31 @@ input[type="date"].has-value {
   /* Travels Histories */
 
   .travel_histories__card {
-    left: -3px;
+    left: -6px;
     width: 101%;
+  }
+
+  .travel_histories__card-heading{
+    left: 0;
+  }
+
+  
+
+  .travel_histories__card-paragraph{
+    left: 1px;
+  }
+
+  .travel_histories__card-list-item{
+    left: 31px;
+  }
+
+  .choose_your_tour__card-button img{
+    left: 4px;
   }
 
   .travel_histories__card-social-media {
     position: relative;
-    left: -5px;
+    left: -1px;
   }
 
   /* Footer */
