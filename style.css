@@ -449,6 +449,10 @@ textarea {
     calc(100% - 15px) calc(1em + 2px), 100% 0;
 }
 
+.take_your_tour__form-select:focus {
+  border: 1px solid var(--gray-300);
+}
+
 .take_your_tour__form-select option {
   color: var(--black);
 }
@@ -1279,21 +1283,19 @@ input[type="date"].has-value {
     width: 101%;
   }
 
-  .travel_histories__card-heading{
+  .travel_histories__card-heading {
     left: 0;
   }
 
-  
-
-  .travel_histories__card-paragraph{
+  .travel_histories__card-paragraph {
     left: 1px;
   }
 
-  .travel_histories__card-list-item{
+  .travel_histories__card-list-item {
     left: 31px;
   }
 
-  .choose_your_tour__card-button img{
+  .choose_your_tour__card-button img {
     left: 4px;
   }
 
@@ -1323,9 +1325,173 @@ input[type="date"].has-value {
     left: 1px;
   }
 }
+
+/* ============================================= */
+
+@media (min-width: 550px) and (max-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  /* header */
+
+  .header_nav {
+    display: none;
+  }
+
+  /* intro section */
+
+  .intro_section {
+    height: 630px;
+  }
+
+  .intro__content {
+    max-width: 450px;
+  }
+
+  .intro__heading {
+    font-size: 40px;
+  }
+
+  /* choose your tour section */
+
+  .choose_your_tour {
+    padding-top: 75px;
+  }
+
+  .choose_your_tour__content-heading {
+    font-size: var(--size-35);
+  }
+
+  .choose_your_tour__content-list {
+    font-size: var(--size-20);
+    display: flex;
+
+    flex-wrap: wrap;
+  }
+
+  .choose_your_tour__content-nav {
+    margin-bottom: 50px;
+  }
+
+  .choose_your_tour__card {
+    width: 100%;
+    padding: 50px 25px 50px 25px;
+    min-height: 350px;
+  }
+
+  .choose_your_tour__card-text {
+    text-wrap: wrap;
+    max-width: 200px;
+  }
+
+  .choose_your_tour__card-heading {
+    font-size: var(--size-20);
+  }
+
+  .choose_your_tour__card-price {
+    font-size: var(--size-16);
+  }
+
+  .choose_your_tour__card-button {
+    font-size: var(--size-17);
+    width: 150px;
+    left: 3px;
+  }
+
+  .choose_your_tour__card-button img {
+    left: 0px;
+    top: 2px;
+  }
+
+  /* take_your_tour section */
+
+  .take_your_tour {
+    padding-top: 75px;
+  }
+
+  .take_your_tour__paragraph {
+    margin-bottom: 50px;
+  }
+
+  .take_your_tour__form__input-name {
+    font-size: var(--size-16);
+  }
+  .take_your_tour__form-select {
+    font-size: var(--size-16);
+    background-position: calc(100% - 15px) calc(1em + 9px),
+      calc(100% - 15px) calc(1em + 2px), 100% 0;
+    background-size: 15px;
+  }
+
+  .take_your_tour__form-select:focus {
+    border: 1px solid var(--gray-300);
+  }
+
+  input[type="date"] {
+    font-size: var(--size-16);
+  }
+
+  .take_your_tour__form-textarea-input {
+    font-size: var(--size-16);
+  }
+  .take_your_tour__form-btns-submit {
+    padding: 10px 20px;
+    font-size: var(--size-16);
+    width: 200px;
+    height: 50px;
+  }
+
+  .take_your_tour__form-btns-reset {
+    padding: 10px 20px;
+    font-size: var(--size-16);
+    width: 200px;
+    height: 50px;
+  }
+
+  /* reviews */
+
+  .reviews {
+    padding-top: 75px;
+  }
+
+  .reviews__card {
+    max-height: 600px;
+  }
+
+  .reviews__card-text {
+    font-size: var(--size-20);
+  }
+  .reviews__card-author-name {
+    font-size: var(--size-23);
+  }
+
+  /* travels phostos */
+
+  .travels_photos {
+    padding-top: 75px;
+  }
+
+  .travels_photos-images-row {
+    gap: 20px;
+  }
+
+  .travels_photos-images-col:nth-child(3) img {
+    display: none;
+  }
+
+  .travels_photos-images-row:nth-child(2)
+    .travels_photos-images-col:nth-child(4) {
+    display: none;
+  }
+
+  .travel_histories {
+    padding-top: 75px;
+  }
+}
 /* =============================================== */
 
-@media (min-width: 361px) and (max-width: 480px) {
+@media (min-width: 361px) and (max-width: 550px) {
   .container {
     max-width: 480px;
   }
@@ -1356,7 +1522,7 @@ input[type="date"].has-value {
 
   /* choose your tour section */
 
-  .choose_your_tour{
+  .choose_your_tour {
     padding-top: 75px;
   }
 
@@ -1449,7 +1615,7 @@ input[type="date"].has-value {
 
   /* Take your tour section */
 
-  .take_your_tour{
+  .take_your_tour {
     padding-top: 75px;
   }
 
@@ -1606,7 +1772,7 @@ input[type="date"].has-value {
 
   /* reviews */
 
-  .reviews{
+  .reviews {
     padding-top: 75px;
   }
 
@@ -1618,13 +1784,11 @@ input[type="date"].has-value {
     height: fit-content;
   }
 
-  .reviews__card-text{
+  .reviews__card-text {
     font-size: var(--size-17);
   }
 
   /* travels photos */
-
-
 
   .travels_photos {
     margin: 0 auto 75px auto;
