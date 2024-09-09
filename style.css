@@ -1326,6 +1326,24 @@ input[type="date"].has-value {
   }
 }
 
+@media (min-width: 769px) and (max-width: 1023px) {
+
+  /* header */
+  .header_nav,.header_number  {
+    font-size: var(--size-16);
+  }
+
+  /* choose your tour */
+
+  .choose_your_tour__card-heading{
+    font-size: var(--size-23);
+  }
+
+  .choose_your_tour__card-button{
+    font-size: var(--size-20);
+  }
+}
+
 /* ============================================= */
 
 @media (min-width: 550px) and (max-width: 768px) {
@@ -1485,8 +1503,72 @@ input[type="date"].has-value {
     display: none;
   }
 
+  /* travel histories */
+
   .travel_histories {
     padding-top: 75px;
+  }
+
+  .travel_histories__card {
+    height: 450px;
+  }
+
+  .travel_histories__card-heading {
+    font-size: var(--size-23);
+  }
+
+  .travel_histories__card-paragraph,
+  .travel_histories__card-list {
+    font-size: var(--size-16);
+  }
+
+  .travel_histories__card-social-media {
+    gap: 20px;
+  }
+
+  .travel_histories__card-social-media-link {
+    font-size: var(--size-16);
+  }
+
+  /* call to action */
+
+  .call_to_action {
+    padding-top: 75px;
+  }
+
+  .call_to_action__content {
+    flex-direction: column;
+  }
+  .call_to_action__img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .call_to_action__heading {
+    text-align: center;
+  }
+
+  .call_to_action__paragraph {
+    text-align: center;
+  }
+
+  /* footer */
+
+  .footer {
+    margin-top: 75px;
+  }
+
+  .footer__content__paragraph,
+  .footer__content__link {
+    font-size: var(--size-17);
+  }
+
+  .footer__content__link:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  .footer__content__link-img {
+    left: -27px;
   }
 }
 /* =============================================== */
