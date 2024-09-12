@@ -95,7 +95,7 @@
                 <ul class="choose_your_tour__content-list">
                   <li class="choose_your_tour__content-list-item">
                     <a
-                      class="choose_your_tour__content-list-item-link"
+                      class="choose_your_tour__content-list-item-link active"
                       href="#popular"
                       >Популярные</a
                     >
@@ -295,7 +295,7 @@
                   class="take_your_tour__form-label label_direction"
                   >Направление</label
                 >
-                <select class="take_your_tour__form-select" name="to">
+                <select class="take_your_tour__form-select" name="to" id="to">
                   <option disabled selected value="Куда хотите ехать">
                     Куда хотите ехать
                   </option>
@@ -322,6 +322,7 @@
                 >
 
                 <input
+                  id="phone"
                   name="tel"
                   class="take_your_tour__form__input-name input_phone"
                   type="tel"

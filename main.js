@@ -32,9 +32,11 @@ window.addEventListener("scroll", function () {
 // Изменение цвета шрифта при выборе места путешествия
 
 const selectElement = document.querySelector(".take_your_tour__form-select");
+const form = document.querySelector(".take_your_tour__form");
 
 selectElement.addEventListener("change", (event) => {
   const selectedValue = event.target.value;
+  console.log(selectedValue);
   if (selectedValue) {
     selectElement.classList.add("selected");
   } else {
@@ -42,23 +44,33 @@ selectElement.addEventListener("change", (event) => {
   }
 });
 
-// Изменение цвета шрифта если в поле date
-// есть какое - либо значение
+form.addEventListener("reset", () => {
+  selectElement.classList.remove("selected");
+});
 
-function updateDateInputColor(input) {
-  if (input.value) {
-    input.classList.add("has-value");
-  } else {
-    input.classList.remove("has-value");
+// Валидация номера телефона
+
+const phoneInput = document.getElementById("phone");
+
+phoneInput.addEventListener("input", (e) => {
+  let value = e.target.value.replace(/\D/g, "");
+  let formattedValue = "+7 (";
+
+  if (value.length > 1) {
+    formattedValue += value.substring(1, 4);
   }
-}
 
-const dateInputs = document.querySelectorAll('input[type="date"]');
+  if (value.length >= 5) {
+    formattedValue += ") " + value.substring(4, 7);
+  }
 
-dateInputs.forEach((input) => {
-  updateDateInputColor(input);
+  if (value.length >= 8) {
+    formattedValue += "-" + value.substring(7, 9);
+  }
 
-  input.addEventListener("input", function () {
-    updateDateInputColor(input);
-  });
+  if (value.length >= 10) {
+    formattedValue += "-" + value.substring(9, 11);
+  }
+
+  e.target.value = formattedValue;
 });

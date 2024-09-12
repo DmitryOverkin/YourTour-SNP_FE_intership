@@ -475,7 +475,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   opacity: 0;
 }
 
-input[type="date"].has-value {
+input[type="date"]:valid {
   color: var(--black);
 }
 
@@ -1327,19 +1327,19 @@ input[type="date"].has-value {
 }
 
 @media (min-width: 769px) and (max-width: 1023px) {
-
   /* header */
-  .header_nav,.header_number  {
+  .header_nav,
+  .header_number {
     font-size: var(--size-16);
   }
 
   /* choose your tour */
 
-  .choose_your_tour__card-heading{
+  .choose_your_tour__card-heading {
     font-size: var(--size-23);
   }
 
-  .choose_your_tour__card-button{
+  .choose_your_tour__card-button {
     font-size: var(--size-20);
   }
 }
