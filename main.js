@@ -48,7 +48,7 @@ form.addEventListener("reset", () => {
   selectElement.classList.remove("selected");
 });
 
-// Валидация номера телефона
+// Маска номера телефона
 
 const phoneInput = document.getElementById("phone");
 
