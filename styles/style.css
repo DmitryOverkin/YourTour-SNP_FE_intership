@@ -119,7 +119,7 @@ body {
       rgba(0, 0, 0, 0.4) 0%,
       rgba(0, 0, 0, 0.4) 100%
     ),
-    url("./src/images/intro-section/header-img.png");
+    url("../images/intro-section/header-img.png");
 
   box-shadow: 0px 100px 67px -39px rgba(0, 0, 0, 0.2) inset;
 }
@@ -314,8 +314,8 @@ body {
   position: absolute;
   border-radius: 50px;
   bottom: 1.9em;
-  left: 1.2em;
-  width: 199px;
+  left: 1.1em;
+  width: 198px;
   height: 42px;
   padding: 7px 20px;
   background-color: transparent;
@@ -337,7 +337,9 @@ body {
 }
 
 .choose_your_tour__card-button img {
-  margin-left: 9px;
+  display: block;
+  position: relative;
+  left: 8px;
 }
 
 /* Take Your Tour Section */
@@ -425,9 +427,9 @@ textarea {
   color: var(--gray-300);
   background-color: var(--beige-100);
 
-  background-image: url("./src/images/icons/ic-dropdown.png");
+  background-image: url("../images/icons/ic-dropdown.png");
   background-repeat: no-repeat;
-  background-position: calc(100% - 20px) calc(1em + 2px),
+  background-position: calc(100% - 17px) calc(1em + 2px),
     calc(100% - 15px) calc(1em + 2px), 100% 0;
 
   -webkit-box-sizing: border-box;
@@ -443,9 +445,9 @@ textarea {
   background: var(--beige-200);
   cursor: pointer;
 
-  background-image: url("./src/images/icons/ic-dropdown.png");
+  background-image: url("../images/icons/ic-dropdown.png");
   background-repeat: no-repeat;
-  background-position: calc(100% - 20px) calc(1em + 2px),
+  background-position: calc(100% - 17px) calc(1em + 2px),
     calc(100% - 15px) calc(1em + 2px), 100% 0;
 }
 
@@ -631,9 +633,6 @@ input[type="date"]:valid {
 
 .reviews {
   padding-top: 135px;
-}
-
-.reviews__content {
 }
 
 .reviews__content-heading {
