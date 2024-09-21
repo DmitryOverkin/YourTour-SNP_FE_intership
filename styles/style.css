@@ -72,7 +72,7 @@ body {
 }
 
 .logo {
-  padding-top: 5px;
+  padding-top: 8px;
 }
 
 .logo_img {
@@ -84,9 +84,9 @@ body {
 }
 
 .container {
-  max-width: 1205px;
+  max-width: 1190px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding-left: 20px;
 }
 
 .header_nav_list {
@@ -145,16 +145,18 @@ body {
   color: var(--white);
   letter-spacing: 0.019em;
   position: relative;
-  top: -3px;
+  left: 8px;
 }
 
 .intro__description {
   font-weight: var(--weight-400);
   font-size: var(--size-20);
-  line-height: 134%;
+  line-height: 143%;
   text-align: center;
   color: var(--white);
   max-width: 562px;
+  position: relative;
+  left: 8px;
 }
 
 .intro__btn {
@@ -171,6 +173,8 @@ body {
   background: var(--white);
   border: none;
   transition: 0.3s ease;
+  position: relative;
+  left: 8px;
 }
 
 .intro__btn:hover {
