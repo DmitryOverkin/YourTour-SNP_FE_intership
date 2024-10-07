@@ -213,9 +213,7 @@ body {
   left: -2px;
 }
 
-.choose-your-tour__list-item {
-  /* Можно добавить стили для элемента списка здесь */
-}
+
 
 .choose-your-tour__link {
   font-weight: var(--weight-700);
