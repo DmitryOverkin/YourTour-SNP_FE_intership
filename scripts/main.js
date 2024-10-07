@@ -1,38 +1,38 @@
 // Добавление активной ссылки
 
-const menuItemLinks = document.querySelectorAll(
-  ".choose_your_tour__content-list-item-link"
-);
+const menuItemLinks = document.querySelectorAll(".choose-your-tour__link");
 
 menuItemLinks.forEach((item) => {
   item.addEventListener("click", function (event) {
     event.preventDefault();
 
-    menuItemLinks.forEach((link) => link.classList.remove("active"));
+    menuItemLinks.forEach((link) =>
+      link.classList.remove("choose-your-tour__link--active")
+    );
 
-    item.classList.add("active");
+    item.classList.add("choose-your-tour__link--active");
   });
 });
 
 // Изменнение header при скролле
 
-const header = document.querySelector(".header");
-const logo = document.querySelector(".logo_img");
+const header = document.querySelector(".intro__header");
+const logo = document.querySelector(".logo__img");
 
 window.addEventListener("scroll", function () {
   if (this.scrollY > 450) {
-    header.classList.add("scroll_header");
-    logo.classList.add("black");
+    header.classList.add("intro--scroll");
+    logo.classList.add("logo__img--black");
   } else {
-    header.classList.remove("scroll_header");
-    logo.classList.remove("black");
+    header.classList.remove("intro--scroll");
+    logo.classList.remove("logo__img--black");
   }
 });
 
 // Изменение цвета шрифта при выборе места путешествия
 
-const selectElement = document.querySelector(".take_your_tour__form-select");
-const form = document.querySelector(".take_your_tour__form");
+const selectElement = document.querySelector(".take-your-tour__form-select");
+const form = document.querySelector(".take-your-tour__form");
 
 selectElement.addEventListener("change", (event) => {
   const selectedValue = event.target.value;

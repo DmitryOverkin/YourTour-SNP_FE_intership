@@ -25,48 +25,43 @@
     <title>YourTour</title>
   </head>
   <body>
-    <section class="intro_section">
-      <header class="header">
+    <section class="intro">
+      <header class="intro__header">
         <div class="container">
-          <div class="header_content">
+          <div class="intro__header-content">
             <div class="logo">
-              <a href="#"
-                ><img
-                  class="logo_img"
+              <a href="#">
+                <img
+                  class="logo__img"
                   src="./images/header/logo.svg"
                   alt="logo image"
-              /></a>
+                />
+              </a>
             </div>
-            <nav class="header_nav">
-              <ul class="header_nav_list">
-                <li class="header_nav_list_item">
-                  <a
-                    href="#choose_your_tour_id"
-                    class="header_nav_list_item_link"
+            <nav class="intro__nav">
+              <ul class="intro__nav-list">
+                <li class="intro__nav-item">
+                  <a class="intro__nav-link" href="#choose-your-tour-id"
                     >Туры</a
                   >
                 </li>
-                <li class="header_nav_list_item">
-                  <a href="#take_your_tour_id" class="header_nav_list_item_link"
+                <li class="intro__nav-item">
+                  <a href="#take-your-tour-id" class="intro__nav-link"
                     >Создать тур</a
                   >
                 </li>
-                <li class="header_nav_list_item">
-                  <a href="#review_id" class="header_nav_list_item_link"
-                    >Отзывы</a
-                  >
+                <li class="intro__nav-item">
+                  <a href="#review" class="intro__nav-link">Отзывы</a>
                 </li>
-                <li class="header_nav_list_item">
-                  <a
-                    href="#travel_histories_id"
-                    class="header_nav_list_item_link"
+                <li class="intro__nav-item">
+                  <a href="#travel-histories-id" class="intro__nav-link"
                     >Истории</a
                   >
                 </li>
               </ul>
             </nav>
-            <div class="header_number">
-              <a href="tel:+7 999 999 99 99" class="header_number_link"
+            <div class="intro__contact">
+              <a href="tel:+7 999 999 99 99" class="intro__contact-link"
                 >+7 999 999 99 99</a
               >
             </div>
@@ -74,217 +69,188 @@
         </div>
       </header>
 
-      <section class="intro">
-        <div class="intro__content">
-          <h1 class="intro__heading">Идеальные путешествия существуют</h1>
-          <p class="intro__description">
-            Идейные соображения высшего порядка, а также рамки и место обучения
-            кадров
-          </p>
-          <button class="intro__btn">Найти тур</button>
-        </div>
+      <section class="intro__content">
+        <h1 class="intro__heading">Идеальные путешествия существуют</h1>
+        <p class="intro__description">
+          Идейные соображения высшего порядка, а также рамки и место обучения
+          кадров
+        </p>
+        <button class="intro__btn">Найти тур</button>
       </section>
     </section>
     <main>
-      <section class="choose_your_tour" id="choose_your_tour_id">
+      <section class="choose-your-tour" id="choose-your-tour-id">
         <div class="container">
-          <div class="choose_your_tour__content">
-            <h2 class="choose_your_tour__content-heading">Выбери свой тур</h2>
-            <div class="choose_your_tour__content-tabs">
-              <nav class="choose_your_tour__content-nav">
-                <ul class="choose_your_tour__content-list">
-                  <li class="choose_your_tour__content-list-item">
+          <div class="choose-your-tour__content">
+            <h2 class="choose-your-tour__heading">Выбери свой тур</h2>
+            <div class="choose-your-tour__tabs">
+              <nav class="choose-your-tour__nav">
+                <ul class="choose-your-tour__list">
+                  <li class="choose-your-tour__list-item">
                     <a
-                      class="choose_your_tour__content-list-item-link active"
+                      class="choose-your-tour__link choose-your-tour__link--active"
                       href="#popular"
-                      >Популярные</a
                     >
+                      Популярные
+                    </a>
                   </li>
-                  <li class="choose_your_tour__content-list-item">
-                    <a
-                      class="choose_your_tour__content-list-item-link"
-                      href="#authors"
-                      >Авторские</a
-                    >
+                  <li class="choose-your-tour__list-item">
+                    <a class="choose-your-tour__link" href="#authors">
+                      Авторские
+                    </a>
                   </li>
-                  <li class="choose_your_tour__content-list-item">
-                    <a
-                      class="choose_your_tour__content-list-item-link"
-                      href="#hikes"
-                      >Походы</a
-                    >
+                  <li class="choose-your-tour__list-item">
+                    <a class="choose-your-tour__link" href="#hikes"> Походы </a>
                   </li>
-                  <li class="choose_your_tour__content-list-item">
-                    <a
-                      class="choose_your_tour__content-list-item-link"
-                      href="#rafting"
-                      >Сплавы</a
-                    >
+                  <li class="choose-your-tour__list-item">
+                    <a class="choose-your-tour__link" href="#rafting">Сплавы</a>
                   </li>
-                  <li class="choose_your_tour__content-list-item">
-                    <a
-                      class="choose_your_tour__content-list-item-link"
-                      href="#cycling"
+                  <li class="choose-your-tour__list-item">
+                    <a class="choose-your-tour__link" href="#cycling"
                       >Велопрогулки</a
                     >
                   </li>
                 </ul>
               </nav>
             </div>
-            <div class="choose_your_tour__cards">
-              <div class="choose_your_tour__card">
+            <div class="choose-your-tour__cards">
+              <div class="choose-your-tour__card">
                 <img
-                  class="choose_your_tour__card-img"
+                  class="choose-your-tour__card-img"
                   src="./images/choose_your_tour/card tour photo-1.png"
                   alt="card_photo"
                 />
-                <div class="choose_your_tour__card-content">
-                  <div class="choose_your_tour__card-text">
-                    <h3 class="choose_your_tour__card-heading">
+                <div class="choose-your-tour__card-content">
+                  <div class="choose-your-tour__card-text">
+                    <h3 class="choose-your-tour__card-heading">
                       Путешествие в горы
                     </h3>
-                    <p class="choose_your_tour__card-price">от 80 000 руб</p>
+                    <p class="choose-your-tour__card-price">от 80 000 руб</p>
                   </div>
-
-                  <a class="choose_your_tour__card-button" href="#!"
+                  <a class="choose-your-tour__card-button" href="#!"
                     >Подробнее
-                    <img
-                      src="./images/icons/arrow bt.png"
-                      alt="Arrow button"
-                  /></a>
+                    <img src="./images/icons/arrow bt.png" alt="Arrow button" />
+                  </a>
                 </div>
               </div>
-              <div class="choose_your_tour__card">
+
+              <div class="choose-your-tour__card">
                 <img
-                  class="choose_your_tour__card-img"
+                  class="choose-your-tour__card-img"
                   src="./images/choose_your_tour/card tour photo-2.png"
                   alt="card_photo"
                 />
-                <div class="choose_your_tour__card-content">
-                  <div class="choose_your_tour__card-text">
-                    <h3 class="choose_your_tour__card-heading">
+                <div class="choose-your-tour__card-content">
+                  <div class="choose-your-tour__card-text">
+                    <h3 class="choose-your-tour__card-heading">
                       Путешествие в горы
                     </h3>
-                    <p class="choose_your_tour__card-price">от 80 000 руб</p>
+                    <p class="choose-your-tour__card-price">от 80 000 руб</p>
                   </div>
-
-                  <a class="choose_your_tour__card-button" href="#!"
+                  <a class="choose-your-tour__card-button" href="#!"
                     >Подробнее
-                    <img
-                      src="./images/icons/arrow bt.png"
-                      alt="Arrow button"
-                  /></a>
+                    <img src="./images/icons/arrow bt.png" alt="Arrow button" />
+                  </a>
                 </div>
               </div>
-              <div class="choose_your_tour__card">
+              <div class="choose-your-tour__card">
                 <img
-                  class="choose_your_tour__card-img"
+                  class="choose-your-tour__card-img"
                   src="./images/choose_your_tour/card tour photo-3.png"
                   alt="card_photo"
                 />
-                <div class="choose_your_tour__card-content">
-                  <div class="choose_your_tour__card-text">
-                    <h3 class="choose_your_tour__card-heading">
+                <div class="choose-your-tour__card-content">
+                  <div class="choose-your-tour__card-text">
+                    <h3 class="choose-your-tour__card-heading">
                       Путешествие в горы
                     </h3>
-                    <p class="choose_your_tour__card-price">от 80 000 руб</p>
+                    <p class="choose-your-tour__card-price">от 80 000 руб</p>
                   </div>
-
-                  <a class="choose_your_tour__card-button" href="#!"
+                  <a class="choose-your-tour__card-button" href="#!"
                     >Подробнее
-                    <img
-                      src="./images/icons/arrow bt.png"
-                      alt="Arrow button"
-                  /></a>
+                    <img src="./images/icons/arrow bt.png" alt="Arrow button" />
+                  </a>
                 </div>
               </div>
-              <div class="choose_your_tour__card">
+              <div class="choose-your-tour__card">
                 <img
-                  class="choose_your_tour__card-img"
+                  class="choose-your-tour__card-img"
                   src="./images/choose_your_tour/card tour photo-4.png"
                   alt="card_photo"
                 />
-                <div class="choose_your_tour__card-content">
-                  <div class="choose_your_tour__card-text">
-                    <h3 class="choose_your_tour__card-heading">
+                <div class="choose-your-tour__card-content">
+                  <div class="choose-your-tour__card-text">
+                    <h3 class="choose-your-tour__card-heading">
                       Путешествие в горы
                     </h3>
-                    <p class="choose_your_tour__card-price">от 80 000 руб</p>
+                    <p class="choose-your-tour__card-price">от 80 000 руб</p>
                   </div>
-
-                  <a class="choose_your_tour__card-button" href="#!"
+                  <a class="choose-your-tour__card-button" href="#!"
                     >Подробнее
-                    <img
-                      src="./images/icons/arrow bt.png"
-                      alt="Arrow button"
-                  /></a>
+                    <img src="./images/icons/arrow bt.png" alt="Arrow button" />
+                  </a>
                 </div>
               </div>
-              <div class="choose_your_tour__card">
+              <div class="choose-your-tour__card">
                 <img
-                  class="choose_your_tour__card-img"
+                  class="choose-your-tour__card-img"
                   src="./images/choose_your_tour/card tour photo-5.png"
                   alt="card_photo"
                 />
-                <div class="choose_your_tour__card-content">
-                  <div class="choose_your_tour__card-text">
-                    <h3 class="choose_your_tour__card-heading">
+                <div class="choose-your-tour__card-content">
+                  <div class="choose-your-tour__card-text">
+                    <h3 class="choose-your-tour__card-heading">
                       Путешествие в горы
                     </h3>
-                    <p class="choose_your_tour__card-price">от 80 000 руб</p>
+                    <p class="choose-your-tour__card-price">от 80 000 руб</p>
                   </div>
-
-                  <a class="choose_your_tour__card-button" href="#!"
+                  <a class="choose-your-tour__card-button" href="#!"
                     >Подробнее
-                    <img
-                      src="./images/icons/arrow bt.png"
-                      alt="Arrow button"
-                  /></a>
+                    <img src="./images/icons/arrow bt.png" alt="Arrow button" />
+                  </a>
                 </div>
               </div>
-              <div class="choose_your_tour__card">
+              <div class="choose-your-tour__card">
                 <img
-                  class="choose_your_tour__card-img"
+                  class="choose-your-tour__card-img"
                   src="./images/choose_your_tour/card tour photo-6.png"
                   alt="card_photo"
                 />
-                <div class="choose_your_tour__card-content">
-                  <div class="choose_your_tour__card-text">
-                    <h3 class="choose_your_tour__card-heading">
+                <div class="choose-your-tour__card-content">
+                  <div class="choose-your-tour__card-text">
+                    <h3 class="choose-your-tour__card-heading">
                       Путешествие в горы
                     </h3>
-                    <p class="choose_your_tour__card-price">от 80 000 руб</p>
+                    <p class="choose-your-tour__card-price">от 80 000 руб</p>
                   </div>
-
-                  <a class="choose_your_tour__card-button" href="#!"
+                  <a class="choose-your-tour__card-button" href="#!"
                     >Подробнее
-                    <img
-                      src="./images/icons/arrow bt.png"
-                      alt="Arrow button"
-                  /></a>
+                    <img src="./images/icons/arrow bt.png" alt="Arrow button" />
+                  </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="take_your_tour" id="take_your_tour_id">
+      <section class="take-your-tour" id="take-your-tour-id">
         <div class="container">
-          <div class="take_your_tour__content">
-            <div class="take_your_tour__text">
-              <h2 class="choose_your_tour__content-heading">Собери свой тур</h2>
-              <p class="take_your_tour__paragraph">
+          <div class="take-your-tour__content">
+            <div class="take-your-tour__text">
+              <h2 class="take-your-tour__heading choose-your-tour__heading">
+                Собери свой тур
+              </h2>
+              <p class="take-your-tour__paragraph">
                 Идейные соображения высшего порядка, <br />
                 а также рамки и место обучения кадров
               </p>
             </div>
-            <form class="take_your_tour__form">
+            <form class="take-your-tour__form">
               <div>
-                <label for="name" class="take_your_tour__form-label">Имя</label>
-
+                <label for="name" class="take-your-tour__form-label">Имя</label>
                 <input
                   name="name"
-                  class="take_your_tour__form__input-name"
+                  class="take-your-tour__form-input-name"
                   type="text"
                   placeholder="Введите Ваше имя"
                 />
@@ -292,10 +258,10 @@
               <div>
                 <label
                   for="to"
-                  class="take_your_tour__form-label label_direction"
+                  class="take-your-tour__form-label take-your-tour__label-direction"
                   >Направление</label
                 >
-                <select class="take_your_tour__form-select" name="to" id="to">
+                <select class="take-your-tour__form-select" name="to" id="to">
                   <option disabled selected value="Куда хотите ехать">
                     Куда хотите ехать
                   </option>
@@ -305,26 +271,28 @@
                 </select>
               </div>
               <div>
-                <label for="email" class="take_your_tour__form-label"
+                <label for="email" class="take-your-tour__form-label"
                   >Email</label
                 >
 
                 <input
                   name="email"
-                  class="take_your_tour__form__input-name"
+                  class="take-your-tour__form-input-name"
                   type="email"
                   placeholder="example@mail.com"
                 />
               </div>
               <div>
-                <label for="tel" class="take_your_tour__form-label label_phone"
+                <label
+                  for="tel"
+                  class="take-your-tour__form-label take-your-tour__form-label-phone"
                   >Телефон</label
                 >
 
                 <input
                   id="phone"
                   name="tel"
-                  class="take_your_tour__form__input-name input_phone"
+                  class="take-your-tour__form-input-name take-your-tour__form-input-phone"
                   type="tel"
                   placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ -_ _"
                   pattern="\+7 \(\d{3}\) \d{3}-\d{2}-\d{2}"
@@ -336,13 +304,13 @@
               <div>
                 <label
                   for="date-from"
-                  class="take_your_tour__form-label label_date"
+                  class="take-your-tour__form-label take-your-tour__form-label-date"
                   >Дата от</label
                 >
 
                 <input
                   name="date-from"
-                  class="take_your_tour__form__input-name"
+                  class="take-your-tour__form-input-name"
                   type="date"
                   max="2050-12-31"
                   min="2024-01-01"
@@ -352,13 +320,13 @@
               <div>
                 <label
                   for="date-to"
-                  class="take_your_tour__form-label label_date"
+                  class="take-your-tour__form-label take-your-tour__form-label_date"
                   >Дата до</label
                 >
 
                 <input
                   name="date-to"
-                  class="take_your_tour__form__input-name"
+                  class="take-your-tour__form-input-name"
                   type="date"
                   max="2050-12-31"
                   min="2024-01-01"
@@ -366,57 +334,77 @@
                 />
               </div>
 
-              <div class="take_your_tour__form__textarea">
+              <div class="take-your-tour__form-textarea">
                 <label
-                  class="take_your_tour__form-textarea-label"
+                  class="take-your-tour__form-textarea-label"
                   for="textarea"
                   >Комментарий</label
                 >
                 <textarea
                   name="textarea"
-                  class="take_your_tour__form-textarea-input"
+                  class="take-your-tour__form-textarea-input"
                 ></textarea>
               </div>
 
-              <div class="take_your_tour__form-radio-btns">
-                <label class="take_your_tour__form-radio-label" for="radio"
+              <div class="take-your-tour__form-radio-btns">
+                <label class="take-your-tour__form-radio-label" for="radio"
                   >Вам есть 18 лет?</label
                 >
-                <div class="take_your_tour__form-radio-wrapper">
+                <div class="take-your-tour__form-radio-wrapper">
                   <input
                     name="age"
                     value="yes"
-                    class="take_your_tour__form-radio"
+                    class="take-your-tour__form-radio"
                     type="radio"
-                  /><span>Да</span>
+                    id="radio-yes"
+                  />
+                  <label
+                    for="radio-yes"
+                    class="take-your-tour__form-radio-option"
+                    >Да</label
+                  >
+
                   <input
                     name="age"
                     value="no"
-                    class="take_your_tour__form-radio"
+                    class="take-your-tour__form-radio"
                     type="radio"
-                  /><span>Нет</span>
+                    id="radio-no"
+                  />
+                  <label
+                    for="radio-no"
+                    class="take-your-tour__form-radio-option"
+                    >Нет</label
+                  >
                 </div>
               </div>
-              <div class="take_your_tour__form-checkbox-wrapper">
+              <div class="take-your-tour__form-checkbox-wrapper">
                 <input
                   name="agree"
                   value="yes"
-                  class="take_your_tour__form-checkbox"
+                  class="take-your-tour__form-checkbox"
                   type="checkbox"
+                  id="agree"
                 />
-                <label class="take_your_tour__form-checkbox-label" for="agree"
-                  >Нажимая кнопку, я принимаю условия
-                  <a class="take_your_tour__form-checkbox-link" href="#!"
+                <label class="take-your-tour__form-checkbox-label" for="agree">
+                  Нажимая кнопку, я принимаю условия
+                  <a class="take-your-tour__form-checkbox-link" href="#!"
                     >Лицензионного договора</a
-                  ></label
-                >
+                  >
+                </label>
               </div>
 
-              <div class="take_your_tour__form-btns">
-                <button type="submit" class="take_your_tour__form-btns-submit">
+              <div class="take-your-tour__form-btns">
+                <button
+                  type="submit"
+                  class="take-your-tour__form-btn take-your-tour__form-btn--submit"
+                >
                   Найти тур
                 </button>
-                <button type="reset" class="take_your_tour__form-btns-reset">
+                <button
+                  type="reset"
+                  class="take-your-tour__form-btn take-your-tour__form-btn--reset"
+                >
                   Сбросить
                 </button>
               </div>
@@ -424,16 +412,14 @@
           </div>
         </div>
       </section>
-      <section class="reviews" id="review_id">
+      <section class="reviews" id="review">
         <div class="container">
           <div class="reviews__content">
-            <h2
-              class="choose_your_tour__content-heading reviews__content-heading"
-            >
+            <h2 class="reviews__heading choose-your-tour__heading">
               Отзывы наших <br />
               путешественников
             </h2>
-            <p class="take_your_tour__paragraph reviews__content-paragraph">
+            <p class="reviews__paragraph take-your-tour__paragraph">
               Идейные соображения высшего порядка, <br />
               а также рамки и место обучения кадров
             </p>
@@ -450,12 +436,13 @@
                 <div class="reviews__card-author">
                   <div class="reviews__card-author-names">
                     <h3 class="reviews__card-author-name">Мария</h3>
-                    <p class="reviews__card-author-name-of-tour">
-                      Тур: Вдали от дома
-                    </p>
+                    <p class="reviews__card-author-tour">Тур: Вдали от дома</p>
                   </div>
                   <div class="reviews__card-author-photo">
-                    <img src="./images/reviews/review photo-1.png" alt="" />
+                    <img
+                      src="./images/reviews/review photo-1.png"
+                      alt="Фото автора отзыва"
+                    />
                   </div>
                 </div>
               </div>
@@ -474,12 +461,15 @@
                 <div class="reviews__card-author">
                   <div class="reviews__card-author-names">
                     <h3 class="reviews__card-author-name">Павел</h3>
-                    <p class="reviews__card-author-name-of-tour">
+                    <p class="reviews__card-author-tour">
                       Тур: Путешествие в горы
                     </p>
                   </div>
                   <div class="reviews__card-author-photo">
-                    <img src="./images/reviews/review photo-2.png" alt="" />
+                    <img
+                      src="./images/reviews/review photo-2.png"
+                      alt="Фото автора отзыва"
+                    />
                   </div>
                 </div>
               </div>
@@ -487,253 +477,223 @@
           </div>
         </div>
       </section>
-      <section class="travels_photos" id="travel_photos_id">
-        <div class="travels_photos__content">
-          <div class="travels_photos__text">
-            <h2
-              class="choose_your_tour__content-heading travels_photos__heading"
-            >
+      <section class="travels-photos" id="travel-photos-id">
+        <div class="travels-photos__content">
+          <div class="travels-photos__text">
+            <h2 class="travels-photos__heading choose-your-tour__heading">
               Фотографии путешествий
             </h2>
-            <p class="take_your_tour__paragraph travels_photos__paragraph">
+            <p class="travels-photos__paragraph take-your-tour__paragraph">
               Идейные соображения высшего порядка, <br />
               а также рамки и место обучения кадров
             </p>
           </div>
-          <div class="travels_photos-images">
-            <div class="travels_photos-images-row">
-              <div class="travels_photos-images-col">
+          <div class="travels-photos__images">
+            <div class="travels-photos__images-row">
+              <div class="travels-photos__images-col">
                 <img
                   src="./images/travel_photos/travel photo-1.jpg"
-                  alt=""
+                  alt="Фотография 1"
                 />
               </div>
-              <div class="travels_photos-images-col">
+              <div class="travels-photos__images-col">
                 <img
                   src="./images/travel_photos/travel photo-2.jpg"
-                  alt=""
+                  alt="Фотография 2"
                 />
               </div>
-              <div class="travels_photos-images-col">
+              <div class="travels-photos__images-col">
                 <img
                   src="./images/travel_photos/travel photo-3.jpg"
-                  alt=""
+                  alt="Фотография 3"
                 />
               </div>
-              <div class="travels_photos-images-col">
+              <div class="travels-photos__images-col">
                 <img
                   src="./images/travel_photos/travel photo-4.jpg"
-                  alt=""
+                  alt="Фотография 4"
                 />
               </div>
             </div>
-            <div class="travels_photos-images-row">
-              <div class="travels_photos-images-col">
+            <div class="travels-photos__images-row">
+              <div class="travels-photos__images-col">
                 <img
                   src="./images/travel_photos/travel photo-5.jpg"
-                  alt=""
+                  alt="Фотография 5"
                 />
               </div>
-              <div class="travels_photos-images-col">
+              <div class="travels-photos__images-col">
                 <img
                   src="./images/travel_photos/travel photo-6.jpg"
-                  alt=""
+                  alt="Фотография 6"
                 />
               </div>
-              <div class="travels_photos-images-col">
+              <div class="travels-photos__images-col">
                 <img
                   src="./images/travel_photos/travel photo-7.jpg"
-                  alt=""
+                  alt="Фотография 7"
                 />
               </div>
-              <div class="travels_photos-images-col">
+              <div class="travels-photos__images-col">
                 <img
                   src="./images/travel_photos/travel photo-8.png"
-                  alt=""
+                  alt="Фотография 8"
                 />
               </div>
-              <div class="travels_photos-images-col">
+              <div class="travels-photos__images-col">
                 <img
                   src="./images/travel_photos/travel photo-13.jpg"
-                  alt=""
+                  alt="Фотография 9"
                 />
               </div>
             </div>
-            <div class="travels_photos-images-row">
-              <div class="travels_photos-images-col">
+            <div class="travels-photos__images-row">
+              <div class="travels-photos__images-col">
                 <img
                   src="./images/travel_photos/travel photo-9.jpg"
-                  alt=""
+                  alt="Фотография 10"
                 />
               </div>
-              <div class="travels_photos-images-col">
+              <div class="travels-photos__images-col">
                 <img
                   src="./images/travel_photos/travel photo-10.jpg"
-                  alt=""
+                  alt="Фотография 11"
                 />
               </div>
-              <div class="travels_photos-images-col">
+              <div class="travels-photos__images-col">
                 <img
                   src="./images/travel_photos/travel photo-11.jpg"
-                  alt=""
+                  alt="Фотография 12"
                 />
               </div>
-              <div class="travels_photos-images-col">
+              <div class="travels-photos__images-col">
                 <img
                   src="./images/travel_photos/travel photo-12.jpg"
-                  alt=""
+                  alt="Фотография 13"
                 />
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="travel_histories" id="travel_histories_id">
+      <section class="travel-histories" id="travel-histories-id">
         <div class="container">
-          <div class="travel_histories-content">
-            <h2
-              class="choose_your_tour__content-heading travel_histories__heading"
-            >
+          <div class="travel-histories__content">
+            <h2 class="travel-histories__heading choose-your-tour__heading">
               Истории путешествий
             </h2>
-            <p class="take_your_tour__paragraph travel_histories__paragraph">
+            <p class="travel-histories__paragraph take-your-tour__paragraph">
               Идейные соображения высшего порядка,<br />
               а также рамки и место обучения кадров
             </p>
-            <div class="travel_histories__cards">
-              <div class="travel_histories__card">
+            <div class="travel-histories__cards">
+              <div class="travel-histories__card">
                 <img
-                  class="travel_histories__card-img"
+                  class="travel-histories__card-img"
                   src="./images/travel_histories/story photo-1.jpg"
                   alt="Travel Histories image"
                 />
                 <div>
-                  <h3 class="travel_histories__card-heading">
+                  <h3 class="travel-histories__card-heading">
                     Автостопом в Стамбул
                   </h3>
-                  <p class="travel_histories__card-paragraph">
+                  <p class="travel-histories__card-paragraph">
                     Идейные соображения высшего порядка, а также рамки и место
                     обучения кадров обеспечивает широкому кругу (специалистов)
                     участие в формировании новых предложений.
                   </p>
-                  <ul class="travel_histories__card-list">
-                    <li class="travel_histories__card-list-item">
-                      вкусная еда
-                    </li>
-                    <li class="travel_histories__card-list-item">
+                  <ul class="travel-histories__card-list">
+                    <li class="travel-histories__card-item">вкусная еда</li>
+                    <li class="travel-histories__card-item">
                       дешевый транспорт
                     </li>
-                    <li class="travel_histories__card-list-item">
-                      красивый город
-                    </li>
+                    <li class="travel-histories__card-item">красивый город</li>
                   </ul>
                 </div>
-                <div class="travel_histories__card-links">
+                <div class="travel-histories__card-links">
                   <a
-                    class="choose_your_tour__card-button travel_histories__card-links-btn"
+                    class="travel-histories__card-links-btn choose-your-tour__card-button"
                     href="#!"
                     >Подробнее
-                    <img
-                      src="./images/icons/arrow bt.png"
-                      alt="Arrow button"
+                    <img src="./images/icons/arrow bt.png" alt="Arrow button"
                   /></a>
-                  <div class="travel_histories__card-social-media">
-                    <a
-                      class="travel_histories__card-social-media-link"
-                      href="#!"
+                  <div class="travel-histories__card-social">
+                    <a class="travel-histories__card-social-link" href="#!"
                       >instagram</a
                     >
-                    <a
-                      class="travel_histories__card-social-media-link"
-                      href="#!"
+                    <a class="travel-histories__card-social-link" href="#!"
                       >facebook</a
                     >
-                    <a
-                      class="travel_histories__card-social-media-link"
-                      href="#!"
+                    <a class="travel-histories__card-social-link" href="#!"
                       >YouTube</a
                     >
                   </div>
                 </div>
               </div>
-              <div class="travel_histories__card">
+              <div class="travel-histories__card">
                 <img
-                  class="travel_histories__card-img"
+                  class="travel-histories__card-img"
                   src="./images/travel_histories/story photo-2.jpg"
                   alt="Travel Histories image"
                 />
                 <div>
-                  <h3 class="travel_histories__card-heading">
+                  <h3 class="travel-histories__card-heading">
                     Автостопом в Стамбул
                   </h3>
-                  <p class="travel_histories__card-paragraph">
+                  <p class="travel-histories__card-paragraph">
                     Идейные соображения высшего порядка, а также рамки и место
                     обучения кадров обеспечивает широкому кругу (специалистов)
                     участие в формировании новых предложений.
                   </p>
                 </div>
-                <div class="travel_histories__card-links">
+                <div class="travel-histories__card-links">
                   <a
-                    class="choose_your_tour__card-button travel_histories__card-links-btn"
+                    class="travel-histories__card-links-btn choose-your-tour__card-button"
                     href="#!"
                     >Подробнее
-                    <img
-                      src="./images/icons/arrow bt.png"
-                      alt="Arrow button"
+                    <img src="./images/icons/arrow bt.png" alt="Arrow button"
                   /></a>
-                  <div class="travel_histories__card-social-media">
-                    <a
-                      class="travel_histories__card-social-media-link"
-                      href="#!"
+                  <div class="travel-histories__card-social">
+                    <a class="travel-histories__card-social-link" href="#!"
                       >instagram</a
                     >
-                    <a
-                      class="travel_histories__card-social-media-link"
-                      href="#!"
+                    <a class="travel-histories__card-social-link" href="#!"
                       >Вконтакте</a
                     >
                   </div>
                 </div>
               </div>
-              <div class="travel_histories__card">
+              <div class="travel-histories__card">
                 <img
-                  class="travel_histories__card-img"
+                  class="travel-histories__card-img"
                   src="./images/travel_histories/story photo-3.jpg"
                   alt="Travel Histories image"
                 />
                 <div>
-                  <h3 class="travel_histories__card-heading">
+                  <h3 class="travel-histories__card-heading">
                     Автостопом в Стамбул
                   </h3>
-                  <p class="travel_histories__card-paragraph">
+                  <p class="travel-histories__card-paragraph">
                     Идейные соображения высшего порядка, а также рамки и место
                     обучения кадров обеспечивает широкому кругу (специалистов)
                     участие в формировании новых предложений.
                   </p>
                 </div>
-                <div class="travel_histories__card-links">
+                <div class="travel-histories__card-links">
                   <a
-                    class="choose_your_tour__card-button travel_histories__card-links-btn"
+                    class="travel-histories__card-links-btn choose-your-tour__card-button"
                     href="#!"
                     >Подробнее
-                    <img
-                      src="./images/icons/arrow bt.png"
-                      alt="Arrow button"
+                    <img src="./images/icons/arrow bt.png" alt="Arrow button"
                   /></a>
-                  <div class="travel_histories__card-social-media">
-                    <a
-                      class="travel_histories__card-social-media-link"
-                      href="#!"
+                  <div class="travel-histories__card-social">
+                    <a class="travel-histories__card-social-link" href="#!"
                       >instagram</a
                     >
-                    <a
-                      class="travel_histories__card-social-media-link"
-                      href="#!"
+                    <a class="travel-histories__card-social-link" href="#!"
                       >facebook</a
                     >
-                    <a
-                      class="travel_histories__card-social-media-link"
-                      href="#!"
+                    <a class="travel-histories__card-social-link" href="#!"
                       >Вконтакте</a
                     >
                   </div>
@@ -743,19 +703,19 @@
           </div>
         </div>
       </section>
-      <section class="call_to_action">
+      <section class="call-to-action">
         <div class="container">
-          <div class="call_to_action__content">
+          <div class="call-to-action__content">
             <img
-              class="call_to_action__img"
+              class="call-to-action__img"
               src="./images/footer/footer photo.jpg"
               alt=""
             />
-            <div class="call_to_action__text">
-              <h3 class="call_to_action__heading">
+            <div class="call-to-action__text">
+              <h3 class="call-to-action__heading">
                 Пора в путешествие вместе с нами!
               </h3>
-              <p class="call_to_action__paragraph">
+              <p class="call-to-action__paragraph">
                 Напиши на почту и узнай подробности на
                 <a href="mailto:yourtour@gmail.com">yourtour@gmail.com</a>
               </p>
@@ -766,29 +726,26 @@
       <footer class="footer">
         <div class="container">
           <div class="footer__content">
-            <p class="footer__content__paragraph">Наши социальные сети</p>
-            <div class="footer__content__links">
-              <a class="footer__content__link" href="#!"
-                ><img
-                  class="footer__content__link-img"
+            <p class="footer__social-networks">Наши социальные сети</p>
+            <div class="footer__links">
+              <a class="footer__link" href="#!">
+                <img
+                  class="footer__link-img"
                   src="./images/icons/inst.png"
                   alt=""
-                />instagram</a
-              >
-              <a class="footer__content__link" href="#!"
-                ><img
-                  class="footer__content__link-img"
+                />instagram</a>
+              <a class="footer__link" href="#!">
+                <img
+                  class="footer__link-img"
                   src="./images/icons/fb.png"
                   alt=""
-                />facebook</a
-              >
-              <a class="footer__content__link" href="#!"
-                ><img
-                  class="footer__content__link-img"
+                />facebook</a>
+              <a class="footer__link" href="#!">
+                <img
+                  class="footer__link-img"
                   src="./images/icons/vk.png"
                   alt=""
-                />vkontakte</a
-              >
+                />vkontakte</a>
             </div>
           </div>
         </div>
