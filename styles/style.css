@@ -213,8 +213,6 @@ body {
   left: -2px;
 }
 
-
-
 .choose-your-tour__link {
   font-weight: var(--weight-700);
   font-size: var(--size-23);
@@ -544,14 +542,42 @@ input[type="date"]:valid {
 
 .take-your-tour__form-radio-wrapper {
   display: flex;
-  gap: 31px;
+  align-items: center;
 }
 
 .take-your-tour__form-radio {
-  display: block;
-  transform: scale(2);
-  margin-right: -13px;
-  margin-left: 5px;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.take-your-tour__form-radio-style {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 2px solid var(--black);
+  position: relative;
+  margin-right: 11px;
+}
+
+.take-your-tour__form-radio-option {
+  margin-right: 31px;
+}
+
+.take-your-tour__form-radio:checked
+  + .take-your-tour__form-radio-style::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: var(--black);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .take-your-tour__form-checkbox-wrapper {
@@ -562,9 +588,34 @@ input[type="date"]:valid {
 }
 
 .take-your-tour__form-checkbox {
-  transform: scale(2);
-  margin-left: 5px;
-  margin-right: 21px;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.take-your-tour__form-checkbox-style {
+  width: 26px;
+  height: 26px;
+  border-radius: 5px;
+  border: 2px solid var(--black);
+  position: absolute;
+  margin-right: 11px;
+}
+
+.take-your-tour__form-checkbox:checked
+  + .take-your-tour__form-checkbox-style::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-30%, -25%);
+  background-image: url(../images/take_your_tour/chek-desk.svg);
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
 .take-your-tour__form-checkbox-label {
@@ -572,6 +623,7 @@ input[type="date"]:valid {
   font-size: var(--size-17);
   letter-spacing: -0.01em;
   color: var(--gray-300);
+  padding-left: 45px;
 }
 
 .take-your-tour__form-checkbox-link {
@@ -891,14 +943,30 @@ input[type="date"]:valid {
   font-weight: var(--weight-400);
   font-size: var(--size-20);
   line-height: 122%;
+  list-style-type: none;
 }
 
 .travel-histories__card-item {
   position: relative;
-
+  
   left: 28px;
   top: -9px;
-  list-style-type: disc;
+  list-style-type: none;
+}
+
+
+
+.travel-histories__card-item::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: var(--white);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-left: -15px;
+  transform: translate(-45%, -100%);
 }
 
 .travel-histories__card-item:not(:last-child) {
@@ -998,6 +1066,9 @@ input[type="date"]:valid {
   text-decoration: underline;
 }
 
+.call-to-action__paragraph a:active {
+  color: var(--green-400);
+}
 /* Footer */
 .footer {
   background: var(--beige-200);
@@ -1364,7 +1435,7 @@ input[type="date"]:valid {
 
   /* header */
 
-  .intro-nav {
+  .intro__nav {
     display: none;
   }
 
@@ -1464,6 +1535,31 @@ input[type="date"]:valid {
   .take-your-tour__form-textarea-input {
     font-size: var(--size-16);
   }
+
+  .take-your-tour__form-radio-style {
+    width: 20px;
+    height: 20px;
+  }
+
+  .take-your-tour__form-radio:checked
+    + .take-your-tour__form-radio-style::before {
+    width: 9px;
+    height: 9px;
+  }
+
+  .take-your-tour__form-checkbox-style {
+    width: 20px;
+    height: 20px;
+  }
+
+  .take-your-tour__form-checkbox:checked
+    + .take-your-tour__form-checkbox-style::before {
+    width: 14px;
+    height: 14px;
+    transform: translate(-34%, -28%);
+    background-image: url(../images/take_your_tour/chek-mobile.svg);
+  }
+
   .take-your-tour__form-btn--submit {
     padding: 10px 20px;
     font-size: var(--size-16);
@@ -1758,6 +1854,30 @@ input[type="date"]:valid {
   .take-your-tour__form-radio {
     top: -3px;
     left: -1px;
+  }
+
+  .take-your-tour__form-radio-style {
+    width: 20px;
+    height: 20px;
+  }
+
+  .take-your-tour__form-radio:checked
+    + .take-your-tour__form-radio-style::before {
+    width: 9px;
+    height: 9px;
+  }
+
+  .take-your-tour__form-checkbox-style {
+    width: 20px;
+    height: 20px;
+  }
+
+  .take-your-tour__form-checkbox:checked
+    + .take-your-tour__form-checkbox-style::before {
+    width: 14px;
+    height: 14px;
+    transform: translate(-34%, -28%);
+    background-image: url(../images/take_your_tour/chek-mobile.svg);
   }
 
   .take-your-tour__label-direction,
@@ -2245,24 +2365,24 @@ input[type="date"]:valid {
     padding: 76px 0 75px 0;
   }
 
-  .choose-your-tour__heading{
+  .choose-your-tour__heading {
     font-size: var(--size-34);
     line-height: 112%;
     letter-spacing: 0.02em;
     margin-bottom: 30px;
   }
 
-  .choose-your-tour__list{
+  .choose-your-tour__list {
     flex-wrap: wrap;
     gap: 10px;
   }
 
-  .choose-your-tour__list-item{
+  .choose-your-tour__list-item {
     left: -1px;
     top: 0px;
   }
 
-  .choose-your-tour__link{
+  .choose-your-tour__link {
     font-size: var(--size-16);
     line-height: 142%;
   }
@@ -2272,20 +2392,20 @@ input[type="date"]:valid {
     line-height: 142%;
     text-underline-offset: 4px;
   }
-  .choose-your-tour__nav{
+  .choose-your-tour__nav {
     margin-bottom: 45px;
   }
 
-  .choose-your-tour__card-content{
+  .choose-your-tour__card-content {
     width: 268px;
   }
 
-  .choose-your-tour__cards{
+  .choose-your-tour__cards {
     grid-template-columns: 1fr;
     gap: 13px;
   }
 
-  .choose-your-tour__card{
+  .choose-your-tour__card {
     border-radius: 20px;
     padding: 25px;
     width: 318px;
@@ -2299,11 +2419,11 @@ input[type="date"]:valid {
     border-radius: 20px;
   }
 
-  .choose-your-tour__card-img{
+  .choose-your-tour__card-img {
     border-radius: 20px;
   }
 
-  .choose-your-tour__card-heading{
+  .choose-your-tour__card-heading {
     font-size: var(--size-23);
     line-height: 120%;
     letter-spacing: 0.04em;
@@ -2316,7 +2436,7 @@ input[type="date"]:valid {
     line-height: 142%;
   }
 
-  .choose-your-tour__card-button{
+  .choose-your-tour__card-button {
     padding: 0;
     bottom: 1.07em;
 
@@ -2341,7 +2461,7 @@ input[type="date"]:valid {
     top: -9px;
   }
 
-  .take-your-tour__form{
+  .take-your-tour__form {
     display: flex;
     flex-direction: column;
 
@@ -2353,7 +2473,7 @@ input[type="date"]:valid {
     height: 1110px;
   }
 
-  .take-your-tour__form-label{
+  .take-your-tour__form-label {
     font-size: var(--size-16);
     line-height: 142%;
     position: relative;
@@ -2371,7 +2491,7 @@ input[type="date"]:valid {
     height: 43px;
   }
   .take-your-tour__form-textarea-label,
-  .take-your-tour__form-radio-label{
+  .take-your-tour__form-radio-label {
     font-size: var(--size-16);
     line-height: 142%;
   }
@@ -2381,18 +2501,42 @@ input[type="date"]:valid {
     left: -1px;
   }
 
+  .take-your-tour__form-radio-style {
+    width: 20px;
+    height: 20px;
+  }
+
+  .take-your-tour__form-radio:checked
+    + .take-your-tour__form-radio-style::before {
+    width: 9px;
+    height: 9px;
+  }
+
+  .take-your-tour__form-checkbox-style {
+    width: 20px;
+    height: 20px;
+  }
+
+  .take-your-tour__form-checkbox:checked
+    + .take-your-tour__form-checkbox-style::before {
+    width: 14px;
+    height: 14px;
+    transform: translate(-34%, -28%);
+    background-image: url(../images/take_your_tour/chek-mobile.svg);
+  }
+
   .take-your-tour__label-direction,
   .take-your-tour__form-label-phone {
     position: relative;
     top: -2px;
   }
 
-  .take-your-tour__form-input-phone{
+  .take-your-tour__form-input-phone {
     position: relative;
     top: -2px;
   }
 
-  .take-your-tour__form-label-date{
+  .take-your-tour__form-label-date {
     position: relative;
     top: -5px;
   }
@@ -2412,20 +2556,20 @@ input[type="date"]:valid {
       calc(100% - 15px) calc(1em + 2px), 100% 0;
   }
 
-  .take-your-tour__form-textarea{
+  .take-your-tour__form-textarea {
     position: relative;
     top: -7px;
     left: -1px;
   }
 
-  .take-your-tour__form-textarea-input{
+  .take-your-tour__form-textarea-input {
     border-radius: 10px;
     padding: 10px;
     width: 278px;
     height: 132px;
   }
 
-  .take-your-tour__form-radio-btns{
+  .take-your-tour__form-radio-btns {
     left: -1px;
     top: -14px;
   }
@@ -2436,7 +2580,7 @@ input[type="date"]:valid {
     position: relative;
     top: -1px;
   }
-  .take-your-tour__form-radio{
+  .take-your-tour__form-radio {
     display: block;
     transform: scale(1.6);
     margin-right: -20px;
@@ -2445,18 +2589,18 @@ input[type="date"]:valid {
     top: -2px;
   }
 
-  .take-your-tour__form-checkbox-wrapper{
+  .take-your-tour__form-checkbox-wrapper {
     top: -16px;
     display: flex;
     align-items: flex-start;
   }
 
-  .take-your-tour__form-checkbox{
+  .take-your-tour__form-checkbox {
     transform: scale(1.6);
     margin-left: 2px;
     margin-right: 16px;
   }
-  .take-your-tour__form-checkbox-label{
+  .take-your-tour__form-checkbox-label {
     display: block;
     font-size: var(--size-16);
     line-height: 142%;
@@ -2523,7 +2667,7 @@ input[type="date"]:valid {
     left: -2px;
     top: -4px;
   }
-  .reviews__card-author-names{
+  .reviews__card-author-names {
     top: 10px;
   }
 
@@ -2546,17 +2690,17 @@ input[type="date"]:valid {
     margin: -133px auto 75px auto;
   }
 
-  .travels-photos__heading{
+  .travels-photos__heading {
     margin-bottom: 20px;
     position: relative;
     top: -9px;
   }
 
-  .travels-photos__paragraph{
+  .travels-photos__paragraph {
     margin-bottom: 42px;
   }
 
-  .travels-photos__images{
+  .travels-photos__images {
     gap: 18px;
   }
 
@@ -2656,7 +2800,7 @@ input[type="date"]:valid {
     padding-top: 1px;
   }
 
-  .travel-histories__heading{
+  .travel-histories__heading {
     line-height: 112%;
     letter-spacing: 0.02em;
     margin-bottom: 9px;
@@ -2672,7 +2816,7 @@ input[type="date"]:valid {
     gap: 20px;
   }
 
-  .travel-histories__card{
+  .travel-histories__card {
     border-radius: 20px;
     width: 318px;
     height: 455px;
@@ -2691,7 +2835,7 @@ input[type="date"]:valid {
     margin-bottom: 0;
   }
 
-  .travel-histories__card-heading{
+  .travel-histories__card-heading {
     font-size: var(--size-23);
     line-height: 120%;
     letter-spacing: 0.04em;
@@ -2705,7 +2849,7 @@ input[type="date"]:valid {
     line-height: 142%;
   }
 
-  .travel-histories__card-paragraph{
+  .travel-histories__card-paragraph {
     padding: 0 0 35px 0;
   }
   .travel-histories__card-item {
@@ -2733,7 +2877,7 @@ input[type="date"]:valid {
 
   /* Call to action section  */
 
-  .call-to-action{
+  .call-to-action {
     padding-top: 0;
   }
 
@@ -2742,17 +2886,17 @@ input[type="date"]:valid {
     gap: 31px;
   }
 
-  .call-to-action__img{
+  .call-to-action__img {
     border-radius: 20px;
     width: 130px;
     height: 133px;
   }
 
-  .call-to-action__text{
+  .call-to-action__text {
     text-align: center;
   }
 
-  .call-to-action__heading{
+  .call-to-action__heading {
     font-weight: var(--weight-700);
     font-size: var(--size-23);
     line-height: 120%;
@@ -2761,7 +2905,7 @@ input[type="date"]:valid {
     margin-bottom: 19px;
   }
 
-  .call-to-action__paragraph{
+  .call-to-action__paragraph {
     font-weight: var(--weight-400);
     font-size: var(--size-16);
     line-height: 142%;
@@ -2776,7 +2920,7 @@ input[type="date"]:valid {
     margin-top: 75px;
   }
 
-  .footer__content{
+  .footer__content {
     flex-direction: column;
     align-items: center;
   }
@@ -2800,7 +2944,7 @@ input[type="date"]:valid {
     top: 1px;
   }
 
-  .footer__link-img{
+  .footer__link-img {
     left: -27px;
     top: -2px;
   }
