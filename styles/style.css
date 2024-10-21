@@ -722,6 +722,7 @@ input[type="date"]:valid {
 .reviews__cards {
   display: flex;
   justify-content: space-between;
+  gap: 30px;
 }
 
 .reviews__card {
@@ -1270,7 +1271,7 @@ input[type="date"]:valid {
     padding: 34px 19px;
   }
 
-  .take-your-tour__form-label{
+  .take-your-tour__form-label {
     margin-bottom: 6px;
   }
 
@@ -1284,7 +1285,7 @@ input[type="date"]:valid {
       calc(100% - 15px) calc(1em + 2px), 100% 0;
   }
 
-  input[type='date']{
+  input[type="date"] {
     padding: 34px 19px;
   }
 
@@ -1299,10 +1300,10 @@ input[type="date"]:valid {
     gap: 32px;
   }
 
-  .take-your-tour__form-radio-style{
+  .take-your-tour__form-radio-style {
     left: 1px;
   }
-  .take-your-tour__form-checkbox-wrapper{
+  .take-your-tour__form-checkbox-wrapper {
     align-items: center;
     display: flex;
     top: -4px;
@@ -1313,22 +1314,22 @@ input[type="date"]:valid {
     margin-right: 13px;
   }
 
-  .take-your-tour__form-checkbox-label{
+  .take-your-tour__form-checkbox-label {
     padding-left: 37px;
   }
 
-  .take-your-tour__form-checkbox-style{
+  .take-your-tour__form-checkbox-style {
     left: 1px;
     top: 1px;
   }
 
-  .take-your-tour__form-btns{
+  .take-your-tour__form-btns {
     top: -6px;
   }
 
   /* Reviews */
 
-  .reviews{
+  .reviews {
     padding-top: 140px;
   }
 
@@ -1337,13 +1338,15 @@ input[type="date"]:valid {
     margin-bottom: 38px;
   }
 
-  .reviews__paragraph{
+  .reviews__paragraph {
     margin-bottom: 98px;
   }
 
   .reviews__cards {
     flex-wrap: nowrap;
     margin: 0 auto;
+
+    gap: 18px;
   }
   .reviews__card {
     height: 841px;
@@ -1353,7 +1356,7 @@ input[type="date"]:valid {
     padding: 41px 38px;
   }
 
-  .reviews__card:nth-child(2){
+  .reviews__card:nth-child(2) {
     padding: 40px 30px 41px 41px;
   }
 
@@ -1365,7 +1368,7 @@ input[type="date"]:valid {
     max-width: 370px;
   }
 
-  .reviews__card-author{
+  .reviews__card-author {
     top: 2px;
   }
 
@@ -1378,12 +1381,10 @@ input[type="date"]:valid {
     left: -1px;
   }
 
-  .reviews__card-author-photo_2{
+  .reviews__card-author-photo_2 {
     left: -5px;
     position: relative;
   }
-
-  
 
   /* Travel Photos */
 
@@ -1391,7 +1392,7 @@ input[type="date"]:valid {
     margin-bottom: 98px;
   }
 
-  .travels-photos__images-col img{
+  .travels-photos__images-col img {
     height: 301px;
   }
 
@@ -1421,11 +1422,11 @@ input[type="date"]:valid {
   }
 
   .travels-photos__images-row:nth-child(2)
-  .travels-photos__images-col:nth-child(2)
-  img {
+    .travels-photos__images-col:nth-child(2)
+    img {
     position: relative;
     left: -2px;
-}
+  }
 
   .travels-photos__images-row:nth-child(3)
     .travels-photos__images-col:nth-child(3)
@@ -1509,20 +1510,19 @@ input[type="date"]:valid {
     left: 0;
   }
 
-  .travel-histories__card-list{
+  .travel-histories__card-list {
     margin-left: -1px;
   }
 
   .travel-histories__card-item {
     left: 31px;
-
   }
 
-  .travel-histories__card-item::before{
+  .travel-histories__card-item::before {
     margin-left: -15px;
   }
 
-  .travel-histories__card-links{
+  .travel-histories__card-links {
     left: 0;
     top: 4px;
   }
@@ -1538,11 +1538,11 @@ input[type="date"]:valid {
 
   /* Call to action */
 
-  .call-to-action{
+  .call-to-action {
     padding-top: 117px;
   }
 
-  .call-to-action__content{
+  .call-to-action__content {
     left: 0;
   }
 
@@ -1553,7 +1553,7 @@ input[type="date"]:valid {
     left: -4px;
   }
 
-  .footer__links{
+  .footer__links {
     left: 1px;
   }
 

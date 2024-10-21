@@ -28,6 +28,7 @@
   
   body {
     margin: 0;
+    overflow: hidden;
   }
   ul,ol{
     list-style-type: none;
