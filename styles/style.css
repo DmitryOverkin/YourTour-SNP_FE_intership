@@ -1145,9 +1145,14 @@ input[type="date"]:valid {
 @media (max-width: 1024px) {
   .container {
     max-width: 950px;
+    padding: 0 20px;
   }
 
   /* Header */
+
+  .intro__header {
+    padding: 24px 0;
+  }
 
   .logo {
     padding-top: 4px;
@@ -1156,7 +1161,7 @@ input[type="date"]:valid {
   .intro__nav-list {
     position: relative;
     top: -2px;
-    left: -2px;
+    left: -1px;
     gap: 30px;
   }
 
@@ -1168,19 +1173,26 @@ input[type="date"]:valid {
 
   /* Intro Section */
 
+  .intro__content {
+    gap: 51px;
+  }
+
+  .intro__heading {
+    left: 0;
+  }
+
   .intro__description {
+    max-width: 400px;
     position: relative;
-    top: -1px;
-    left: -1px;
-    max-width: 410px;
-    line-height: 134%;
+    left: 1px;
+    line-height: 140%;
   }
 
   .intro__btn {
-    border-radius: 10px;
+    border-radius: 9px;
     padding: 5px 20px;
     width: 118px;
-    height: 34px;
+    height: 33px;
 
     position: relative;
     left: -1px;
@@ -1190,7 +1202,13 @@ input[type="date"]:valid {
   .choose-your-tour__heading {
     line-height: 117%;
     position: relative;
-    left: -2px;
+    left: 0px;
+
+    margin-bottom: 37px;
+  }
+
+  .choose-your-tour__list {
+    left: 1px;
   }
   .choose-your-tour__list-item {
     position: relative;
@@ -1210,8 +1228,8 @@ input[type="date"]:valid {
   .choose-your-tour__card {
     width: 102%;
     position: relative;
-    left: -6px;
-    top: 1px;
+    left: -4px;
+    top: 0px;
   }
 
   .choose-your-tour__card-text {
@@ -1219,43 +1237,75 @@ input[type="date"]:valid {
   }
 
   .choose-your-tour__card-heading {
-    line-height: 113%;
+    line-height: 123%;
   }
 
   .choose-your-tour__card-button {
-    bottom: 1.95em;
+    left: 27px;
+    bottom: 43px;
   }
 
   .choose-your-tour__card-button img {
-    position: relative;
-    left: 1px;
+    display: inline-block;
+    margin-left: 2px;
   }
 
   /* TakeYourTour Section */
 
+  .take-your-tour__heading {
+    margin-bottom: 38px;
+  }
+
+  .take-your-tour__paragraph {
+    left: 0;
+  }
+
   .take-your-tour__form {
-    padding: 60px 55px;
+    padding: 60px 60px 55px 60px;
     gap: 33px 20px;
+    width: 101%;
+  }
+
+  .take-your-tour__form-input-name {
+    padding: 34px 19px;
+  }
+
+  .take-your-tour__form-label{
+    margin-bottom: 6px;
   }
 
   .take-your-tour__form-select {
     width: 100%;
+    padding: 20px 19px;
   }
 
   .take-your-tour__form-select {
-    background-position: calc(100% - 21px) calc(1em + 1px),
+    background-position: calc(100% - 20px) calc(1em + 2px),
       calc(100% - 15px) calc(1em + 2px), 100% 0;
+  }
+
+  input[type='date']{
+    padding: 34px 19px;
   }
 
   .take-your-tour__form-radio-label {
     position: relative;
-    top: 3px;
+    top: 1px;
 
-    margin-bottom: 13px;
+    margin-bottom: 8px;
   }
 
   .take_your_tour__form-radio-wrapper {
     gap: 32px;
+  }
+
+  .take-your-tour__form-radio-style{
+    left: 1px;
+  }
+  .take-your-tour__form-checkbox-wrapper{
+    align-items: center;
+    display: flex;
+    top: -4px;
   }
 
   .take-your-tour__form-checkbox {
@@ -1263,10 +1313,32 @@ input[type="date"]:valid {
     margin-right: 13px;
   }
 
+  .take-your-tour__form-checkbox-label{
+    padding-left: 37px;
+  }
+
+  .take-your-tour__form-checkbox-style{
+    left: 1px;
+    top: 1px;
+  }
+
+  .take-your-tour__form-btns{
+    top: -6px;
+  }
+
   /* Reviews */
 
+  .reviews{
+    padding-top: 140px;
+  }
+
   .reviews__heading {
-    line-height: 120%;
+    line-height: 123%;
+    margin-bottom: 38px;
+  }
+
+  .reviews__paragraph{
+    margin-bottom: 98px;
   }
 
   .reviews__cards {
@@ -1275,30 +1347,58 @@ input[type="date"]:valid {
   }
   .reviews__card {
     height: 841px;
-    width: 450px;
+    width: 445px;
     padding: 40px 36px;
+
+    padding: 41px 38px;
+  }
+
+  .reviews__card:nth-child(2){
+    padding: 40px 30px 41px 41px;
   }
 
   .reviews__card-text {
     position: relative;
     left: -2px;
     overflow: hidden;
+
+    max-width: 370px;
   }
+
+  .reviews__card-author{
+    top: 2px;
+  }
+
   .reviews__card-author-name {
     position: relative;
     left: -1px;
   }
 
   .reviews__card-author-photo img {
-    left: 1px;
+    left: -1px;
   }
 
+  .reviews__card-author-photo_2{
+    left: -5px;
+    position: relative;
+  }
+
+  
+
   /* Travel Photos */
+
+  .travels-photos__paragraph {
+    margin-bottom: 98px;
+  }
+
+  .travels-photos__images-col img{
+    height: 301px;
+  }
 
   .travels-photos__images-col:nth-child(1) img {
     width: 102%;
     position: relative;
-    left: -2px;
+    left: -1px;
   }
 
   .travels-photos__images-col:nth-child(3) img {
@@ -1307,9 +1407,9 @@ input[type="date"]:valid {
     left: -5px;
   }
   .travels-photos__images-col:nth-child(4) img {
-    width: 103%;
+    width: 102%;
     position: relative;
-    left: -9px;
+    left: -6px;
   }
 
   .travels-photos__images-row:nth-child(2)
@@ -1317,8 +1417,15 @@ input[type="date"]:valid {
     img {
     width: 103%;
     position: relative;
-    left: -2px;
+    left: -1px;
   }
+
+  .travels-photos__images-row:nth-child(2)
+  .travels-photos__images-col:nth-child(2)
+  img {
+    position: relative;
+    left: -2px;
+}
 
   .travels-photos__images-row:nth-child(3)
     .travels-photos__images-col:nth-child(3)
@@ -1383,9 +1490,15 @@ input[type="date"]:valid {
 
   /* Travels Histories */
 
+  .travel-histories__paragraph {
+    top: -24px;
+  }
+
   .travel-histories__card {
-    left: -6px;
+    left: -4px;
     width: 101%;
+
+    padding: 62px 60px;
   }
 
   .travel-histories__card-heading {
@@ -1393,15 +1506,29 @@ input[type="date"]:valid {
   }
 
   .travel-histories__card-paragraph {
-    left: 1px;
+    left: 0;
+  }
+
+  .travel-histories__card-list{
+    margin-left: -1px;
   }
 
   .travel-histories__card-item {
     left: 31px;
+
   }
 
-  .choose-your-tour__card-button img {
-    left: 4px;
+  .travel-histories__card-item::before{
+    margin-left: -15px;
+  }
+
+  .travel-histories__card-links{
+    left: 0;
+    top: 4px;
+  }
+
+  .travel-histories__card-links-btn {
+    left: -24px;
   }
 
   .travel-histories__card-social {
@@ -1409,11 +1536,25 @@ input[type="date"]:valid {
     left: -1px;
   }
 
+  /* Call to action */
+
+  .call-to-action{
+    padding-top: 117px;
+  }
+
+  .call-to-action__content{
+    left: 0;
+  }
+
   /* Footer */
 
   .footer__social-networks {
     position: relative;
     left: -4px;
+  }
+
+  .footer__links{
+    left: 1px;
   }
 
   .footer__link:not(:last-child) {
