@@ -154,6 +154,7 @@ body {
   max-width: 562px;
   position: relative;
   left: 8px;
+  top: 1px;
 }
 
 .intro__btn {
@@ -1300,7 +1301,7 @@ input[type="date"]:valid {
     max-width: 400px;
     position: relative;
     left: 1px;
-    line-height: 140%;
+    line-height: 139%;
   }
 
   .intro__btn {
@@ -2734,8 +2735,8 @@ input[type="date"]:valid {
   }
 
   .choose-your-tour__card-button img {
-    left: -31px;
-    top: 0;
+    left: -30px;
+    top: -1px;
   }
 
   /* Take your tour */
