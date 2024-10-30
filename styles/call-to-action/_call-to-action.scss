@@ -1,0 +1,51 @@
+.call-to-action {
+  padding-top: 115px;
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    left: -2px;
+  }
+
+  &__img {
+    border-radius: 50px;
+    width: 370px;
+    height: 370px;
+  }
+
+  &__text {
+    max-width: 371px;
+  }
+
+  &__heading {
+    font-weight: $weight-500;
+    font-size: $size-35;
+    line-height: 122%;
+    color: $black;
+    margin-bottom: 20px;
+  }
+
+  &__paragraph {
+    font-family: $font-family;
+    font-weight: $weight-400;
+    font-size: $size-20;
+    line-height: 142%;
+    color: $gray-300;
+
+    a {
+      color: $black;
+      transition: color 0.3s ease;
+
+      &:hover {
+        text-decoration: underline;
+      }
+
+      &:active {
+        color: $green-400;
+      }
+    }
+  }
+}

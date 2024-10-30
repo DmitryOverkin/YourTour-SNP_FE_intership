@@ -1,0 +1,10 @@
+.logo {
+  padding-top: 8px;
+
+  &__img {
+    transition: filter 0.3s ease;
+  }
+}
+.logo__img.logo__img--black {
+  filter: brightness(0) invert(0);
+}

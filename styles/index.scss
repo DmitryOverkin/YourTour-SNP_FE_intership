@@ -1,0 +1,27 @@
+@import "./base/variables";
+@import "./base/normilize";
+@import "./container/container";
+@import "./intro/intro.scss";
+@import "./choose-your-tour/choose-your-tour";
+@import "./take-your-tour/take-your-tour";
+@import "./reviews/reviews";
+@import "./travel-photos/travel-photos";
+@import "./travel-histories/travel-histories";
+@import "./call-to-action/call-to-action";
+@import "./footer/footer";
+@import "./media/media-1024px";
+@import "./media/media-769-to-1023px";
+@import "./media/media-550-to-768px";
+@import "./media/media-361-to-550px";
+@import "./media/media-360px";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-family;
+  font-weight: $weight-400;
+  background-color: $beige-100;
+  color: $black;
+}

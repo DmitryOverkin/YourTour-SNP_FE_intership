@@ -1,0 +1,147 @@
+.travels-photos {
+  max-width: 1860px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 131px 20px 0 20px;
+
+  &__text {
+    position: relative;
+    top: -6px;
+  }
+
+  &__heading {
+    position: relative;
+    top: 2px;
+    left: 8px;
+  }
+
+  &__paragraph {
+    position: relative;
+    top: -4px;
+    left: 9px;
+  }
+
+  &__images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+
+    &-row {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      gap: 30px;
+
+      &:nth-child(1) {
+        position: relative;
+        top: -8px;
+        left: -11px;
+      }
+
+      &:nth-child(2) {
+        position: relative;
+        top: -12px;
+        left: 1px;
+      }
+
+      &:nth-child(3) {
+        position: relative;
+        top: -16px;
+        left: 2px;
+      }
+    }
+    &-col img {
+      width: 102%;
+      height: 302px;
+      border-radius: 50px;
+      object-fit: cover;
+    }
+  }
+
+  /* ============================================ */
+
+  /* row 1 */
+
+  &__images-row:nth-child(1) &__images-col:nth-child(1) img {
+    position: relative;
+    left: 1px;
+    top: 2px;
+  }
+
+  &__images-row:nth-child(1) &__images-col:nth-child(2) img {
+    position: relative;
+    left: 11px;
+    top: 2px;
+  }
+
+  &__images-row:nth-child(1) &__images-col:nth-child(3) img {
+    position: relative;
+    left: 20px;
+    top: 2px;
+  }
+
+  &__images-row:nth-child(1) &__images-col:nth-child(4) img {
+    position: relative;
+    left: 31px;
+    top: 2px;
+  }
+
+  /* row 2 */
+
+  &__images-row:nth-child(2) &__images-col:nth-child(1) img {
+    position: relative;
+    left: -11px;
+    top: 2px;
+  }
+
+  &__images-row:nth-child(2) &__images-col:nth-child(2) img {
+    position: relative;
+    left: -4px;
+    top: 2px;
+  }
+
+  &__images-row:nth-child(2) &__images-col:nth-child(3) img {
+    position: relative;
+    left: 4px;
+    top: 2px;
+  }
+
+  &__images-row:nth-child(2) &__images-col:nth-child(4) img {
+    position: relative;
+    left: 11px;
+    top: 2px;
+  }
+
+  &__images-row:nth-child(2) &__images-col:nth-child(5) img {
+    position: relative;
+    left: 20px;
+    top: 2px;
+  }
+
+  /* row 3 */
+
+  &__images-row:nth-child(3) &__images-col:nth-child(1) img {
+    position: relative;
+    left: -14px;
+    top: 1px;
+  }
+
+  &__images-row:nth-child(3) &__images-col:nth-child(2) img {
+    position: relative;
+    left: -3px;
+    top: 1px;
+  }
+
+  &__images-row:nth-child(3) &__images-col:nth-child(3) img {
+    position: relative;
+    left: 7px;
+    top: 1px;
+  }
+
+  &__images-row:nth-child(3) &__images-col:nth-child(4) img {
+    position: relative;
+    left: 17px;
+    top: 1px;
+  }
+}

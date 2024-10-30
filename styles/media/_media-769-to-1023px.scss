@@ -1,0 +1,17 @@
+@media (min-width: 769px) and (max-width: 1023px) {
+  /* header */
+  .intro__nav,
+  .intro__contact {
+    font-size: $size-16;
+  }
+
+  /* choose your tour */
+
+  .choose-your-tour__card-heading {
+    font-size: $size-23;
+  }
+
+  .choose-your-tour__card-button {
+    font-size: $size-20;
+  }
+}

@@ -1,0 +1,699 @@
+@media (max-width: 360px) {
+  /* Container */
+  .container {
+    max-width: 360px;
+  }
+
+  /* Header */
+
+  .intro__header {
+    padding: 29px 0;
+  }
+
+  .intro__nav {
+    display: none;
+  }
+
+  .logo {
+    position: relative;
+    width: 132px;
+    height: 22px;
+  }
+
+  .logo__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 132px;
+    height: 22px;
+    object-fit: cover;
+  }
+
+  .intro__contact {
+    position: relative;
+    top: 0;
+  }
+
+  .intro__contact-link {
+    font-size: $size-16;
+  }
+
+  .intro {
+    height: 488px;
+  }
+  .intro__content {
+    padding-top: 139px;
+    gap: 0;
+  }
+
+  .intro__heading {
+    position: relative;
+    top: 2px;
+    left: 0px;
+    margin-bottom: 42px;
+    font-size: $size-34;
+    line-height: 112%;
+    letter-spacing: 0.02em;
+  }
+
+  .intro__description {
+    left: 0;
+    max-width: 310px;
+    margin-bottom: 40px;
+    font-size: $size-16;
+    line-height: 142%;
+  }
+
+  .intro__btn {
+    position: relative;
+    width: 115px;
+    height: 33px;
+    padding: 5px 15px;
+    letter-spacing: -0.03em;
+  }
+
+  /* Choose your tour section */
+
+  .choose-your-tour {
+    padding: 74px 0 74px 0;
+  }
+
+  .choose-your-tour__heading {
+    margin-bottom: 32px;
+    font-size: $size-34;
+    line-height: 112%;
+    letter-spacing: 0.02em;
+  }
+
+  .choose-your-tour__list {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .choose-your-tour__list-item {
+    left: -1px;
+    top: 0px;
+  }
+
+  .choose-your-tour__link {
+    font-size: $size-16;
+    line-height: 142%;
+  }
+
+  .choose-your-tour__link--active {
+    font-size: $size-16;
+    line-height: 142%;
+    text-underline-offset: 5px;
+  }
+
+  .choose-your-tour__link:active,
+  .choose-your-tour__link:hover {
+    text-underline-offset: 5px;
+  }
+  .choose-your-tour__nav {
+    margin-bottom: 44px;
+  }
+
+  .choose-your-tour__card-content {
+    width: 268px;
+  }
+
+  .choose-your-tour__cards {
+    grid-template-columns: 1fr;
+    gap: 13px;
+  }
+
+  .choose-your-tour__card {
+    left: 0;
+    top: 0;
+    width: 318px;
+    min-height: 318px;
+    padding: 26px;
+    border-radius: 20px;
+  }
+
+  .choose-your-tour__card::before {
+    border-radius: 20px;
+  }
+
+  .choose-your-tour__card-img {
+    border-radius: 20px;
+  }
+
+  .choose-your-tour__card-heading {
+    margin-bottom: 14px;
+    font-size: $size-23;
+    line-height: 120%;
+    letter-spacing: 0.043em;
+  }
+
+  .choose-your-tour__card-price,
+  .choose_your_tour__card-button {
+    font-size: $size-16;
+    line-height: 142%;
+  }
+
+  .choose-your-tour__card-button {
+    bottom: 16px;
+    left: 3px;
+    padding: 0;
+    font-size: $size-16;
+  }
+
+  .choose-your-tour__card-button img {
+    left: -30px;
+    top: -1px;
+  }
+
+  /* Take your tour */
+
+  .take-your-tour {
+    padding-top: 0;
+  }
+
+  .take-your-tour__paragraph {
+    position: relative;
+    top: -9px;
+    margin-bottom: 31px;
+    font-size: $size-16;
+    line-height: 142%;
+  }
+
+  .take-your-tour__form {
+    display: flex;
+    flex-direction: column;
+    width: 318px;
+    height: 1110px;
+    padding: 20px 20px 40px 20px;
+    border-radius: 30px;
+    gap: 33px;
+  }
+
+  .take-your-tour__form-label {
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-bottom: 7px;
+    font-size: $size-16;
+    line-height: 142%;
+  }
+
+  .take-your-tour__form-input-name,
+  .take-your-tour__form-select {
+    width: 278px;
+    height: 43px;
+    padding: 9px;
+    border-radius: 10px;
+    font-size: $size-16;
+    line-height: 142%;
+  }
+  .take-your-tour__form-textarea-label,
+  .take-your-tour__form-radio-label {
+    font-size: $size-16;
+    line-height: 142%;
+  }
+
+  .take-your-tour__label-direction,
+  .take-your-tour__form-label-phone {
+    position: relative;
+    top: -2px;
+  }
+
+  .take-your-tour__form-input-phone {
+    position: relative;
+    top: -2px;
+  }
+
+  .take-your-tour__form-label-date {
+    position: relative;
+    top: -4px;
+  }
+
+  input[type="date"] {
+    position: relative;
+    top: -3px;
+    left: -1px;
+    width: 282px;
+    padding: 9px;
+    font-size: $size-16;
+    line-height: 142%;
+    color: $gray-300;
+  }
+
+  .take-your-tour__form-label_date-2 {
+    top: -6px;
+    margin-bottom: 6px;
+  }
+
+  .take-your-tour__form-select {
+    background-position: calc(103% - 17px) calc(1em + -8px),
+      calc(100% - 15px) calc(1em + 2px), 100% 0;
+  }
+
+  .take-your-tour__form-textarea {
+    position: relative;
+    top: -6px;
+    left: 0;
+  }
+
+  .take-your-tour__form-textarea-input {
+    width: 278px;
+    height: 132px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .take-your-tour__form-radio-style {
+    top: 0;
+    left: 15px;
+    width: 20px;
+    height: 20px;
+    margin-right: 25px;
+  }
+
+  .take-your-tour__form-radio:checked
+    + .take-your-tour__form-radio-style::before {
+    width: 9px;
+    height: 9px;
+  }
+
+  .take-your-tour__form-checkbox-style {
+    top: 2px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+  }
+
+  .take-your-tour__form-checkbox:checked
+    + .take-your-tour__form-checkbox-style::before {
+    width: 14px;
+    height: 14px;
+    transform: translate(-34%, -28%);
+    background-image: url("../../images/take_your_tour/chek-mobile.svg");
+  }
+
+  .take-your-tour__form-radio-btns {
+    left: 0;
+    top: -11px;
+  }
+
+  .take-your-tour__form-radio {
+    position: relative;
+    top: -2px;
+    display: block;
+    margin-right: -20px;
+    margin-left: 4px;
+    transform: scale(1.6);
+  }
+
+  .take-your-tour__form-radio-option {
+    margin-right: 30px;
+    font-size: $size-16;
+    font-weight: 400;
+    line-height: 146%;
+  }
+
+  .take-your-tour__form-checkbox-wrapper {
+    top: -16px;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .take-your-tour__form-checkbox {
+    margin-left: 2px;
+    margin-right: 16px;
+    transform: scale(1.6);
+  }
+  .take-your-tour__form-checkbox-label {
+    position: relative;
+    top: 3px;
+    display: block;
+    width: 278px;
+    padding-left: 30px;
+    font-size: $size-16;
+    line-height: 142%;
+    letter-spacing: 0;
+  }
+
+  .take-your-tour__form-btns {
+    gap: 11px;
+    top: -4px;
+  }
+
+  .take-your-tour__form-btn--submit,
+  .take-your-tour__form-btn--reset {
+    position: relative;
+    top: -11px;
+    width: 133px;
+    height: 47px;
+    padding: 0;
+    border-radius: 10px;
+    font-size: $size-16;
+    line-height: 142%;
+  }
+
+  /* Reviews */
+
+  .reviews {
+    padding: 80px 0;
+  }
+
+  .reviews__heading {
+    margin-bottom: 24px;
+  }
+
+  .reviews__paragraph {
+    margin-bottom: 50px;
+  }
+
+  .reviews__card {
+    height: 408px;
+    width: fit-content;
+    padding: 26px 23px;
+    gap: 0;
+    border-radius: 20px;
+  }
+
+  .reviews__card:nth-child(2) {
+    height: 592px;
+    padding: 26px 24px 26px 23px;
+  }
+
+  .reviews__cards {
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .reviews__card-text {
+    left: -2px;
+    top: -4px;
+    font-size: $size-16;
+    line-height: 144%;
+  }
+
+  .reviews__card-author {
+    top: 17px;
+    left: 1px;
+  }
+
+  .reviews__card-author-name {
+    margin-bottom: 8px;
+    font-size: $size-23;
+    line-height: 120%;
+    letter-spacing: 0.035em;
+  }
+
+  .reviews__card-author-tour {
+    font-size: $size-16;
+    line-height: 142%;
+    letter-spacing: -0.015em;
+  }
+
+  .reviews__card-author-photo img {
+    top: -9px;
+    left: 1px;
+  }
+
+  .reviews__card-author-photo_2 {
+    top: 0;
+    left: 1px;
+  }
+
+  /* Travels Photos */
+
+  .travels-photos {
+    margin: -130px auto 74px auto;
+  }
+
+  .travels-photos__heading {
+    position: relative;
+    top: -9px;
+    margin-bottom: 20px;
+  }
+
+  .travels-photos__paragraph {
+    margin-bottom: 42px;
+  }
+
+  .travels-photos__images {
+    gap: 18px;
+  }
+
+  .travels-photos__images-col:nth-child(3) img {
+    display: none;
+  }
+
+  .travels-photos__images-row:nth-child(1)
+    .travels-photos__images-col:nth-child(1)
+    img {
+    left: 20px;
+    top: 1px;
+  }
+
+  .travels-photos__images-row:nth-child(1)
+    .travels-photos__images-col:nth-child(4)
+    img {
+    left: 2px;
+    top: 1px;
+  }
+
+  .travels-photos__images-row:first-child
+    .travels-photos__images-col:nth-child(1)
+    img,
+  .travels-photos__images-row:first-child
+    .travels-photos__images-col:nth-child(4)
+    img,
+  .travels-photos__images-row:last-child
+    .travels-photos__images-col:nth-child(1)
+    img,
+  .travels-photos__images-row:last-child
+    .travels-photos__images-col:nth-child(2)
+    img {
+    width: 150px;
+    height: 110px;
+    border-radius: 20px;
+  }
+
+  .travels-photos__images-row:nth-child(2) .travels-photos__images-col img {
+    width: 99px;
+    height: 110px;
+    border-radius: 20px;
+  }
+
+  .travels-photos__images-row:nth-child(2)
+    .travels-photos__images-col:nth-child(1)
+    img {
+    top: 0;
+    left: -1px;
+    width: 100%;
+  }
+
+  .travels-photos__images-row:nth-child(2)
+    .travels-photos__images-col:nth-child(4)
+    img {
+    position: relative;
+    left: 0;
+    width: 98%;
+  }
+
+  .travels-photos__images-row:nth-child(2)
+    .travels-photos__images-col:nth-child(5)
+    img {
+    left: 0;
+    width: 98%;
+    position: relative;
+  }
+
+  .travels-photos__images-row:nth-child(2)
+    .travels-photos__images-col:nth-child(2) {
+    display: none;
+  }
+
+  .travels-photos__images-row:first-child {
+    gap: 18px;
+  }
+
+  .travels-photos__images-row:last-child,
+  .travels-photos__images-row:nth-child(2) {
+    gap: 9px;
+  }
+
+  .travels-photos__images-row:nth-child(3)
+    .travels-photos__images-col:nth-child(1)
+    img {
+    left: -1px;
+    width: 102%;
+  }
+
+  .travels-photos__images-row:nth-child(3)
+    .travels-photos__images-col:nth-child(2)
+    img {
+    left: 3px;
+    width: 102%;
+  }
+
+  /* Travel Histories */
+
+  .travel-histories {
+    margin-bottom: 55px;
+    padding-top: 1px;
+  }
+
+  .travel-histories__heading {
+    margin-bottom: 9px;
+    line-height: 112%;
+    letter-spacing: 0.02em;
+  }
+
+  .travel-histories__paragraph {
+    margin-bottom: 61px;
+    line-height: 142%;
+    text-align: center;
+  }
+
+  .travel-histories__cards {
+    gap: 20px;
+  }
+
+  .travel-histories__card {
+    left: 0;
+    width: 318px;
+    height: 455px;
+    padding: 31px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .travel-histories__card::before {
+    border-radius: 20px;
+  }
+
+  .travel-histories__card:not(:last-child) {
+    margin-bottom: 0;
+  }
+
+  .travel-histories__card-heading {
+    margin: 0 0 20px 0;
+    width: 120px;
+    font-size: $size-23;
+    line-height: 120%;
+    letter-spacing: 0.04em;
+  }
+
+  .travel-histories__card-paragraph,
+  .travel-histories__card-list {
+    font-size: $size-16;
+    line-height: 142%;
+  }
+
+  .travel-histories__card-paragraph {
+    padding: 0 0 34px 0;
+  }
+
+  .travel-histories__card-list {
+    margin-left: 0;
+  }
+
+  .travel-histories__card-item {
+    left: 24px;
+  }
+
+  .travel-histories__card-item::before {
+    top: 12px;
+    left: 3px;
+    width: 4px;
+    height: 4px;
+  }
+
+  .travel-histories__card-item:not(:last-child) {
+    margin-bottom: 0;
+  }
+
+  .travel-histories__card-links-btn {
+    top: 4px;
+    left: -22px;
+  }
+
+  .travel-histories__card-img {
+    width: 318px;
+    height: 455px;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  .travel-histories__card-social {
+    display: none;
+  }
+
+  /* Call to action section  */
+
+  .call-to-action {
+    padding-top: 0;
+  }
+
+  .call-to-action__content {
+    flex-direction: column;
+    gap: 31px;
+  }
+
+  .call-to-action__img {
+    width: 130px;
+    height: 133px;
+    border-radius: 20px;
+  }
+
+  .call-to-action__text {
+    text-align: center;
+  }
+
+  .call-to-action__heading {
+    margin-bottom: 19px;
+    font-weight: $weight-700;
+    font-size: $size-23;
+    line-height: 120%;
+    letter-spacing: 0.04em;
+  }
+
+  .call-to-action__paragraph {
+    position: relative;
+    left: 4px;
+    top: 2px;
+    width: 312px;
+    font-weight: $weight-400;
+    font-size: $size-16;
+    line-height: 142%;
+  }
+
+  /* footer */
+  .footer {
+    margin-top: 75px;
+  }
+
+  .footer__content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__social-networks {
+    left: 0;
+    top: -7px;
+    font-size: $size-16;
+    line-height: 142%;
+  }
+
+  .footer__link:not(:last-child) {
+    margin-right: 41px;
+  }
+  .footer__link,
+  .footer__link:nth-child(2),
+  .footer__link:last-child {
+    left: 12px;
+    top: 1px;
+    font-size: $size-16;
+    line-height: 142%;
+  }
+
+  .footer__link-img {
+    left: -27px;
+    top: -2px;
+  }
+}
