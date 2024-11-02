@@ -72,7 +72,7 @@
       font-weight: $weight-400;
       font-size: $size-20;
       line-height: 142%;
-      background-image: url("../../images/icons/ic-dropdown.png");
+      background-image: url("../../../images/icons/ic-dropdown.png");
       background-repeat: no-repeat;
       background-position: calc(100% - 19px) calc(1em + 1px),
         calc(100% - 15px) calc(1em + 2px), 100% 0;
@@ -84,7 +84,7 @@
         cursor: pointer;
         border: 1px solid $beige-200;
         background: $beige-200;
-        background-image: url("../../images/icons/ic-dropdown.png");
+        background-image: url("../../../images/icons/ic-dropdown.png");
         background-repeat: no-repeat;
         background-position: calc(100% - 19px) calc(1em + 1px),
           calc(100% - 15px) calc(1em + 2px), 100% 0;
@@ -124,6 +124,10 @@
         border: 1px solid $gray-300;
         background: $beige-200;
       }
+    }
+
+    &-date{
+      padding: 18px;
     }
 
     &-radio {
@@ -221,7 +225,7 @@
       top: -9px;
     }
 
-    &-btn--submit {
+    &-btn_submit {
       width: 235px;
       height: 58px;
       padding: 14px 30px;
@@ -244,7 +248,7 @@
       }
     }
 
-    &-btn--reset {
+    &-btn_reset {
       width: 235px;
       height: 58px;
       padding: 14px 30px;
@@ -292,7 +296,7 @@
     left: 50%;
     width: 20px;
     height: 20px;
-    background-image: url("../../images/take_your_tour/chek-desk.svg");
+    background-image: url("../../../images/take_your_tour/chek-desk.svg");
     background-repeat: no-repeat;
     transform: translate(-30%, -25%);
   }
@@ -312,6 +316,7 @@ input[type="date"] {
   color: $gray-300;
   text-transform: uppercase;
 }
+
 
 input[type="date"]::-webkit-calendar-picker-indicator {
   opacity: 0;

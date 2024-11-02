@@ -31,13 +31,13 @@
 
     &:hover,
     &:active,
-    &--active {
+    &_active {
       text-decoration: underline;
       text-underline-offset: 10px;
     }
 
     &:active,
-    &--active {
+    &_active {
       color: $orange-200;
     }
   }

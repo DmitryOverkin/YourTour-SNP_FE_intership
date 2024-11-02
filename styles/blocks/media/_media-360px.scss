@@ -100,7 +100,7 @@
     line-height: 142%;
   }
 
-  .choose-your-tour__link--active {
+  .choose-your-tour__link_active {
     font-size: $size-16;
     line-height: 142%;
     text-underline-offset: 5px;
@@ -161,7 +161,7 @@
   }
 
   .choose-your-tour__card-button img {
-    left: -30px;
+    left: -31px;
     top: -1px;
   }
 
@@ -289,7 +289,7 @@
     width: 14px;
     height: 14px;
     transform: translate(-34%, -28%);
-    background-image: url("../../images/take_your_tour/chek-mobile.svg");
+    background-image: url("../../../images/take_your_tour/chek-mobile.svg");
   }
 
   .take-your-tour__form-radio-btns {
@@ -340,8 +340,8 @@
     top: -4px;
   }
 
-  .take-your-tour__form-btn--submit,
-  .take-your-tour__form-btn--reset {
+  .take-your-tour__form-btn_submit,
+  .take-your-tour__form-btn_reset {
     position: relative;
     top: -11px;
     width: 133px;

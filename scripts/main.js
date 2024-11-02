@@ -7,10 +7,10 @@ menuItemLinks.forEach((item) => {
     event.preventDefault();
 
     menuItemLinks.forEach((link) =>
-      link.classList.remove("choose-your-tour__link--active")
+      link.classList.remove("choose-your-tour__link_active")
     );
 
-    item.classList.add("choose-your-tour__link--active");
+    item.classList.add("choose-your-tour__link_active");
   });
 });
 
@@ -21,11 +21,11 @@ const logo = document.querySelector(".logo__img");
 
 window.addEventListener("scroll", function () {
   if (this.scrollY > 450) {
-    header.classList.add("intro--scroll");
-    logo.classList.add("logo__img--black");
+    header.classList.add("intro_scroll");
+    logo.classList.add("logo__img_black");
   } else {
-    header.classList.remove("intro--scroll");
-    logo.classList.remove("logo__img--black");
+    header.classList.remove("intro_scroll");
+    logo.classList.remove("logo__img_black");
   }
 });
 

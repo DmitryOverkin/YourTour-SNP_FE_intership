@@ -7,7 +7,7 @@
       rgba(0, 0, 0, 0.4) 0%,
       rgba(0, 0, 0, 0.4) 100%
     ),
-    url("../../images/intro-section/header-img.png");
+    url("../../../images/intro-section/header-img.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,7 +23,7 @@
     background-color: transparent;
   }
 
-  &--scroll {
+  &_scroll {
     position: fixed;
     z-index: 100;
     width: 100%;
