@@ -1,0 +1,27 @@
+.travel-histories__heading {
+  position: relative;
+  top: -19px;
+}
+
+@media (max-width: 360px) {
+  .travel-histories__heading {
+    margin-bottom: 9px;
+    line-height: 112%;
+    letter-spacing: 0.02em;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 550px) {
+  .travel-histories__heading {
+    margin-bottom: 9px;
+    line-height: 112%;
+    letter-spacing: 0.02em;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 768px) {
+}
+
+@media (max-width: 1024px) {
+  
+}

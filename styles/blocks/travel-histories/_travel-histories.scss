@@ -1,160 +1,43 @@
+@import "./__content/travel-histories__content";
+@import "./__heading/travel-histories__heading";
+@import "./__paragraph/travel-histories__paragraph";
+@import "./__cards/travel-histories__cards";
+@import "./__card/travel-histories__card";
+@import "./__card-img/travel-histories__card-img";
+@import "./__card__heading/travel-histories__card-heading";
+@import "./__card-paragraph/travel-histories__card-paragraph";
+@import "./__card-list/travel-histories__card-list";
+@import "./__card-item/travel-histories__card-item";
+@import "./__card-links/travel-histories__card-links";
+@import "./__card-links-btn/travel-histories__card-links-btn";
+@import "./__card-socials/travel-histories__card-social";
+@import "./__card-social-link/travel-histories__card-social-link";
+
 .travel-histories {
   padding-top: 135px;
+}
 
-  &__heading {
-    position: relative;
-    top: -19px;
-  }
-
-  &__paragraph {
-    position: relative;
-    top: -25px;
-    margin-bottom: 94px;
-  }
-
-  &__cards {
-    position: relative;
-    top: -19px;
-    display: flex;
-    flex-direction: column;
-  }
-
-  &__card {
-    position: relative;
-    border-radius: 50px;
-    width: 100%;
-    height: 567px;
-    padding: 60px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-    color: $white;
-
-    &::before {
-      content: "";
-      position: absolute;
-      z-index: -1;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      border-radius: 50px;
-      background: linear-gradient(
-        270deg,
-        rgba(0, 0, 0, 0) 0.01%,
-        rgba(0, 0, 0, 0.2) 100%
-      );
-      transition: opacity 0.3s ease;
-    }
-
-    &-img {
-      display: block;
-      border-radius: 50px;
-      position: absolute;
-      top: 0;
-      left: 0;
-      z-index: -2;
-      transition: transform 0.3s ease;
-    }
-
-    &:hover &-img {
-      transform: scale(1.2);
-    }
-
-    &-heading {
-      font-weight: $weight-500;
-      font-size: $size-35;
-      line-height: 122%;
-      margin-bottom: 35px;
-      position: relative;
-      left: -2px;
-    }
-
-    &-paragraph {
-      max-width: 560px;
-      padding-bottom: 38px;
-      font-weight: $weight-400;
-      font-size: $size-20;
-      line-height: 142%;
-      position: relative;
-      left: -2px;
-      top: 1px;
-    }
-
-    &-list {
-      font-weight: $weight-400;
-      font-size: $size-20;
-      line-height: 122%;
-      list-style-type: none;
-    }
-
-    &-item {
-      position: relative;
-      left: 28px;
-      top: -8px;
-      margin-bottom: 4px;
-
-      &::before {
-        content: "";
-        width: 5px;
-        height: 5px;
-        border-radius: 50%;
-        background-color: $white;
-        position: absolute;
-        top: 55%;
-        left: -1px;
-        margin-left: -15px;
-        transform: translate(-45%, -100%);
-      }
-    }
-
-    &-links {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      position: relative;
-      left: -4px;
-    }
-
-    &-links-btn {
-      position: relative;
-      left: -22px;
-      top: 6px;
-    }
-
-    &:hover .choose-your-tour__card-button {
-      background-color: $green-400;
-    }
-
-    &:active .travel-histories__card-links-btn {
-      background-color: $orange-200;
-    }
-
-    &-social {
-      display: flex;
-      gap: 36px;
-      font-weight: $weight-400;
-      font-size: $size-20;
-      line-height: 142%;
-      position: relative;
-      top: 6px;
-      left: 2px;
-    }
-
-    &-social-link:hover {
-      text-decoration: underline;
-      text-underline-offset: 6px;
-    }
-
-    &-social-link:active {
-      color: $orange-200;
-    }
-
-    &:not(:last-child) {
-      margin-bottom: 50px;
-    }
+@media (max-width: 360px) {
+  .travel-histories {
+    margin-bottom: 55px;
+    padding-top: 1px;
   }
 }
+
+@media (min-width: 361px) and (max-width: 550px) {
+  .travel-histories {
+    margin-bottom: 55px;
+    padding-top: 1px;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 768px) {
+  .travel-histories {
+    padding-top: 75px;
+  }
+}
+
+@media (max-width: 1024px) {
+  
+}
+

@@ -1,0 +1,25 @@
+.travel-histories__cards {
+  position: relative;
+  top: -19px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 360px) {
+  .travel-histories__cards {
+    gap: 20px;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 550px) {
+  .travel-histories__cards {
+    gap: 20px;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 768px) {
+}
+
+@media (max-width: 1024px) {
+  
+}

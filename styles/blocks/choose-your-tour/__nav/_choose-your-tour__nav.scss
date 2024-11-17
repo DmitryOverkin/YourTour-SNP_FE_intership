@@ -1,0 +1,25 @@
+.choose-your-tour__nav {
+  margin-bottom: 100px;
+}
+
+@media (max-width: 360px) {
+  .choose-your-tour__nav {
+    margin-bottom: 44px;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 550px) {
+  .choose-your-tour__nav {
+    margin-bottom: 45px;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 768px) {
+  .choose-your-tour__nav {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 1024px) {
+  
+}

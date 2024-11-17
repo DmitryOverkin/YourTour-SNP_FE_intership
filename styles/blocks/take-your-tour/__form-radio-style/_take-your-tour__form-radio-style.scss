@@ -1,0 +1,39 @@
+.take-your-tour__form-radio-style {
+  position: relative;
+  left: -1px;
+  width: 26px;
+  height: 26px;
+  margin-right: 11px;
+  border-radius: 50%;
+  border: 2px solid $black;
+}
+
+@media (max-width: 360px) {
+  .take-your-tour__form-radio-style {
+    top: 0;
+    left: 15px;
+    width: 20px;
+    height: 20px;
+    margin-right: 25px;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 550px) {
+  .take-your-tour__form-radio-style {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 768px) {
+  .take-your-tour__form-radio-style {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .take-your-tour__form-radio-style {
+    left: 1px;
+  }
+}

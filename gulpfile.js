@@ -8,7 +8,7 @@ const browserSync = require('browser-sync').create();
 
 const paths = {
     styles: {
-        src: 'styles/index.scss',
+        src: 'styles/**/*.scss',
         dest: 'dist/css/'
     },
     html: {

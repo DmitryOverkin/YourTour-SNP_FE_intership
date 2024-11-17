@@ -1,85 +1,38 @@
+@import "./__heading/reviews__heading";
+@import "./__paragraph/reviews__paragraph";
+@import "./__cards/reviews__cards";
+@import "./__card/reviews__card";
+@import "./__card-text/reviews__card-text";
+@import "./__card-author/reviews__card-author";
+@import "./__card-author-names/reviews__card-author-names";
+@import "./__card-author-name/reviews__card-author-name";
+@import "./__card-author-tour/reviews__card-author-tour";
+@import "./__card-author-photo/reviews__card-author-photo";
+
 .reviews {
   padding-top: 133px;
+}
 
-  &__heading {
-    position: relative;
-    top: -5px;
-    line-height: 123%;
+@media (max-width: 360px) {
+  .reviews {
+    padding: 80px 0;
   }
+}
 
-  &__paragraph {
-    position: relative;
-    top: -14px;
+@media (min-width: 361px) and (max-width: 550px) {
+  .reviews {
+    padding-top: 75px;
   }
+}
 
-  &__cards {
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
+@media (min-width: 550px) and (max-width: 768px) {
+  .reviews {
+    padding-top: 75px;
   }
+}
 
-  &__card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 50px;
-    width: 570px;
-    height: 673px;
-    padding: 42px 40px;
-    border-radius: 50px;
-    background: $beige-200;
-    position: relative;
-    top: -12px;
-
-    &-text {
-      position: relative;
-      left: -1px;
-      font-weight: $weight-700;
-      font-size: $size-23;
-      line-height: 122%;
-      letter-spacing: -0.001em;
-    }
-
-    &-author {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      position: relative;
-      top: 5px;
-    }
-
-    &-author-names {
-      position: relative;
-      left: -2px;
-    }
-
-    &-author-name {
-      margin-bottom: 7px;
-      font-weight: $weight-500;
-      font-size: $size-35;
-      line-height: 122%;
-    }
-
-    &-author-tour {
-      font-weight: $weight-400;
-      font-size: $size-17;
-      line-height: 142%;
-      letter-spacing: -0.01em;
-      color: $gray-300;
-    }
-
-    &-author-photo {
-      position: relative;
-      width: 75px;
-      height: 75px;
-      border-radius: 100px;
-    }
-
-    &-author-photo img {
-      position: absolute;
-      top: -1px;
-      left: -2px;
-      border-radius: 100px;
-    }
+@media (max-width: 1024px) {
+  .reviews {
+    padding-top: 140px;
   }
 }
