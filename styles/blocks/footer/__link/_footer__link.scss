@@ -9,6 +9,10 @@
   &:not(:last-child) {
     margin-right: 61px;
   }
+  &:last-child{
+    position: relative;
+    left: 1px;
+  }
 
   &:hover {
     text-decoration: underline;

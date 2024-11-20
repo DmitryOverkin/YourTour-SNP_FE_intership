@@ -1,6 +1,6 @@
 .take-your-tour__form-radio-label {
   display: block;
-  margin: 1px 0 8px;
+  margin: 1px 0 7px;
 }
 
 @media (max-width: 360px) {
@@ -23,8 +23,8 @@
 @media (max-width: 1024px) {
   .take-your-tour__form-radio-label {
     position: relative;
-    top: 1px;
+    top: 3px;
 
-    margin-bottom: 8px;
+    margin-bottom: 10px;
   }
 }
