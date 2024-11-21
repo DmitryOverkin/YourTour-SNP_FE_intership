@@ -8,13 +8,17 @@
   left: -2px;
   top: 1px;
 }
-
-@media (max-width: 360px) {
+@media (max-width: 1024px) {
   .travel-histories__card-paragraph {
-    padding: 0 0 34px 0;
+    top: 0;
+    left: 0;
+    line-height: 140%;
+  }
+}
 
+@media (min-width: 550px) and (max-width: 768px) {
+  .travel-histories__card-paragraph {
     font-size: $size-16;
-    line-height: 142%;
   }
 }
 
@@ -25,17 +29,11 @@
     line-height: 142%;
   }
 }
-
-@media (min-width: 550px) and (max-width: 768px) {
+@media (max-width: 360px) {
   .travel-histories__card-paragraph {
+    padding: 0 0 32px 0;
+
     font-size: $size-16;
-  }
-}
-
-@media (max-width: 1024px) {
-  .travel-histories__card-paragraph {
-    top: 0;
-    left: 0;
-    line-height: 140%;
+    line-height: 142%;
   }
 }

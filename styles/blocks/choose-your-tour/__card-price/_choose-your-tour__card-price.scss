@@ -5,10 +5,12 @@
   letter-spacing: -0.01em;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 1024px) {
+}
+
+@media (min-width: 550px) and (max-width: 768px) {
   .choose-your-tour__card-price {
     font-size: $size-16;
-    line-height: 142%;
   }
 }
 
@@ -19,12 +21,9 @@
   }
 }
 
-@media (min-width: 550px) and (max-width: 768px) {
+@media (max-width: 360px) {
   .choose-your-tour__card-price {
     font-size: $size-16;
+    line-height: 142%;
   }
-}
-
-@media (max-width: 1024px) {
-  
 }

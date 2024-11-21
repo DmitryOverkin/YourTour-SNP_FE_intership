@@ -3,10 +3,12 @@
   left: -36px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 1024px) {
+}
+
+@media (min-width: 550px) and (max-width: 768px) {
   .footer__link-img {
     left: -27px;
-    top: -2px;
   }
 }
 
@@ -17,13 +19,9 @@
   }
 }
 
-@media (min-width: 550px) and (max-width: 768px) {
+@media (max-width: 360px) {
   .footer__link-img {
     left: -27px;
+    top: -2px;
   }
 }
-
-@media (max-width: 1024px) {
-  
-}
-

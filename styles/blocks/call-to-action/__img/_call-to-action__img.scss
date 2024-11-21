@@ -4,11 +4,13 @@
   height: 370px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 1024px) {
+}
+
+@media (min-width: 550px) and (max-width: 768px) {
   .call-to-action__img {
-    width: 130px;
-    height: 133px;
-    border-radius: 20px;
+    width: 300px;
+    height: 300px;
   }
 }
 
@@ -20,13 +22,10 @@
   }
 }
 
-@media (min-width: 550px) and (max-width: 768px) {
+@media (max-width: 360px) {
   .call-to-action__img {
-    width: 300px;
-    height: 300px;
+    width: 130px;
+    height: 133px;
+    border-radius: 20px;
   }
-}
-
-@media (max-width: 1024px) {
-  
 }

@@ -6,18 +6,9 @@
   gap: 30px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 1024px) {
   .choose-your-tour__list {
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-}
-
-@media (min-width: 361px) and (max-width: 550px) {
-  .choose-your-tour__list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+    left: 1px;
   }
 }
 
@@ -29,8 +20,17 @@
   }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 361px) and (max-width: 550px) {
   .choose-your-tour__list {
-    left: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 360px) {
+  .choose-your-tour__list {
+    flex-wrap: wrap;
+    gap: 10px;
   }
 }

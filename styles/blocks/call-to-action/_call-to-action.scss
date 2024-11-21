@@ -8,15 +8,9 @@
   padding-top: 115px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 1024px) {
   .call-to-action {
-    padding-top: 0;
-  }
-}
-
-@media (min-width: 361px) and (max-width: 550px) {
-  .call-to-action {
-    padding-top: 0;
+    padding-top: 117px;
   }
 }
 
@@ -26,8 +20,14 @@
   }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 361px) and (max-width: 550px) {
   .call-to-action {
-    padding-top: 117px;
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 360px) {
+  .call-to-action {
+    padding-top: 0;
   }
 }

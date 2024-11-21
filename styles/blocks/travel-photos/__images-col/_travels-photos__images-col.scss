@@ -7,15 +7,9 @@
   }
 }
 
-@media (max-width: 360px) {
-  .travels-photos__images-col:nth-child(3) img {
-    display: none;
-  }
-}
-
-@media (min-width: 361px) and (max-width: 550px) {
-  .travels-photos__images-col:nth-child(3) img {
-    display: none;
+@media (max-width: 1024px) {
+  .travels-photos__images-col img {
+    height: 301px;
   }
 }
 
@@ -24,9 +18,14 @@
     display: none;
   }
 }
+@media (min-width: 361px) and (max-width: 550px) {
+  .travels-photos__images-col:nth-child(3) img {
+    display: none;
+  }
+}
 
-@media (max-width: 1024px) {
-  .travels-photos__images-col img {
-    height: 301px;
+@media (max-width: 360px) {
+  .travels-photos__images-col:nth-child(3) img {
+    display: none;
   }
 }

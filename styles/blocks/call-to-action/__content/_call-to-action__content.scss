@@ -7,10 +7,15 @@
   left: -2px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 1024px) {
+  .call-to-action__content {
+    left: 0;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 768px) {
   .call-to-action__content {
     flex-direction: column;
-    gap: 31px;
   }
 }
 
@@ -21,14 +26,9 @@
   }
 }
 
-@media (min-width: 550px) and (max-width: 768px) {
+@media (max-width: 360px) {
   .call-to-action__content {
     flex-direction: column;
-  }
-}
-
-@media (max-width: 1024px) {
-  .call-to-action__content {
-    left: 0;
+    gap: 32px;
   }
 }

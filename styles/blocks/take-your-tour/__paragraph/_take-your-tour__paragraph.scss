@@ -10,13 +10,15 @@
   color: $gray-300;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 1024px) {
   .take-your-tour__paragraph {
-    position: relative;
-    top: -9px;
-    margin-bottom: 31px;
-    font-size: $size-16;
-    line-height: 142%;
+    left: 0;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 768px) {
+  .take-your-tour__paragraph {
+    margin-bottom: 50px;
   }
 }
 
@@ -30,14 +32,12 @@
   }
 }
 
-@media (min-width: 550px) and (max-width: 768px) {
+@media (max-width: 360px) {
   .take-your-tour__paragraph {
-    margin-bottom: 50px;
-  }
-}
-
-@media (max-width: 1024px) {
-  .take-your-tour__paragraph {
-    left: 0;
+    position: relative;
+    top: -15px;
+    margin-bottom: 26px;
+    font-size: $size-16;
+    line-height: 140%;
   }
 }

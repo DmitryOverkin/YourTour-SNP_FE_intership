@@ -6,12 +6,16 @@
   color: $gray-300;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 1024px) {
   .footer__social-networks {
-    left: 0;
-    top: -7px;
-    font-size: $size-16;
-    line-height: 142%;
+    position: relative;
+    left: -4px;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 768px) {
+  .footer__social-networks {
+    font-size: $size-17;
   }
 }
 
@@ -24,15 +28,11 @@
   }
 }
 
-@media (min-width: 550px) and (max-width: 768px) {
+@media (max-width: 360px) {
   .footer__social-networks {
-    font-size: $size-17;
-  }
-}
-
-@media (max-width: 1024px) {
-  .footer__social-networks {
-    position: relative;
-    left: -4px;
+    left: 0;
+    top: -7px;
+    font-size: $size-16;
+    line-height: 142%;
   }
 }

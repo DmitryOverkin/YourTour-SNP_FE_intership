@@ -17,10 +17,12 @@
   padding-top: 135px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 1024px) {
+}
+
+@media (min-width: 550px) and (max-width: 768px) {
   .travel-histories {
-    margin-bottom: 55px;
-    padding-top: 1px;
+    padding-top: 75px;
   }
 }
 
@@ -31,13 +33,9 @@
   }
 }
 
-@media (min-width: 550px) and (max-width: 768px) {
+@media (max-width: 360px) {
   .travel-histories {
-    padding-top: 75px;
+    margin-bottom: 55px;
+    padding-top: 1px;
   }
 }
-
-@media (max-width: 1024px) {
-  
-}
-

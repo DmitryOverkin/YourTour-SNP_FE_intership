@@ -46,22 +46,17 @@
   background-color: $orange-200;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 1024px) {
   .travel-histories__card {
-    left: 0;
-    width: 318px;
-    height: 455px;
-    padding: 31px;
-    border-radius: 20px;
-    overflow: hidden;
+    left: -4px;
+    width: 101%;
+    padding: 62px 60px;
   }
+}
 
-  .travel-histories__card::before {
-    border-radius: 20px;
-  }
-
-  .travel-histories__card:not(:last-child) {
-    margin-bottom: 0;
+@media (min-width: 550px) and (max-width: 768px) {
+  .travel-histories__card {
+    height: 450px;
   }
 }
 
@@ -84,16 +79,21 @@
   }
 }
 
-@media (min-width: 550px) and (max-width: 768px) {
+@media (max-width: 360px) {
   .travel-histories__card {
-    height: 450px;
+    left: 0;
+    width: 318px;
+    height: 455px;
+    padding: 31px 31px;
+    border-radius: 20px;
+    overflow: hidden;
   }
-}
 
-@media (max-width: 1024px) {
-  .travel-histories__card {
-    left: -4px;
-    width: 101%;
-    padding: 62px 60px;
+  .travel-histories__card::before {
+    border-radius: 20px;
+  }
+
+  .travel-histories__card:not(:last-child) {
+    margin-bottom: 0;
   }
 }

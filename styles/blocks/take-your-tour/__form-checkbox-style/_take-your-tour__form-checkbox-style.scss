@@ -8,11 +8,15 @@
   border-radius: 5px;
   border: 2px solid $black;
 }
-
-@media (max-width: 360px) {
+@media (max-width: 1024px) {
   .take-your-tour__form-checkbox-style {
-    top: 2px;
     left: 0;
+    top: 1px;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 768px) {
+  .take-your-tour__form-checkbox-style {
     width: 20px;
     height: 20px;
   }
@@ -25,16 +29,11 @@
   }
 }
 
-@media (min-width: 550px) and (max-width: 768px) {
+@media (max-width: 360px) {
   .take-your-tour__form-checkbox-style {
+    top: 0;
+    left: 0;
     width: 20px;
     height: 20px;
-  }
-}
-
-@media (max-width: 1024px) {
-  .take-your-tour__form-checkbox-style {
-    left: 1px;
-    top: 1px;
   }
 }

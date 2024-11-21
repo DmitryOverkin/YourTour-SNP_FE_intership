@@ -27,9 +27,12 @@
   box-shadow: 0px 100px 67px -39px rgba(0, 0, 0, 0.2) inset;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 1024px) {
+}
+
+@media (min-width: 550px) and (max-width: 768px) {
   .intro {
-    height: 488px;
+    height: 630px;
   }
 }
 
@@ -39,12 +42,8 @@
   }
 }
 
-@media (min-width: 550px) and (max-width: 768px) {
+@media (max-width: 360px) {
   .intro {
-    height: 630px;
+    height: 488px;
   }
-}
-
-@media (max-width: 1024px) {
-  
 }

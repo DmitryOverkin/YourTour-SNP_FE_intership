@@ -1,3 +1,6 @@
+@media (max-width: 1024px) {
+}
+
 @media (min-width: 361px) and (max-width: 550px) {
   .travel-histories__content {
     display: flex;
@@ -5,8 +8,4 @@
     align-items: center;
     justify-content: center;
   }
-}
-
-@media (max-width: 1024px) {
-  
 }

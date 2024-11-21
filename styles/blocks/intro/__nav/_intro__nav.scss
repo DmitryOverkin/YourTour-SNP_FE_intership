@@ -1,4 +1,12 @@
-@media (max-width: 360px) {
+@media (max-width: 1024px) {
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+  .intro__nav {
+    font-size: $size-16;
+  }
+}
+@media (min-width: 550px) and (max-width: 768px) {
   .intro__nav {
     display: none;
   }
@@ -10,18 +18,8 @@
   }
 }
 
-@media (min-width: 769px) and (max-width: 1023px) {
-  .intro__nav {
-    font-size: $size-16;
-  }
-}
-
-@media (min-width: 550px) and (max-width: 768px) {
+@media (max-width: 360px) {
   .intro__nav {
     display: none;
   }
-}
-
-@media (max-width: 1024px) {
-  
 }

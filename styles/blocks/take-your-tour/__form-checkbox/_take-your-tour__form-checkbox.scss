@@ -19,19 +19,20 @@
   transform: translate(-30%, -25%);
 }
 
-@media (max-width: 360px) {
+@media (max-width: 1024px) {
+  .take-your-tour__form-checkbox {
+    margin-left: 6px;
+    margin-right: 13px;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 768px) {
   .take-your-tour__form-checkbox:checked
     + .take-your-tour__form-checkbox-style::before {
     width: 14px;
     height: 14px;
     transform: translate(-34%, -28%);
     background-image: url("../../../../images/take_your_tour/chek-mobile.svg");
-  }
-
-  .take-your-tour__form-checkbox {
-    margin-left: 2px;
-    margin-right: 16px;
-    transform: scale(1.6);
   }
 }
 
@@ -51,7 +52,7 @@
   }
 }
 
-@media (min-width: 550px) and (max-width: 768px) {
+@media (max-width: 360px) {
   .take-your-tour__form-checkbox:checked
     + .take-your-tour__form-checkbox-style::before {
     width: 14px;
@@ -59,11 +60,10 @@
     transform: translate(-34%, -28%);
     background-image: url("../../../../images/take_your_tour/chek-mobile.svg");
   }
-}
 
-@media (max-width: 1024px) {
   .take-your-tour__form-checkbox {
-    margin-left: 6px;
-    margin-right: 13px;
+    margin-left: 2px;
+    margin-right: 16px;
+    transform: scale(1.6);
   }
 }

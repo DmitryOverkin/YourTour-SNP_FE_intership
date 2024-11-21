@@ -9,15 +9,10 @@
   left: 2px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 1024px) {
   .travel-histories__card-social {
-    display: none;
-  }
-}
-
-@media (min-width: 361px) and (max-width: 550px) {
-  .travel-histories__card-social {
-    display: none;
+    position: relative;
+    left: -1px;
   }
 }
 
@@ -27,9 +22,14 @@
   }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 361px) and (max-width: 550px) {
   .travel-histories__card-social {
-    position: relative;
-    left: -1px;
+    display: none;
+  }
+}
+
+@media (max-width: 360px) {
+  .travel-histories__card-social {
+    display: none;
   }
 }

@@ -4,15 +4,10 @@
   padding-left: 20px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 1024px) {
   .container {
-    max-width: 360px;
-  }
-}
-
-@media (min-width: 361px) and (max-width: 550px) {
-  .container {
-    max-width: 480px;
+    max-width: 950px;
+    padding: 0 20px;
   }
 }
 
@@ -22,9 +17,14 @@
   }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 361px) and (max-width: 550px) {
   .container {
-    max-width: 950px;
-    padding: 0 20px;
+    max-width: 480px;
+  }
+}
+
+@media (max-width: 360px) {
+  .container {
+    max-width: 360px;
   }
 }

@@ -19,12 +19,12 @@
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 1024px) {
+}
+
+@media (min-width: 550px) and (max-width: 768px) {
   .take-your-tour__form-textarea-input {
-    width: 278px;
-    height: 132px;
-    border-radius: 10px;
-    padding: 10px;
+    font-size: $size-16;
   }
 }
 
@@ -37,13 +37,11 @@
   }
 }
 
-@media (min-width: 550px) and (max-width: 768px) {
+@media (max-width: 360px) {
   .take-your-tour__form-textarea-input {
-    font-size: $size-16;
+    width: 278px;
+    height: 132px;
+    border-radius: 10px;
+    padding: 10px;
   }
-}
-
-
-@media (max-width: 1024px) {
-  
 }

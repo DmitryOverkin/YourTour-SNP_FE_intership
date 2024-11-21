@@ -2,9 +2,12 @@
   margin-bottom: 100px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 1024px) {
+}
+
+@media (min-width: 550px) and (max-width: 768px) {
   .choose-your-tour__nav {
-    margin-bottom: 44px;
+    margin-bottom: 50px;
   }
 }
 
@@ -14,12 +17,8 @@
   }
 }
 
-@media (min-width: 550px) and (max-width: 768px) {
+@media (max-width: 360px) {
   .choose-your-tour__nav {
-    margin-bottom: 50px;
+    margin-bottom: 44px;
   }
-}
-
-@media (max-width: 1024px) {
-  
 }
