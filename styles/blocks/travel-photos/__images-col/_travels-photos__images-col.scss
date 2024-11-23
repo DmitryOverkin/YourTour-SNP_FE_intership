@@ -1,4 +1,4 @@
-.travels-photos__images-col{
+.travels-photos__images-col {
   position: relative;
   width: 100%;
   height: 301px;
@@ -28,13 +28,13 @@
   }
 }
 @media (min-width: 361px) and (max-width: 550px) {
-  .travels-photos__images-col:nth-child(3) img {
-    display: none;
+  .travels-photos__images-col {
+    height: 100%;
   }
 }
 
 @media (max-width: 360px) {
-  .travels-photos__images-col{
+  .travels-photos__images-col {
     height: 100%;
   }
   .travels-photos__images-col:nth-child(3) img {
