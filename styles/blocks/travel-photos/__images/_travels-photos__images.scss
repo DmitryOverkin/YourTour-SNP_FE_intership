@@ -1,8 +1,9 @@
 .travels-photos__images {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
+  justify-content: stretch;
+  gap: 34px;
 }
 
 @media (max-width: 1024px) {

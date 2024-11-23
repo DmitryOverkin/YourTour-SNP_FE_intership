@@ -1,12 +1,12 @@
 .travel-histories__card-paragraph {
   max-width: 560px;
-  padding-bottom: 38px;
+  padding-bottom: 40px;
   font-weight: $weight-400;
   font-size: $size-20;
-  line-height: 142%;
+  line-height: 139%;
   position: relative;
   left: -2px;
-  top: 1px;
+  top: 3px;
 }
 @media (max-width: 1024px) {
   .travel-histories__card-paragraph {
