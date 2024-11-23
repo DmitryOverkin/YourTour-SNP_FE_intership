@@ -34,6 +34,9 @@
 }
 
 @media (max-width: 360px) {
+  .travels-photos__images-col{
+    height: 100%;
+  }
   .travels-photos__images-col:nth-child(3) img {
     display: none;
   }

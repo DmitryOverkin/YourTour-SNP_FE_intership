@@ -21,9 +21,13 @@
 @media (max-width: 1024px) {
   .travel-histories__card-item {
     left: 31px;
+    top: -8px;
+    margin-bottom: 3px;
   }
 
   .travel-histories__card-item::before {
+    top: 13px;
+    left: 1px;
     margin-left: -15px;
   }
 }
@@ -42,6 +46,7 @@
 @media (max-width: 360px) {
   .travel-histories__card-item {
     left: 24px;
+    top: -9px;
   }
 
   .travel-histories__card-item::before {
