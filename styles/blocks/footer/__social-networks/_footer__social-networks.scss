@@ -1,4 +1,6 @@
 .footer__social-networks {
+  position: relative;
+  left: 1px;
   font-family: $font-family;
   font-weight: $weight-400;
   font-size: $size-20;
@@ -8,7 +10,6 @@
 
 @media (max-width: 1024px) {
   .footer__social-networks {
-    position: relative;
     left: -4px;
   }
 }

@@ -1,25 +1,23 @@
 .travels-photos__images-row {
+  position: relative;
   display: flex;
   flex-wrap: nowrap;
   width: 100%;
   gap: 30px;
 
   &:nth-child(1) {
-    position: relative;
     top: -8px;
-    left: -11px;
+    left: -20px;
   }
 
   &:nth-child(2) {
-    position: relative;
     top: -12px;
-    left: 1px;
+    left: -7px;
   }
 
   &:nth-child(3) {
-    position: relative;
-    top: -16px;
-    left: 2px;
+    top: -14px;
+    left: -6px;
   }
 }
 

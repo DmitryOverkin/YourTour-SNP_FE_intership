@@ -1,9 +1,10 @@
 .reviews__card-author {
+  position: relative;
+  left: 1px;
+  top: 4px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
-  top: 5px;
 }
 
 @media (max-width: 1024px) {
