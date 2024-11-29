@@ -9,9 +9,10 @@
 
 @media (max-width: 1024px) {
   .intro__description {
-    max-width: 400px;
     position: relative;
-    left: 1px;
+    left: 0;
+    top: 1px;
+    max-width: 442px;
     line-height: 139%;
   }
 }

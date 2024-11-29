@@ -59,6 +59,10 @@ input[type="date"]:valid {
 }
 
 @media (max-width: 1024px) {
+  .take-your-tour {
+    padding-top: 136px;
+  }
+
   input[type="date"] {
     padding: 29px 18px;
   }

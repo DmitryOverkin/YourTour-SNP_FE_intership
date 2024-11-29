@@ -1,14 +1,14 @@
 .intro__btn {
   width: 118px;
   height: 34px;
+  border: none;
+  background: $white;
+  color: $black;
+  border-radius: 10px;
   font-weight: $weight-400;
   font-size: $size-17;
   line-height: 142%;
   letter-spacing: -0.01em;
-  color: $black;
-  background: $white;
-  border: none;
-  border-radius: 10px;
   cursor: pointer;
   transition: 0.3s ease;
 
@@ -24,12 +24,8 @@
 @media (max-width: 1024px) {
   .intro__btn {
     border-radius: 9px;
-    padding: 5px 20px;
-    width: 118px;
+    padding: 4px 20px;
     height: 33px;
-
-    position: relative;
-    left: -1px;
   }
 }
 

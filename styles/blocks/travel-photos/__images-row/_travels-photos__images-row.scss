@@ -132,6 +132,19 @@
 }
 
 @media (max-width: 1024px) {
+  .travels-photos__images-row:nth-child(1){
+    left: -11px;
+  }
+  
+  .travels-photos__images-row:nth-child(2){
+    left: 0px;
+  }
+  
+  .travels-photos__images-row:nth-child(3){
+    left: 2px;
+    top: -16px;
+  }
+
   .travels-photos__images-row:nth-child(1)
     .travels-photos__images-col:nth-child(1)
     img {
