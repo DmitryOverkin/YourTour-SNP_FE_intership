@@ -1,7 +1,7 @@
 .take-your-tour__paragraph {
   position: relative;
   top: -4px;
-  margin-bottom: 96px;
+  margin-bottom: 95px;
   font-weight: $weight-400;
   font-size: $size-20;
   line-height: 140%;
@@ -12,6 +12,7 @@
 @media (max-width: 1024px) {
   .take-your-tour__paragraph {
     left: 0;
+    margin-bottom: 96px;
   }
 }
 

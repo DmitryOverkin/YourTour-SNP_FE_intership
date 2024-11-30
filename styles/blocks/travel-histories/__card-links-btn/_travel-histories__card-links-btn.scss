@@ -1,7 +1,7 @@
 .travel-histories__card-links-btn {
   position: relative;
   left: -22px;
-  top: 10px;
+  top: 11px;
 }
 
 @media (max-width: 1024px) {
@@ -22,7 +22,11 @@
 
 @media (max-width: 360px) {
   .travel-histories__card-links-btn {
-    top: 6px;
+    top: 9px;
     left: -22px;
+  }
+
+  .travel-histories__card-links-btn img {
+    top: -1px;
   }
 }

@@ -28,6 +28,7 @@
 
 @media (max-width: 360px) {
   .choose-your-tour__list {
+    justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
   }

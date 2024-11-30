@@ -28,6 +28,7 @@
 
 @media (max-width: 360px) {
   .call-to-action__content {
+    left: 0;
     flex-direction: column;
     gap: 32px;
   }

@@ -7,6 +7,10 @@
 }
 
 @media (max-width: 1024px) {
+  .call-to-action__heading {
+    margin-bottom: 21px;
+    line-height: 126%;
+  }
 }
 
 @media (min-width: 550px) and (max-width: 768px) {

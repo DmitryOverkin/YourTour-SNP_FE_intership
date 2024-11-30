@@ -27,32 +27,32 @@
   .travels-photos__images-col:nth-child(1)
   img {
   position: relative;
-  left: 1px;
-  top: 2px;
+  left: 2px;
+  top: 4px;
 }
 
 .travels-photos__images-row:nth-child(1)
   .travels-photos__images-col:nth-child(2)
   img {
   position: relative;
-  left: 11px;
-  top: 2px;
+  left: 12px;
+  top: 3px;
 }
 
 .travels-photos__images-row:nth-child(1)
   .travels-photos__images-col:nth-child(3)
   img {
   position: relative;
-  left: 20px;
-  top: 2px;
+  left: 21px;
+  top: 3px;
 }
 
 .travels-photos__images-row:nth-child(1)
   .travels-photos__images-col:nth-child(4)
   img {
   position: relative;
-  left: 31px;
-  top: 2px;
+  left: 30px;
+  top: 4px;
 }
 
 /*========== row2 ==========*/
@@ -62,7 +62,7 @@
   img {
   position: relative;
   left: -11px;
-  top: 2px;
+  top: 4px;
 }
 
 .travels-photos__images-row:nth-child(2)
@@ -70,7 +70,7 @@
   img {
   position: relative;
   left: -4px;
-  top: 2px;
+  top: 4px;
 }
 
 .travels-photos__images-row:nth-child(2)
@@ -78,7 +78,7 @@
   img {
   position: relative;
   left: 4px;
-  top: 2px;
+  top: 4px;
 }
 
 .travels-photos__images-row:nth-child(2)
@@ -86,7 +86,7 @@
   img {
   position: relative;
   left: 11px;
-  top: 2px;
+  top: 4px;
 }
 
 .travels-photos__images-row:nth-child(2)
@@ -94,7 +94,7 @@
   img {
   position: relative;
   left: 20px;
-  top: 2px;
+  top: 4px;
 }
 
 /*========== row3 ==========*/
@@ -132,15 +132,15 @@
 }
 
 @media (max-width: 1024px) {
-  .travels-photos__images-row:nth-child(1){
+  .travels-photos__images-row:nth-child(1) {
     left: -11px;
   }
-  
-  .travels-photos__images-row:nth-child(2){
+
+  .travels-photos__images-row:nth-child(2) {
     left: 0px;
   }
-  
-  .travels-photos__images-row:nth-child(3){
+
+  .travels-photos__images-row:nth-child(3) {
     left: 2px;
     top: -16px;
   }
@@ -171,7 +171,7 @@
     img {
     width: 104%;
     left: -1px;
-    top: -1px;
+    top: -2px;
   }
 
   .travels-photos__images-row:nth-child(2)
@@ -179,7 +179,7 @@
     img {
     width: 104%;
     left: -4px;
-    top: -1px;
+    top: -2px;
   }
 
   .travels-photos__images-row:nth-child(2)
@@ -187,7 +187,7 @@
     img {
     width: 103%;
     left: -5px;
-    top: 0;
+    top: -2px;
   }
 
   .travels-photos__images-row:nth-child(3)
@@ -203,7 +203,7 @@
     img {
     width: 103%;
     left: -8px;
-    top: 0;
+    top: -2px;
   }
 
   .travels-photos__images-row:nth-child(1)
@@ -225,7 +225,7 @@
     .travels-photos__images-col:nth-child(1)
     img {
     width: 102%;
-    top: -1px;
+    top: -2px;
     left: -2px;
   }
 
@@ -234,14 +234,14 @@
     img {
     width: 102%;
     left: -6px;
-    top: -1px;
+    top: -2px;
   }
 
   .travels-photos__images-row:nth-child(3)
     .travels-photos__images-col:nth-child(3)
     img {
     width: 102%;
-    top: -1px;
+    top: -2px;
     left: -8px;
   }
 }
@@ -413,7 +413,7 @@
     .travels-photos__images-col:nth-child(1)
     img {
     top: 0;
-    left: -1px;
+    left: 0;
     width: 100%;
   }
 
@@ -421,16 +421,18 @@
     .travels-photos__images-col:nth-child(4)
     img {
     position: relative;
-    left: 0;
+    top: 1px;
+    left: 1px;
     width: 98%;
   }
 
   .travels-photos__images-row:nth-child(2)
     .travels-photos__images-col:nth-child(5)
     img {
-    left: 0;
-    width: 98%;
     position: relative;
+    left: 1px;
+    top: 1px;
+    width: 98%;
   }
 
   .travels-photos__images-row:nth-child(2)
@@ -450,6 +452,7 @@
   .travels-photos__images-row:nth-child(3)
     .travels-photos__images-col:nth-child(1)
     img {
+    top: 1px;
     left: -1px;
     width: 99%;
   }
@@ -457,6 +460,7 @@
   .travels-photos__images-row:nth-child(3)
     .travels-photos__images-col:nth-child(2)
     img {
+    top: 0;
     left: -1px;
     width: 99%;
   }
