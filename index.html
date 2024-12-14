@@ -349,37 +349,31 @@
                 <label class="take-your-tour__form-radio-label" for="radio"
                   >Вам есть 18 лет?</label
                 >
-                <div class="take-your-tour__form-radio-wrapper">
-                  <input
-                    name="age"
-                    value="yes"
-                    class="take-your-tour__form-radio"
-                    type="radio"
-                    id="radio-yes"
-                  />
-                  <span class="take-your-tour__form-radio-style"></span>
-                  <label
-                    for="radio-yes"
-                    class="take-your-tour__form-radio-option"
-                    >Да</label
-                  >
 
-                  <input
-                    name="age"
-                    value="no"
-                    class="take-your-tour__form-radio"
-                    type="radio"
-                    id="radio-no"
-                  />
-                  <span class="take-your-tour__form-radio-style"></span>
-                  <label
-                    for="radio-no"
-                    class="take-your-tour__form-radio-option"
-                    >Нет</label
-                  >
+                <div class="take-your-tour__form-radio-wrapper-wrapper">
+                  <div class="take-your-tour__form-radio-wrapper">
+                    <input id="radio-1" type="radio" name="radio" value="yes" />
+                    <label for="radio-1">Да</label>
+                  </div>
+
+                  <div class="take-your-tour__form-radio-wrapper">
+                    <input id="radio-2" type="radio" name="radio" value="no" />
+                    <label for="radio-2">Нет</label>
+                  </div>
                 </div>
               </div>
+
               <div class="take-your-tour__form-checkbox-wrapper">
+                <input id="checkbox" type="checkbox" name="checkbox" value="agree">
+                <label class="take-your-tour__form-checkbox-label" for="checkbox">
+                  Нажимая кнопку, я принимаю условия
+                  <a class="take-your-tour__form-checkbox-link" href="#!"
+                    >Лицензионного договора</a
+                  >
+                </label>
+              </div>
+
+              <!-- <div class="take-your-tour__form-checkbox-wrapper">
                 <input
                   name="agree"
                   value="yes"
@@ -391,10 +385,10 @@
                 <label class="take-your-tour__form-checkbox-label" for="agree">
                   Нажимая кнопку, я принимаю условия
                   <a class="take-your-tour__form-checkbox-link" href="#!"
-                    >Лицензионного договора</a
+                    >Лицензионного соглашения</a
                   >
                 </label>
-              </div>
+              </div> -->
 
               <div class="take-your-tour__form-btns">
                 <button
