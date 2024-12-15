@@ -1,18 +1,18 @@
 @import "./__logo/logo.scss";
-@import "./__header/intro__header";
-@import "./_scroll/intro_scroll";
-@import "./__header-content/intro__header-content";
-@import "./__nav/intro__nav";
-@import "./__nav-list/intro__nav-list";
-@import "./__nav-link/intro__nav-link";
-@import "./__contact/intro__contact";
-@import "./__contact-link/intro__contact-link";
-@import "./__content/intro__content";
-@import "./__heading/intro__heading";
-@import "./__description/intro__description";
-@import "./__btn/intro__btn";
+@import "./__inner/header___inner";
+@import "./_scroll/header_scroll";
+@import "./__content/header__content";
+@import "./__nav/header__nav";
+@import "./__nav-list/header__nav-list";
+@import "./__nav-link/header__nav-link";
+@import "./__contact/header__contact";
+@import "./__contact-link/header__contact-link";
+@import "./__text/header__text";
+@import "./__heading/header__heading";
+@import "./__description/header__description";
+@import "./__btn/header__btn";
 
-.intro {
+.header {
   width: 100%;
   height: 831px;
   background-image: linear-gradient(
@@ -32,19 +32,19 @@
 }
 
 @media (min-width: 550px) and (max-width: 768px) {
-  .intro {
+  .header {
     height: 630px;
   }
 }
 
 @media (min-width: 361px) and (max-width: 550px) {
-  .intro {
+  .header {
     height: 700px;
   }
 }
 
 @media (max-width: 360px) {
-  .intro {
+  .header{
     height: 488px;
   }
 }

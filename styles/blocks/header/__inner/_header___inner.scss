@@ -1,4 +1,4 @@
-.intro__header {
+.header__inner{
   position: absolute;
   width: 100%;
   height: 88px;
@@ -11,7 +11,7 @@
 }
 
 @media (max-width: 1024px) {
-  .intro__header {
+  .header__inner {
     padding: 24px 0;
   }
 }
@@ -22,7 +22,7 @@
 }
 
 @media (max-width: 360px) {
-  .intro__header {
+  .header__inner {
     padding: 29px 0;
   }
 }

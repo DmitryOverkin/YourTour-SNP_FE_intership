@@ -16,15 +16,15 @@ menuItemLinks.forEach((item) => {
 
 // Изменнение header при скролле
 
-const header = document.querySelector(".intro__header");
+const header = document.querySelector(".header__inner");
 const logo = document.querySelector(".logo__img");
 
 window.addEventListener("scroll", function () {
   if (this.scrollY > 450) {
-    header.classList.add("intro_scroll");
+    header.classList.add("header_scroll");
     logo.classList.add("logo__img_black");
   } else {
-    header.classList.remove("intro_scroll");
+    header.classList.remove("header_scroll");
     logo.classList.remove("logo__img_black");
   }
 });

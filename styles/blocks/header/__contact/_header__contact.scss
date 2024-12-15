@@ -1,5 +1,5 @@
 @media (max-width: 1024px) {
-  .intro__contact {
+  .header__contact {
     position: relative;
     top: -2px;
     left: 0;
@@ -7,13 +7,13 @@
 }
 
 @media (min-width: 769px) and (max-width: 1023px) {
-  .intro__contact {
+  .header__contact {
     font-size: $size-16;
   }
 }
 
 @media (min-width: 361px) and (max-width: 550px) {
-  .intro__contact {
+  .header__contact {
     font-size: $size-17;
   }
 }
@@ -22,7 +22,7 @@
 }
 
 @media (max-width: 360px) {
-  .intro__contact {
+  .header__contact {
     position: relative;
     top: 0;
   }

@@ -1,4 +1,4 @@
-.intro__btn {
+.header__btn {
   width: 118px;
   height: 34px;
   border: none;
@@ -22,7 +22,7 @@
 }
 
 @media (max-width: 1024px) {
-  .intro__btn {
+  .header__btn {
     border-radius: 9px;
     padding: 4px 20px;
     height: 33px;
@@ -36,7 +36,7 @@
 }
 
 @media (max-width: 360px) {
-  .intro__btn {
+  .header__btn {
     position: relative;
     width: 115px;
     height: 33px;

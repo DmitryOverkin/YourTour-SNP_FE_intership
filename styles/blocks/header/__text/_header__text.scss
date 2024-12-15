@@ -1,4 +1,4 @@
-.intro__content {
+.header__text {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,12 +9,12 @@
 }
 
 @media (max-width: 1024px) {
-  .intro__content {
+  .header__text {
     gap: 51px;
   }
 }
 @media (min-width: 550px) and (max-width: 768px) {
-  .intro__content {
+  .header__text {
     max-width: 450px;
   }
 }
@@ -23,7 +23,7 @@
 }
 
 @media (max-width: 360px) {
-  .intro__content {
+  .header__text {
     padding-top: 139px;
     gap: 0;
   }
