@@ -1,0 +1,1 @@
+.logo{padding-top:8px}.logo__img{transition:filter .3s ease}.logo__img.logo__img_black{filter:brightness(0) invert(0)}@media (max-width:1024px){.logo{padding-top:4px}}@media (max-width:360px){.logo{position:relative;width:132px;height:22px}.logo__img{position:absolute;top:0;left:0;width:132px;height:22px;-o-object-fit:cover;object-fit:cover}}

@@ -1,0 +1,1 @@
+.reviews__cards{display:flex;justify-content:space-between;gap:30px}@media (max-width:1024px){.reviews__cards{flex-wrap:nowrap;margin:0 auto;gap:18px}}@media (min-width:361px) and (max-width:550px){.reviews__cards{flex-wrap:wrap}}@media (max-width:360px){.reviews__cards{flex-direction:column;gap:18px}}
