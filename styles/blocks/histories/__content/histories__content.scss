@@ -1,0 +1,11 @@
+@media (max-width: 1024px) {
+}
+
+@media (min-width: 361px) and (max-width: 550px) {
+  .histories__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

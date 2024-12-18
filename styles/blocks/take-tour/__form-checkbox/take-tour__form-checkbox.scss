@@ -1,0 +1,69 @@
+.take-tour__form-checkbox {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.take-tour__form-checkbox:checked
+  + .take-tour__form-checkbox-style::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  background-image: url("../../images/take_tour/chek-desk.svg");
+  background-repeat: no-repeat;
+  transform: translate(-30%, -25%);
+}
+
+@media (max-width: 1024px) {
+  .take-tour__form-checkbox {
+    margin-left: 6px;
+    margin-right: 13px;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 768px) {
+  .take-tour__form-checkbox:checked
+    + .take-tour__form-checkbox-style::before {
+    width: 14px;
+    height: 14px;
+    transform: translate(-34%, -28%);
+    background-image: url("../../images/take_tour/chek-desk.svg");
+  }
+}
+
+@media (min-width: 361px) and (max-width: 550px) {
+  .take-tour__form-checkbox:checked
+    + .take-tour__form-checkbox-style::before {
+    width: 14px;
+    height: 14px;
+    transform: translate(-34%, -28%);
+    background-image: url("../../images/take_tour/chek-mobile.svg");
+  }
+
+  .take-tour__form-checkbox {
+    transform: scale(1.6);
+    margin-left: 2px;
+    margin-right: 16px;
+  }
+}
+
+@media (max-width: 360px) {
+  .take-tour__form-checkbox:checked
+    + .take-tour__form-checkbox-style::before {
+    width: 14px;
+    height: 14px;
+    transform: translate(-34%, -28%);
+    background-image: url("../../images/take_tour/chek-mobile.svg");
+  }
+
+  .take-tour__form-checkbox {
+    margin-left: 2px;
+    margin-right: 16px;
+    transform: scale(1.6);
+  }
+}

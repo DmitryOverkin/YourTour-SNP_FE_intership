@@ -1,16 +1,16 @@
 // Добавление активной ссылки
 
-const menuItemLinks = document.querySelectorAll(".choose-your-tour__link");
+const menuItemLinks = document.querySelectorAll(".choose-tour__link");
 
 menuItemLinks.forEach((item) => {
   item.addEventListener("click", function (event) {
     event.preventDefault();
 
     menuItemLinks.forEach((link) =>
-      link.classList.remove("choose-your-tour__link_active")
+      link.classList.remove("choose-tour__link_active")
     );
 
-    item.classList.add("choose-your-tour__link_active");
+    item.classList.add("choose-tour__link_active");
   });
 });
 
@@ -31,12 +31,11 @@ window.addEventListener("scroll", function () {
 
 // Изменение цвета шрифта при выборе места путешествия
 
-const selectElement = document.querySelector(".take-your-tour__form-select");
-const form = document.querySelector(".take-your-tour__form");
+const selectElement = document.querySelector(".take-tour__form-select");
+const form = document.querySelector(".take-tour__form");
 
 selectElement.addEventListener("change", (event) => {
   const selectedValue = event.target.value;
-  console.log(selectedValue);
   if (selectedValue) {
     selectElement.classList.add("selected");
   } else {
