@@ -1,4 +1,4 @@
-@import '../../../base/variables';
+@import "../../../base/variables";
 
 .take-tour__form-btn_reset {
   width: 235px;
@@ -24,6 +24,9 @@
 }
 
 @media (max-width: 1024px) {
+  .take-tour__form-btn_reset {
+    padding: 15px 52px;
+  }
 }
 
 @media (min-width: 550px) and (max-width: 768px) {
