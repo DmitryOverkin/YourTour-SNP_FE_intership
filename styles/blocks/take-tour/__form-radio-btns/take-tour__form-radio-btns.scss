@@ -1,8 +1,8 @@
 .take-tour__form-radio-btns {
-  grid-column-start: 1;
-  grid-column-end: 3;
   position: relative;
   top: -3px;
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 
 @media (max-width: 1024px) {

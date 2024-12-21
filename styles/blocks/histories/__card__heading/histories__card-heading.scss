@@ -1,12 +1,12 @@
-@import '../../../base/variables';
+@import "../../../base/variables";
 
 .histories__card-heading {
+  position: relative;
+  left: -2px;
+  margin-bottom: 36px;
   font-weight: $weight-500;
   font-size: $size-35;
   line-height: 122%;
-  margin-bottom: 36px;
-  position: relative;
-  left: -2px;
 }
 
 @media (max-width: 1024px) {

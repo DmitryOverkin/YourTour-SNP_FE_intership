@@ -3,15 +3,29 @@
 .histories__card-social-link {
   position: relative;
   left: -1px;
-}
 
-.histories__card-social-link:hover {
-  text-decoration: underline;
-  text-underline-offset: 6px;
-}
+  &::after {
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    display: block;
+    width: 0;
+    height: 1px;
+    background-color: $white;
+    content: "";
+    transition: width 0.3s ease;
+  }
 
-.histories__card-social-link:active {
-  color: $orange-200;
+  &:hover::after {
+    width: 100%;
+  }
+
+  &:active {
+    color: $orange-200;
+  }
+  &:active::after {
+    background-color: $orange-200;
+  }
 }
 
 @media (max-width: 1024px) {

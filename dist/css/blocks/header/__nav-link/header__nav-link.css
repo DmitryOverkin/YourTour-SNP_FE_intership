@@ -1,1 +1,1 @@
-.header__nav-link:hover{text-decoration:underline;text-underline-offset:5px}
+.header__nav-link{position:relative;cursor:pointer;line-height:1;text-decoration:none}.header__nav-link::after{position:absolute;left:0;display:block;width:0;height:2px;background-color:#fff;content:"";transition:width .3s ease}.header__nav-link:focus:after,.header__nav-link:hover:after{width:100%}

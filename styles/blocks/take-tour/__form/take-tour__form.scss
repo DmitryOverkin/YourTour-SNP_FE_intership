@@ -1,4 +1,4 @@
-@import '../../../base/variables';
+@import "../../../base/variables";
 
 .take-tour__form {
   display: grid;
@@ -6,8 +6,8 @@
   gap: 34px 30px;
   width: 100%;
   padding: 70px;
-  background: $white;
   border-radius: 50px;
+  background: $white;
   font-weight: $weight-400;
   font-size: $size-20;
   line-height: 142%;
@@ -26,11 +26,11 @@
 
 @media (min-width: 361px) and (max-width: 550px) {
   .take-tour__form {
-    margin:  0 auto;
     display: flex;
     flex-direction: column;
     width: 318px;
     height: 1110px;
+    margin: 0 auto;
     padding: 20px 20px 40px 20px;
     gap: 33px;
     border-radius: 30px;
@@ -45,7 +45,7 @@
     width: 318px;
     height: 1110px;
     padding: 20px 20px 40px 20px;
-    border-radius: 30px;
     gap: 33px;
+    border-radius: 30px;
   }
 }

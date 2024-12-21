@@ -1,20 +1,20 @@
 @import '../../../base/variables';
 
 .choose-tour__heading {
+  margin-bottom: 37px;
   font-weight: $weight-700;
   font-size: 59px;
   line-height: 117%;
   text-align: center;
-  margin-bottom: 37px;
 }
 
 @media (max-width: 1024px) {
   .choose-tour__heading {
-    line-height: 117%;
     position: relative;
     left: 0px;
-
     margin-bottom: 37px;
+    line-height: 117%;
+
   }
 }
 

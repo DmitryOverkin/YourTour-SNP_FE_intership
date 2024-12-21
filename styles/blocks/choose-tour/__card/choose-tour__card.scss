@@ -43,8 +43,8 @@
 
 @media (max-width: 1024px) {
   .choose-tour__card {
-    width: 450px;
     position: relative;
+    width: 450px;
     left: -4px;
     top: 0px;
   }
@@ -59,8 +59,8 @@
 @media (min-width: 550px) and (max-width: 768px) {
   .choose-tour__card {
     width: 100%;
-    padding: 50px 25px 50px 25px;
     min-height: 350px;
+    padding: 50px 25px 50px 25px;
   }
 }
 
@@ -70,8 +70,8 @@
     top: 0;
     width: 318px;
     min-height: 318px;
-    border-radius: 20px;
     padding: 25px;
+    border-radius: 20px;
   }
 
   .choose-tour__card::before {

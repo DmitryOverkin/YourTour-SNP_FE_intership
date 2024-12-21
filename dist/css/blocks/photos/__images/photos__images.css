@@ -1,1 +1,1 @@
-.photos__images{width:100%;display:flex;flex-wrap:wrap;justify-content:stretch;gap:34px}@media (min-width:361px) and (max-width:550px){.photos__images{gap:18px}}@media (max-width:360px){.photos__images{gap:18px}}
+.photos__images{display:flex;flex-wrap:wrap;justify-content:stretch;width:100%;gap:34px}@media (min-width:361px) and (max-width:550px){.photos__images{gap:18px}}@media (max-width:360px){.photos__images{gap:18px}}

@@ -1,10 +1,10 @@
 .take-tour__form-btns {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  display: flex;
-  gap: 30px;
   position: relative;
   top: -9px;
+  display: flex;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  gap: 30px;
 }
 
 @media (max-width: 1024px) {
@@ -25,8 +25,8 @@
 
 @media (max-width: 360px) {
   .take-tour__form-btns {
-    gap: 11px;
     top: -4px;
     left: 0;
+    gap: 11px;
   }
 }

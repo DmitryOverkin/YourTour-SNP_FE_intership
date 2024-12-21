@@ -1,17 +1,17 @@
-@import '../../../base/variables';
+@import "../../../base/variables";
 
 .reviews__card {
+  position: relative;
+  top: -12px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 50px;
   width: 570px;
   height: 673px;
+  gap: 50px;
   padding: 43px 41px 41px 41px;
   border-radius: 50px;
   background: $beige-200;
-  position: relative;
-  top: -12px;
 }
 
 @media (max-width: 1024px) {
@@ -19,8 +19,6 @@
     height: 841px;
     width: 445px;
     padding: 40px 38px 41px 38px;
-
-   
   }
 
   .reviews__card:nth-child(2) {

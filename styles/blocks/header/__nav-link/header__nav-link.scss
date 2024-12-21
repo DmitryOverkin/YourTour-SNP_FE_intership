@@ -1,6 +1,26 @@
-.header__nav-link:hover {
-  text-decoration: underline;
-  text-underline-offset: 5px;
+@import '../../../base/variables';
+
+.header__nav-link {
+  position: relative;
+  cursor: pointer;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.header__nav-link::after {
+  position: absolute;
+  left: 0; 
+  display: block;
+  width: 0; 
+  height: 2px; 
+  background-color: $white;
+  content: "";
+  transition: width 0.3s ease; 
+}
+
+.header__nav-link:hover:after, 
+.header__nav-link:focus:after {
+  width: 100%;
 }
 
 @media (max-width: 1024px) {

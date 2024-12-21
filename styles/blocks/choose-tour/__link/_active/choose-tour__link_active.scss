@@ -1,6 +1,9 @@
 @import '../../../../base/variables';
 
 .choose-tour__link_active {
+  font-weight: $weight-700;
+  font-size: $size-23;
+  line-height: 133%;
   text-decoration: underline;
   text-underline-offset: 10px;
   color: $orange-200;

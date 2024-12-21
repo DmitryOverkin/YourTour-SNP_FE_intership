@@ -1,4 +1,4 @@
-@import '../../../base/variables';
+@import "../../../base/variables";
 
 .take-tour__form-select {
   width: 500px;
@@ -69,9 +69,9 @@
 
 @media (min-width: 550px) and (max-width: 768px) {
   .take-tour__form-select {
-    font-size: $size-16;
     background-position: calc(100% - 20px) calc(1em + 3px),
       calc(100% - 15px) calc(1em + 2px), 100% 0;
+    font-size: $size-16;
 
     &:hover {
       background-position: calc(100% - 20px) calc(1em + 3px),

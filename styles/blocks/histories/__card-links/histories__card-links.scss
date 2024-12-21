@@ -1,9 +1,9 @@
 .histories__card-links {
+  position: relative;
+  left: -4px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: relative;
-  left: -4px;
 }
 
 @media (max-width: 1024px) {

@@ -1,32 +1,50 @@
 // Добавление активной ссылки
 
-const menuItemLinks = document.querySelectorAll(".choose-tour__link");
+const menuItemLinks = document.querySelectorAll(".choose-tour__list-item a");
 
 menuItemLinks.forEach((item) => {
   item.addEventListener("click", function (event) {
     event.preventDefault();
 
-    menuItemLinks.forEach((link) =>
-      link.classList.remove("choose-tour__link_active")
-    );
+   
+    menuItemLinks.forEach((link) => {
+      link.classList.remove("choose-tour__link_active");
+      link.classList.add("choose-tour__link"); 
+    });
 
+    
     item.classList.add("choose-tour__link_active");
+    item.classList.remove("choose-tour__link"); 
   });
 });
+
 
 // Изменнение header при скролле
 
 const header = document.querySelector(".header__inner");
 const logo = document.querySelector(".logo__img");
+const headerLinkScroll = document.querySelectorAll(".header__nav-item a");
+const headerContactLink = document.querySelector(".header__contact a");
 
-window.addEventListener("scroll", function () {
-  if (this.scrollY > 450) {
-    header.classList.add("header_scroll");
-    logo.classList.add("logo__img_black");
-  } else {
-    header.classList.remove("header_scroll");
-    logo.classList.remove("logo__img_black");
-  }
+function updateHeaderState(isScrolled) {
+  header.classList.toggle("header_scroll", isScrolled);
+  logo.classList.toggle("logo__img_black", isScrolled);
+
+  headerContactLink.classList.toggle("header__contact-link", !isScrolled);
+  headerContactLink.classList.toggle(
+    "header__contact-link--scroll",
+    isScrolled
+  );
+
+  headerLinkScroll.forEach((link) => {
+    link.classList.toggle("header__nav-link", !isScrolled);
+    link.classList.toggle("header__nav-link--scroll", isScrolled);
+  });
+}
+
+window.addEventListener("scroll", () => {
+  const isScrolled = window.scrollY > 450;
+  updateHeaderState(isScrolled);
 });
 
 // Изменение цвета шрифта при выборе места путешествия

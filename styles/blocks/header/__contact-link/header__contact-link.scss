@@ -1,10 +1,26 @@
-@import '../../../base/variables';
+@import "../../../base/variables";
 
+.header__contact-link {
+  position: relative;
+  cursor: pointer;
+  line-height: 1; 
+  text-decoration: none; 
+}
 
-.header__contact-link:hover {
-  text-decoration: underline;
-  text-underline-offset: 5px;
-  transition: all 0.3s ease;
+.header__contact-link::after{
+  position: absolute;
+  left: 0;
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: $white;
+  content: "";
+  transition: width 0.3s ease;
+}
+
+.header__contact-link:hover::after, 
+.header__contact-link:focus::after {
+  width: 100%;
 }
 
 @media (max-width: 1024px) {

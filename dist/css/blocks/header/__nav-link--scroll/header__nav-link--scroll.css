@@ -1,0 +1,1 @@
+.header__nav-link--scroll{position:relative;color:#1b1f2b;cursor:pointer;line-height:1;text-decoration:none}.header__nav-link--scroll::after{position:absolute;left:0;display:block;width:0;height:2px;background-color:#1b1f2b;content:"";transition:width .3s ease}.header__nav-link--scroll:focus:after,.header__nav-link--scroll:hover:after{width:100%}

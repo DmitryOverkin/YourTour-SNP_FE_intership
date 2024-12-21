@@ -7,17 +7,16 @@
 @import "./blocks/reviews/reviews";
 @import "./blocks/photos/photos";
 @import "./blocks/histories/histories";
-@import "./blocks/call-to-action/call-to-action";
+@import "./blocks/contact/contact";
 @import "./blocks/footer/footer";
-
 
 html {
   scroll-behavior: smooth;
 }
 
 body {
+  background-color: $beige-100;
   font-family: $font-family;
   font-weight: $weight-400;
-  background-color: $beige-100;
   color: $black;
 }

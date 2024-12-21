@@ -1,1 +1,1 @@
-.histories__card-links{display:flex;align-items:center;justify-content:space-between;position:relative;left:-4px}@media (max-width:1024px){.histories__card-links{left:0;top:1px}}
+.histories__card-links{position:relative;left:-4px;display:flex;align-items:center;justify-content:space-between}@media (max-width:1024px){.histories__card-links{left:0;top:1px}}

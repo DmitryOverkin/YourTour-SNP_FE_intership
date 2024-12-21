@@ -1,20 +1,30 @@
-@import '../../../base/variables';
+@import "../../../base/variables";
 @import "./_active/choose-tour__link_active";
 
 .choose-tour__link {
+  position: relative;
   font-weight: $weight-700;
   font-size: $size-23;
   line-height: 133%;
+  text-decoration: none;
 
-  &:hover,
-  &:active {
-    text-decoration: underline;
-    text-underline-offset: 10px;
+  &::after {
+    position: absolute;
+    left: 0;
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: $black;
+    content: "";
+    transition: width 0.3s ease;
   }
 
-  &:active {
-    color: $orange-200;
+
+  &:hover:after{
+    width: 100%;
   }
+
+
 }
 
 @media (max-width: 1024px) {
@@ -34,7 +44,7 @@
   .choose-tour__link:active {
     font-size: $size-16;
     line-height: 142%;
-    text-underline-offset: 4px;
+  
   }
 }
 
@@ -44,8 +54,5 @@
     line-height: 142%;
   }
 
-  .choose-tour__link:active,
-  .choose-tour__link:hover {
-    text-underline-offset: 5px;
-  }
+
 }

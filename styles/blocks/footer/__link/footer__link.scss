@@ -8,6 +8,21 @@
   line-height: 142%;
   color: $black;
 
+  &::after{
+    position: absolute;
+    left: 0;
+    display: block;
+    width: 0;
+    height: 1px;
+    background-color: $black;
+    content: "";
+    transition: width 0.3s ease;
+  }
+
+  &:hover::after{
+    width: 100%;
+  }
+
   &:not(:last-child) {
     margin-right: 61px;
   }
@@ -16,10 +31,6 @@
     left: 1px;
   }
 
-  &:hover {
-    text-decoration: underline;
-    text-underline-offset: 5px;
-  }
 }
 
 @media (max-width: 1024px) {

@@ -1,7 +1,6 @@
-@import '../../../base/variables';
+@import "../../../base/variables";
 
-
-.call-to-action__paragraph {
+.contact__paragraph {
   font-family: $font-family;
   font-weight: $weight-400;
   font-size: $size-20;
@@ -9,34 +8,49 @@
   color: $gray-300;
 
   a {
+    position: relative;
     color: $black;
-    transition: color 0.3s ease;
 
-    &:hover {
-      text-decoration: underline;
+    &::after {
+      position: absolute;
+      left: 0;
+      bottom: 2px;
+      display: block;
+      width: 0;
+      height: 1px;
+      background-color: $black;
+      content: "";
+      transition: width 0.3s ease;
+    }
+
+    &:hover::after {
+      width: 100%;
     }
 
     &:active {
       color: $green-400;
     }
+    &:active::after {
+      background-color: $green-400;
+    }
   }
 }
 
 @media (max-width: 1024px) {
-  .call-to-action__paragraph {
+  .contact__paragraph {
     line-height: 137%;
   }
 }
 
 @media (min-width: 550px) and (max-width: 768px) {
-  .call-to-action__paragraph {
+  .contact__paragraph {
     text-align: center;
     font-size: $size-16;
   }
 }
 
 @media (min-width: 361px) and (max-width: 550px) {
-  .call-to-action__paragraph {
+  .contact__paragraph {
     width: 312px;
     font-weight: $weight-400;
     font-size: $size-16;
@@ -45,7 +59,7 @@
 }
 
 @media (max-width: 360px) {
-  .call-to-action__paragraph {
+  .contact__paragraph {
     position: relative;
     left: 4px;
     top: 1px;
