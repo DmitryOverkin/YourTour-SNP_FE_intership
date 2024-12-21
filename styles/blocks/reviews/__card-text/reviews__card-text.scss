@@ -6,12 +6,10 @@
   font-weight: $weight-700;
   font-size: $size-23;
   line-height: 122%;
-  letter-spacing: -0.001em;
 }
 
 @media (max-width: 1024px) {
   .reviews__card-text {
-    position: relative;
     left: -2px;
     max-width: 370px;
     overflow: hidden;
