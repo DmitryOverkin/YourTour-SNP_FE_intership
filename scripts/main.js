@@ -6,18 +6,15 @@ menuItemLinks.forEach((item) => {
   item.addEventListener("click", function (event) {
     event.preventDefault();
 
-   
     menuItemLinks.forEach((link) => {
       link.classList.remove("choose-tour__link_active");
-      link.classList.add("choose-tour__link"); 
+      link.classList.add("choose-tour__link");
     });
 
-    
     item.classList.add("choose-tour__link_active");
-    item.classList.remove("choose-tour__link"); 
+    item.classList.remove("choose-tour__link");
   });
 });
-
 
 // Изменнение header при скролле
 
@@ -51,6 +48,12 @@ window.addEventListener("scroll", () => {
 
 const selectElement = document.querySelector(".take-tour__form-select");
 const form = document.querySelector(".take-tour__form");
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  console.log("Форма отправлена");
+  form.reset();
+});
 
 selectElement.addEventListener("change", (event) => {
   const selectedValue = event.target.value;

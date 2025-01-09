@@ -1,7 +1,9 @@
 @import "../../../base/variables";
 
 .take-tour__form-radio input[type="radio"] {
-  display: none;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .take-tour__form-radio label {

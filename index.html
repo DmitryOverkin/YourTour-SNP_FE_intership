@@ -244,7 +244,7 @@
                 а также рамки и место обучения кадров
               </p>
             </div>
-            <form class="take-tour__form">
+            <form class="take-tour__form" action="#">
               <div>
                 <label for="name" class="take-tour__form-label">Имя</label>
                 <input
@@ -252,6 +252,7 @@
                   class="take-tour__form-input-name"
                   type="text"
                   placeholder="Введите Ваше имя"
+                  required
                 />
               </div>
               <div>
@@ -260,8 +261,8 @@
                   class="take-tour__form-label take-tour__label-direction"
                   >Направление</label
                 >
-                <select class="take-tour__form-select" name="to" id="to">
-                  <option disabled selected value="Куда хотите ехать">
+                <select class="take-tour__form-select" name="to" id="to" required>
+                  <option disabled selected value="">
                     Куда хотите ехать
                   </option>
                   <option value="Канада">Канада</option>
@@ -279,6 +280,7 @@
                   class="take-tour__form-input-name take-tour__form-input-email"
                   type="email"
                   placeholder="example@mail.com"
+                  required
                 />
               </div>
               <div>
@@ -342,6 +344,7 @@
                 <textarea
                   name="textarea"
                   class="take-tour__form-textarea-input"
+                  required
                 ></textarea>
               </div>
 
@@ -352,19 +355,19 @@
 
                 <div class="take-tour__form-radio-wrapper">
                   <div class="take-tour__form-radio">
-                    <input id="radio-1" type="radio" name="radio" value="yes" />
-                    <label for="radio-1">Да</label>
+                    <input id="radio-yes" type="radio" name="radio" value="yes" required />
+                    <label for="radio-yes">Да</label>
                   </div>
-
+              
                   <div class="take-tour__form-radio">
-                    <input id="radio-2" type="radio" name="radio" value="no" />
-                    <label for="radio-2">Нет</label>
+                    <input id="radio-no" type="radio" name="radio" value="no" />
+                    <label for="radio-no">Нет</label>
                   </div>
                 </div>
               </div>
 
               <div class="take-tour__form-checkbox-wrapper">
-                <input id="checkbox" type="checkbox" name="checkbox" value="agree">
+                <input id="checkbox" type="checkbox" name="checkbox" value="agree" required>
                 <label class="take-tour__form-checkbox-label" for="checkbox">
                   Нажимая кнопку, я принимаю условия
                   <a class="take-tour__form-checkbox-link" href="#!"
