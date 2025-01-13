@@ -37,3 +37,15 @@
       font-size: $size-16;
     }
   }
+
+  @media (hover: none){
+    .header__contact-link--scroll::after{
+      transition: none;
+      width: 0;
+    }
+
+    .header__contact-link--scroll:hover::after,
+    .header__contact-link--scroll:focus::after{
+      width: 0;
+    }
+  }

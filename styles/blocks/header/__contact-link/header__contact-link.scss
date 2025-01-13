@@ -3,11 +3,11 @@
 .header__contact-link {
   position: relative;
   cursor: pointer;
-  line-height: 1; 
-  text-decoration: none; 
+  line-height: 1;
+  text-decoration: none;
 }
 
-.header__contact-link::after{
+.header__contact-link::after {
   position: absolute;
   left: 0;
   display: block;
@@ -18,7 +18,7 @@
   transition: width 0.3s ease;
 }
 
-.header__contact-link:hover::after, 
+.header__contact-link:hover::after,
 .header__contact-link:focus::after {
   width: 100%;
 }
@@ -34,5 +34,17 @@
 @media (max-width: 360px) {
   .header__contact-link {
     font-size: $size-16;
+  }
+}
+
+@media (hover: none) {
+  .header__contact-link::after {
+    transition: none;
+    width: 0;
+  }
+
+  .header__contact-link:hover::after,
+  .header__contact-link:focus::after {
+    width: 0;
   }
 }

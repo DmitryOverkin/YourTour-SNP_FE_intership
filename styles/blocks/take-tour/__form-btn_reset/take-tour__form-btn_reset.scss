@@ -63,3 +63,14 @@
     line-height: 142%;
   }
 }
+
+@media (hover: none) {
+  .take-tour__form-btn_reset {
+    &:hover {
+      background: $green-100;
+    }
+    &:active {
+      background: $gray-200;
+    }
+  }
+}

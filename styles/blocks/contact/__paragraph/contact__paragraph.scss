@@ -69,3 +69,20 @@
     line-height: 143%;
   }
 }
+
+@media (hover: none) {
+  .contact__paragraph {
+    a {
+      &::after {
+        transition: none;
+        width: 0;
+      }
+      &:hover::after {
+        width: 0;
+      }
+      &:active {
+        color: $green-400;
+      }
+    }
+  }
+}

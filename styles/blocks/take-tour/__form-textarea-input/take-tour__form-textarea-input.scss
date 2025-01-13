@@ -1,4 +1,4 @@
-@import '../../../base/variables';
+@import "../../../base/variables";
 
 .take-tour__form-textarea-input {
   display: block;
@@ -45,5 +45,18 @@
     height: 132px;
     border-radius: 10px;
     padding: 10px;
+  }
+}
+
+@media (hover: none) {
+  .take-tour__form-textarea-input {
+    &:hover {
+      border: none;
+      background: inherit;
+    }
+    &:focus {
+      border: 1px solid $gray-300;
+      background: $beige-200;
+    }
   }
 }
