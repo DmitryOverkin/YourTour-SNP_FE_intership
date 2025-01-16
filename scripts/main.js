@@ -18,14 +18,16 @@ menuItemLinks.forEach((item) => {
 
 // Изменнение header при скролле
 
-const header = document.querySelector(".header__inner");
-const logo = document.querySelector(".logo__img");
-const headerLinkScroll = document.querySelectorAll(".header__nav-item a");
-const headerContactLink = document.querySelector(".header__contact a");
+const header = document.querySelector(".header__content");
+const logo = document.querySelector(".logo");
+const headerLinkScroll = document.querySelectorAll(".header__nav-link");
+const headerContactLink = document.querySelector(".header__contact-link");
+
 
 function updateHeaderState(isScrolled) {
   header.classList.toggle("header_scroll", isScrolled);
-  logo.classList.toggle("logo__img_black", isScrolled);
+  logo.classList.toggle("logo_black", isScrolled);
+  logo.classList.toggle("logo", !isScrolled);
 
   headerContactLink.classList.toggle("header__contact-link", !isScrolled);
   headerContactLink.classList.toggle(
