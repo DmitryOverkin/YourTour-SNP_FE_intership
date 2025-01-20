@@ -2,8 +2,9 @@
 
 .choose-tour__list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 30px;
+  margin-bottom: 100px;
 }
 
 @media (max-width: 1024px) {

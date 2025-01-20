@@ -1,53 +1,59 @@
 @import "../../../base/variables";
-@import "./_active/choose-tour__link_active";
-.choose-tour__link {
+@import "./_active/choose-tour__button_active";
+.choose-tour__button {
   position: relative;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
   font-weight: $weight-700;
   font-size: $size-23;
-  line-height: 133%;
-  text-decoration: none;
+  line-height: 122%;
+
   &::after {
     position: absolute;
     left: 0;
     display: block;
     width: 0;
+    bottom: -6px;
     height: 2px;
     background-color: $black;
     content: "";
     transition: width 0.3s ease;
   }
-  &:hover:after{
+
+  &:hover::after {
     width: 100%;
   }
 }
+
 @media (max-width: 1024px) {
-  .choose-tour__link {
+  .choose-tour__button  {
     letter-spacing: 0.002em;
   }
 }
 @media (min-width: 361px) and (max-width: 550px) {
-  .choose-tour__link {
+  .choose-tour__button  {
     font-size: $size-16;
     line-height: 142%;
   }
-  .choose-tour__link:active {
+  .choose-tour__button :active {
     font-size: $size-16;
     line-height: 142%;
   
   }
 }
 @media (max-width: 360px) {
-  .choose-tour__link {
+  .choose-tour__button  {
     font-size: $size-16;
     line-height: 142%;
   }
 }
 @media (hover: none){
-  .choose-tour__link::after{
+  .choose-tour__button ::after{
     transition: none;
     width: 0;
   }
-  .choose-tour__link:hover::after{
+  .choose-tour__button :hover::after{
     width: 0;
   }
 }

@@ -1,18 +1,16 @@
 // Добавление активной ссылки
 
-const menuItemLinks = document.querySelectorAll(".choose-tour__list-item a");
+const menuItemLinks = document.querySelectorAll(".choose-tour__button");
 
 menuItemLinks.forEach((item) => {
   item.addEventListener("click", function (event) {
     event.preventDefault();
 
     menuItemLinks.forEach((link) => {
-      link.classList.remove("choose-tour__link_active");
-      link.classList.add("choose-tour__link");
+      link.classList.remove("choose-tour__button_active");
     });
 
-    item.classList.add("choose-tour__link_active");
-    item.classList.remove("choose-tour__link");
+    item.classList.add("choose-tour__button_active");
   });
 });
 
