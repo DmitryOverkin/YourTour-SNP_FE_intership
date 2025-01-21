@@ -1,6 +1,29 @@
 .footer__link-img {
-  position: absolute;
-  left: -36px;
+  position: relative;
+  left: 5px;
+  top: 6px;
+}
+
+.footer__link-img-inst{
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  background-image: url("../../images/icons/inst.png");
+  content: "";
+}
+.footer__link-img-facebook{
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  background-image: url("../../images/icons/fb.png");
+  content: "";
+}
+.footer__link-img-vk{
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  background-image: url("../../images/icons/vk.png");
+  content: "";
 }
 
 @media (max-width: 1024px) {
