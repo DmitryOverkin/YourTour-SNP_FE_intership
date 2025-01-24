@@ -1,18 +1,4 @@
 @import '../../base/variables';
-@import "./__logo/logo.scss";
-@import "./_scroll/header_scroll";
-@import "./__content/header__content";
-@import "./__nav/header__nav";
-@import "./__nav-list/header__nav-list";
-@import "./__nav-link/header__nav-link";
-@import "./__contact-link/header__contact-link";
-@import "./__text/header__text";
-@import "./__heading/header__heading";
-@import "./__description/header__description";
-@import "./__btn/header__btn";
-@import "./__nav-link--scroll/header__nav-link--scroll.scss";
-@import "./__contact-link--scroll/header__contact-link--scroll.scss";
-
 .header {
   width: 100%;
   height: 831px;
