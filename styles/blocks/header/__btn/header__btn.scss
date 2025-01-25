@@ -1,24 +1,26 @@
 @import "../../../base/variables";
+
 .header__btn {
   width: 118px;
   height: 34px;
   border: none;
   background: $white;
-  color: $black;
   border-radius: 10px;
-  font-weight: $weight-400;
   font-size: $size-17;
   line-height: 142%;
   letter-spacing: -0.01em;
   cursor: pointer;
   transition: background-color 0.3s ease, background 0.3s ease;
+
   &:hover {
     background-color: $orange-200;
   }
+
   &:active {
     background: $orange-100;
   }
 }
+
 @media (max-width: 1024px) {
   .header__btn {
     padding: 4px 20px;
@@ -26,9 +28,9 @@
     border-radius: 9px;
   }
 }
+
 @media (max-width: 360px) {
   .header__btn {
-    position: relative;
     width: 115px;
     height: 33px;
     border-radius: 11px;
@@ -36,11 +38,13 @@
     letter-spacing: -0.04em;
   }
 }
+
 @media (hover: none) {
   .header__btn {
     &:hover {
       background-color: $white;
     }
+
     &:active {
       background-color: $orange-100;
     }

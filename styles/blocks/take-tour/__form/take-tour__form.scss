@@ -3,22 +3,13 @@
 .take-tour__form {
   border-radius: 50px;
   background: $white;
-  font-weight: $weight-400;
   font-size: $size-20;
   line-height: 142%;
 }
 
-
-
-@media (min-width: 361px) and (max-width: 550px) {
+@media (max-width: 550px) {
   .take-tour__form {
     border-radius: 30px;
     font-size: $size-16;
-  }
-}
-
-@media (max-width: 360px) {
-  .take-tour__form {
-    border-radius: 30px;
   }
 }

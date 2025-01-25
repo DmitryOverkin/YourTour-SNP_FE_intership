@@ -1,4 +1,4 @@
-@import '../../../base/variables';
+@import "../../../base/variables";
 .take-tour__form-input-name {
   position: relative;
   top: 1px;
@@ -8,16 +8,19 @@
   border: 1px solid $beige-200;
   border-radius: 10px;
   background: $beige-100;
+  line-height: 142%;
+  &:hover,
+  &:focus {
+    background: $beige-200;
+  }
   &:hover {
     border: 1px solid $beige-200;
-    background: $beige-200;
   }
 
   &:focus {
     border: 1px solid $gray-300;
-    background: $beige-200;
   }
-  &::placeholder{
+  &::placeholder {
     color: $gray-300;
   }
 }
@@ -26,36 +29,29 @@
     padding: 34px 19px;
   }
 }
-@media (min-width: 550px) and (max-width: 768px) {
+@media (max-width: 768px) {
   .take-tour__form-input-name {
     font-size: $size-16;
   }
 }
-@media (min-width: 361px) and (max-width: 550px) {
+@media (max-width: 550px) {
   .take-tour__form-input-name {
     padding: 8px;
     width: 278px;
     height: 43px;
     border-radius: 10px;
-    font-size: $size-16;
-    line-height: 142%;
   }
 }
 @media (max-width: 360px) {
   .take-tour__form-input-name {
-    width: 278px;
-    height: 43px;
     padding: 9px;
-    border-radius: 10px;
-    font-size: $size-16;
-    line-height: 142%;
   }
 }
 @media (hover: none) {
   .take-tour__form-input-name {
     &:hover {
-      border: 1px solid $beige-200; 
-      background: $beige-100; 
+      border: 1px solid $beige-200;
+      background: $beige-100;
     }
     &:focus {
       border: 1px solid $gray-300;

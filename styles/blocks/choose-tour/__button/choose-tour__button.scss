@@ -1,5 +1,6 @@
 @import "../../../base/variables";
 @import "./_active/choose-tour__button_active";
+
 .choose-tour__button {
   position: relative;
   background-color: transparent;
@@ -27,33 +28,21 @@
 }
 
 @media (max-width: 1024px) {
-  .choose-tour__button  {
+  .choose-tour__button {
     letter-spacing: 0.002em;
   }
 }
-@media (min-width: 361px) and (max-width: 550px) {
-  .choose-tour__button  {
-    font-size: $size-16;
-    line-height: 142%;
-  }
-  .choose-tour__button :active {
-    font-size: $size-16;
-    line-height: 142%;
-  
-  }
-}
-@media (max-width: 360px) {
-  .choose-tour__button  {
+
+@media (max-width: 550px) {
+  .choose-tour__button {
     font-size: $size-16;
     line-height: 142%;
   }
 }
-@media (hover: none){
-  .choose-tour__button ::after{
+
+@media (hover: none) {
+  .choose-tour__button::after {
     transition: none;
-    width: 0;
-  }
-  .choose-tour__button :hover::after{
     width: 0;
   }
 }

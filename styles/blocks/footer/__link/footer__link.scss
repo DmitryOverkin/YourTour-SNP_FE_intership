@@ -1,12 +1,9 @@
-@import '../../../base/variables';
+@import "../../../base/variables";
 .footer__link {
   position: relative;
-  font-family: $font-family;
-  font-weight: $weight-400;
   font-size: $size-20;
   line-height: 142%;
-  color: $black;
-  &::after{
+  &::after {
     position: absolute;
     left: 0;
     display: block;
@@ -16,7 +13,7 @@
     content: "";
     transition: width 0.3s ease;
   }
-  &:hover::after{
+  &:hover::after {
     width: 100%;
   }
   &:not(:last-child) {
@@ -32,15 +29,13 @@
     margin-right: 60px;
   }
   .footer__link:nth-child(3) {
-    position: relative;
     left: 3px;
   }
   .footer__link:nth-child(2) {
-    position: relative;
     left: 1px;
   }
 }
-@media (min-width: 550px) and (max-width: 768px) {
+@media (max-width: 768px) {
   .footer__link {
     font-size: $size-17;
   }
@@ -48,7 +43,7 @@
     margin-right: 30px;
   }
 }
-@media (min-width: 361px) and (max-width: 550px) {
+@media (max-width: 550px) {
   .footer__link:not(:last-child) {
     margin-right: 41px;
   }
@@ -58,29 +53,16 @@
     left: 12px;
     top: 1px;
     font-size: $size-16;
-    line-height: 142%;
   }
 }
-@media (max-width: 360px) {
-  .footer__link:not(:last-child) {
-    margin-right: 41px;
-  }
-  .footer__link,
-  .footer__link:nth-child(2),
-  .footer__link:last-child {
-    left: 12px;
-    top: 1px;
-    font-size: $size-16;
-    line-height: 142%;
-  }
-}
-@media (hover: none){
-  .footer__link{
-    &::after{
+
+@media (hover: none) {
+  .footer__link {
+    &::after {
       transition: none;
       width: 0;
     }
-    &:hover::after{
+    &:hover::after {
       width: 0;
     }
   }

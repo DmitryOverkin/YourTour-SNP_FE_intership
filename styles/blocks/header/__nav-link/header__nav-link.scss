@@ -1,31 +1,36 @@
 @import "../../../base/variables";
+
 .header__nav-link {
   position: relative;
   cursor: pointer;
-  line-height: 1;
+  line-height: 142%;
   text-decoration: none;
-}
-.header__nav-link::after {
-  position: absolute;
-  left: 0;
-  display: block;
-  width: 0;
-  height: 2px;
-  background-color: $white;
-  content: "";
-  transition: width 0.3s ease;
-}
-.header__nav-link:hover:after,
-.header__nav-link:focus:after {
-  width: 100%;
-}
-@media (hover: none) {
-  .header__nav-link::after {
-    transition: none;
+
+  &::after {
+    position: absolute;
+    left: 0;
+    display: block;
     width: 0;
+    height: 2px;
+    background-color: $white;
+    content: "";
+    transition: width 0.3s ease;
   }
-  .header__nav-link:hover::after,
-  .header__nav-link:focus::after {
-    width: 0;
+
+  &:hover::after,
+  &:focus::after {
+    width: 100%;
+  }
+
+  @media (hover: none) {
+    &::after {
+      transition: none;
+      width: 0;
+    }
+
+    &:hover::after,
+    &:focus::after {
+      width: 0;
+    }
   }
 }

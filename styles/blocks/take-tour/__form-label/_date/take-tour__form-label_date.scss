@@ -1,4 +1,4 @@
-@media (min-width: 361px) and (max-width: 550px) {
+@media (max-width: 550px) {
   .take-tour__form-label_date {
     position: relative;
     top: -5px;
@@ -7,12 +7,11 @@
 
 @media (max-width: 360px) {
   .take-tour__form-label_date {
-    position: relative;
     top: -4px;
   }
 
   .take-tour__form-label_date-two {
-    top: -6px; 
+    top: -6px;
     margin-bottom: 6px;
   }
 }

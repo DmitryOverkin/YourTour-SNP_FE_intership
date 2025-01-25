@@ -1,1 +1,1 @@
-.footer__content{display:flex;justify-content:space-between}@media (min-width:361px) and (max-width:550px){.footer__content{flex-direction:column;align-items:center}}@media (max-width:360px){.footer__content{flex-direction:column;align-items:center}}
+.footer__content{display:flex;justify-content:space-between;align-items:center}@media (max-width:550px){.footer__content{flex-direction:column;align-items:center}}

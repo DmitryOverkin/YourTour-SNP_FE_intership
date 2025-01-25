@@ -1,19 +1,19 @@
-.logo {
+.logo_black {
   display: block;
   width: 182px;
   height: 31px;
-  background-image: url("../../../../images/header/logo.svg");
   padding-top: 8px;
+  background-image: url("../../../../images/header/logo_black.svg");
 }
 
 @media (max-width: 1024px) {
-  .logo {
+  .logo_black {
     padding-top: 4px;
   }
 }
 
 @media (max-width: 360px) {
-  .logo {
+  .logo_black {
     position: relative;
     width: 132px;
     height: 22px;

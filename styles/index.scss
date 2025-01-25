@@ -11,6 +11,7 @@
 @import "./blocks/header/__description/header__description";
 @import "./blocks/header/__heading/header__heading";
 @import "./blocks/header/__logo/logo";
+@import "./blocks/header/__logo/_black/logo_black";
 @import "./blocks/header/__nav-link--scroll/header__nav-link--scroll";
 @import "./blocks/header/__nav-link/header__nav-link";
 @import "./blocks/header/__nav-list/header__nav-list";
@@ -41,6 +42,8 @@
 @import "./blocks/take-tour/__form-checkbox-link/take-tour__form-checkbox-link";
 @import "./blocks/take-tour/__form-checkbox-wrapper/take-tour__form-checkbox-wrapper";
 @import "./blocks/take-tour/__form-date/take-tour__form-date";
+@import "./blocks/take-tour/__form-label/_date/take-tour__form-label_date";
+@import "./blocks/take-tour/__form-label/_phone/take-tour__form-label_phone";
 @import "./blocks/take-tour/__form-fieldset/take-tour__form-fieldset";
 @import "./blocks/take-tour/__form-input-email/take-tour__form-input-email";
 @import "./blocks/take-tour/__form-input-name/take-tour__form-input-name";

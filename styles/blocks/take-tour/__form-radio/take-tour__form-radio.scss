@@ -31,25 +31,7 @@
   background: url("../../images/take_tour/radio-cheked.svg") 0 0 no-repeat;
 }
 
-@media (min-width: 361px) and (max-width: 550px) {
-  .take-tour__form-radio label {
-    padding-left: 30px;
-    font-size: $size-16;
-  }
-
-  .take-tour__form-radio label:before {
-    bottom: -6px;
-    background: url("../../images/take_tour/radio-uncheked-mobile.svg") 0 0
-      no-repeat;
-  }
-
-  .take-tour__form-radio input[type="radio"]:checked + label:before {
-    background: url("../../images/take_tour/radio-cheked-mobile.svg") 0 0
-      no-repeat;
-  }
-}
-
-@media (max-width: 360px) {
+@media (max-width: 550px) {
   .take-tour__form-radio label {
     padding-left: 30px;
     font-size: $size-16;

@@ -1,10 +1,10 @@
-@import '../../../base/variables';
+@import "../../../base/variables";
 
 .histories__card {
   position: relative;
   width: 100%;
   height: 567px;
-  padding: 60px 63px 64px 63px;
+  padding: 60px 63px 64px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -13,6 +13,7 @@
   cursor: pointer;
   transition: transform 0.3s ease;
   color: $white;
+
   &::before {
     content: "";
     position: absolute;
@@ -29,32 +30,41 @@
     );
     transition: opacity 0.3s ease;
   }
+
   &:not(:last-child) {
     margin-bottom: 50px;
   }
+
+  &:hover {
+    .histories__card-img {
+      transform: scale(1.2);
+    }
+
+    .choose-tour__card-button {
+      background-color: $green-400;
+    }
+  }
+
+  &:active .histories__card-links-btn {
+    background-color: $orange-200;
+  }
 }
-.histories__card:hover .histories__card-img {
-  transform: scale(1.2);
-}
-.histories__card:hover .choose-tour__card-button {
-  background-color: $green-400;
-}
-.histories__card:active .histories__card-links-btn {
-  background-color: $orange-200;
-}
+
 @media (max-width: 1024px) {
   .histories__card {
     left: -4px;
     width: 101%;
-    padding: 60px 60px;
+    padding: 60px;
   }
 }
-@media (min-width: 550px) and (max-width: 768px) {
+
+@media (max-width: 768px) {
   .histories__card {
     height: 450px;
   }
 }
-@media (min-width: 361px) and (max-width: 550px) {
+
+@media (max-width: 550px) {
   .histories__card {
     left: 0;
     width: 318px;
@@ -62,40 +72,28 @@
     margin: 0 auto;
     padding: 31px;
     border-radius: 20px;
-    overflow: hidden;
-  }
-  .histories__card::before {
-    border-radius: 20px;
-  }
-  .histories__card:not(:last-child) {
-    margin-bottom: 0;
-  }
-}
-@media (max-width: 360px) {
-  .histories__card {
-    left: 0;
-    width: 318px;
-    height: 455px;
-    padding: 31px 30px;
-    border-radius: 20px;
-    overflow: hidden;
-  }
-  .histories__card::before {
-    border-radius: 20px;
-  }
-  .histories__card:not(:last-child) {
-    margin-bottom: 0;
+    &::before {
+      border-radius: 20px;
+    }
+    &:not(:last-child) {
+      margin-bottom: 0;
+    }
   }
 }
-@media (hover: none) {
-  .histories__card:hover .histories__card-img {
-    transform: none; 
-  }
 
-  .histories__card:hover .choose-tour__card-button {
-    background-color: initial; 
-  }
-  .histories__card:active .histories__card-links-btn {
-    background-color: initial; 
+@media (hover: none) {
+  .histories__card {
+    &:hover {
+      .histories__card-img {
+        transform: none;
+      }
+
+      .choose-tour__card-button {
+        background-color: initial;
+      }
+    }
+    &:active .histories__card-links-btn {
+      background-color: initial;
+    }
   }
 }
