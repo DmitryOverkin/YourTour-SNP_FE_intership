@@ -1,1 +1,1 @@
-.header_scroll{position:fixed;z-index:100;width:100vw;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);background:rgba(243,239,232,.6);transition:.3s ease}
+.header_scroll{position:fixed;z-index:100;width:100vw;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);background:rgba(243,239,232,.6);transition:background .3s ease}
