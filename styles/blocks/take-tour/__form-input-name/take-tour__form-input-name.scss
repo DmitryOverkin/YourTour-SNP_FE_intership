@@ -9,6 +9,8 @@
   border-radius: 10px;
   background: $beige-100;
   line-height: 142%;
+  transition: background-color 0.3s ease, border 0.3s ease;
+
   &:hover,
   &:focus {
     background: $beige-200;

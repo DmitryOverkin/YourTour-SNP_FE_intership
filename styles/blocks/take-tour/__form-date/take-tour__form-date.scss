@@ -1,5 +1,49 @@
+@import "../../../base/variables";
+
 .take-tour__form-date {
   position: relative;
   top: 0;
   padding: 18px;
+  font-size: $size-20;
+  line-height: 142%;
+  letter-spacing: -0.026em;
+  color: $gray-300;
+  text-transform: uppercase;
+  &:focus,
+  &:valid {
+    color: $black;
+  }
+}
+
+.take-tour__form-date::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+@media (max-width: 1024px) {
+  .take-tour__form-date {
+    padding: 29px 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .take-tour__form-date {
+    font-size: $size-16;
+  }
+}
+
+@media (max-width: 550px) {
+  .take-tour__form-date {
+    top: -3px;
+    left: -2px;
+    height: 43px;
+    padding: 0px 18px;
+  }
+}
+
+@media (max-width: 360px) {
+  .take-tour__form-date {
+    left: -1px;
+    width: 282px;
+    padding: 9px;
+  }
 }

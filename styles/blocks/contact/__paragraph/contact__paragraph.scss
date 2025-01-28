@@ -4,34 +4,6 @@
   font-size: $size-20;
   line-height: 142%;
   color: $gray-300;
-
-  a {
-    position: relative;
-    color: $black;
-
-    &::after {
-      position: absolute;
-      left: 0;
-      bottom: 2px;
-      display: block;
-      width: 0;
-      height: 1px;
-      background-color: $black;
-      content: "";
-      transition: width 0.3s ease;
-    }
-
-    &:hover::after {
-      width: 100%;
-    }
-
-    &:active {
-      color: $green-400;
-    }
-    &:active::after {
-      background-color: $green-400;
-    }
-  }
 }
 
 @media (max-width: 768px) {
@@ -52,22 +24,5 @@
     position: relative;
     left: 4px;
     top: 1px;
-  }
-}
-
-@media (hover: none) {
-  .contact__paragraph {
-    a {
-      &::after {
-        transition: none;
-        width: 0;
-      }
-      &:hover::after {
-        width: 0;
-      }
-      &:active {
-        color: $green-400;
-      }
-    }
   }
 }

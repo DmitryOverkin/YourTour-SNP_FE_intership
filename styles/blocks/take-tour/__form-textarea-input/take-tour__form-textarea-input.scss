@@ -9,6 +9,7 @@
   border-radius: 10px;
   background: $beige-100;
   resize: none;
+  transition: background-color 0.3s ease, border 0.3s ease;
 
   &:hover {
     border: 1px solid $beige-200;

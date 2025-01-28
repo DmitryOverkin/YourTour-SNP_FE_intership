@@ -1,0 +1,58 @@
+@import "../../../base/variables";
+
+.take-tour__form-checkbox-label {
+  position: relative;
+  top: -6px;
+  padding-left: 45px;
+  line-height: 18px;
+  user-select: none;
+
+  font-weight: $weight-400;
+  font-size: $size-17;
+  letter-spacing: -0.011em;
+  color: $gray-300;
+  cursor: pointer;
+  &::before {
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    display: inline-block;
+
+    width: 26px;
+    height: 26px;
+    content: "";
+    background: url("../../images/take_tour/chekbox-uncheked.svg") 0 0 no-repeat;
+  }
+}
+
+@media (max-width: 1024px) {
+  .take-tour__form-checkbox-label {
+    top: -5px;
+    padding-left: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .take-tour__form-checkbox-label {
+    display: inline-block;
+    &::before {
+      top: 0;
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .take-tour__form-checkbox-label {
+    top: -16px;
+    display: block;
+    padding-left: 30px;
+    font-size: $size-16;
+    line-height: 144%;
+    letter-spacing: 0;
+    &::before {
+      top: 0;
+      background: url("../../images/take_tour/chekbox-uncheked-mobile.svg") 0 0
+        no-repeat;
+    }
+  }
+}

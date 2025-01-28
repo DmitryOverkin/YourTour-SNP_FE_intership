@@ -1,0 +1,18 @@
+.take-tour__form-checkbox-input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.take-tour__form-checkbox-input:checked
+  + .take-tour__form-checkbox-label:before {
+  background: url("../../images/take_tour/chekbox-cheked.svg") 0 0 no-repeat;
+}
+
+@media (max-width: 550px) {
+  .take-tour__form-checkbox-input:checked
+    + .take-tour__form-checkbox-label:before {
+    background: url("../../images/take_tour/chekbox-cheked-mobile.svg") 0 0
+      no-repeat;
+  }
+}

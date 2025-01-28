@@ -2,7 +2,7 @@
 @import "./base/normilize";
 // container
 @import "./blocks/container/container";
-// header 
+// header
 @import "./blocks/header/header";
 @import "./blocks/header/__btn/header__btn";
 @import "./blocks/header/__contact-link--scroll/header__contact-link--scroll";
@@ -41,18 +41,21 @@
 @import "./blocks/take-tour/__form-btns/take-tour__form-btns";
 @import "./blocks/take-tour/__form-checkbox-link/take-tour__form-checkbox-link";
 @import "./blocks/take-tour/__form-checkbox-wrapper/take-tour__form-checkbox-wrapper";
-@import "./blocks/take-tour/__form-date/take-tour__form-date";
+@import "./blocks/take-tour/__form-checkbox-input/take-tour__form-checkbox-input";
+@import "./blocks/take-tour/__form-checkbox-label/take-tour__form-checkbox-label";
 @import "./blocks/take-tour/__form-label/_date/take-tour__form-label_date";
 @import "./blocks/take-tour/__form-label/_phone/take-tour__form-label_phone";
 @import "./blocks/take-tour/__form-fieldset/take-tour__form-fieldset";
 @import "./blocks/take-tour/__form-input-email/take-tour__form-input-email";
 @import "./blocks/take-tour/__form-input-name/take-tour__form-input-name";
+@import "./blocks/take-tour/__form-date/take-tour__form-date";
 @import "./blocks/take-tour/__form-input-phone/take-tour__form-input-phone";
 @import "./blocks/take-tour/__form-label/take-tour__form-label";
 @import "./blocks/take-tour/__form-radio-btns/take-tour__form-radio-btns";
-@import "./blocks/take-tour/__form-radio-label/take-tour__form-radio-label";
+@import "./blocks/take-tour/__form-radio-btns-label/take-tour__form-radio-btns-label";
 @import "./blocks/take-tour/__form-radio-wraper/take-tour__form-radio-wrapper";
-@import "./blocks/take-tour/__form-radio/take-tour__form-radio";
+@import "./blocks/take-tour/__form-radio-input/take-tour__form-radio-input";
+@import "./blocks/take-tour/__form-radio-label/take-tour__form-radio-label";
 @import "./blocks/take-tour/__form-select/take-tour__form-select";
 @import "./blocks/take-tour/__form-textarea-input/take-tour__form-textarea-input";
 @import "./blocks/take-tour/__form-textarea-label/take-tour__form-textarea-label";
@@ -74,7 +77,7 @@
 @import "./blocks/reviews/__cards/reviews__cards";
 @import "./blocks/reviews/__heading/reviews__heading";
 @import "./blocks/reviews/__paragraph/reviews__paragraph";
-// photos section 
+// photos section
 @import "./blocks/photos/photos";
 @import "./blocks/photos/__heading/photos__heading";
 @import "./blocks/photos/__images-col/photos__images-col";
@@ -104,8 +107,9 @@
 @import "./blocks/contact/__heading/contact__heading";
 @import "./blocks/contact/__img/contact__img";
 @import "./blocks/contact/__paragraph/contact__paragraph";
+@import "./blocks/contact/__paragraph-link/contact__paragraph-link";
 @import "./blocks/contact/__text/contact__text";
-// footer 
+// footer
 @import "./blocks/footer/footer";
 @import "./blocks/footer/__content/footer__content";
 @import "./blocks/footer/__link-img/footer__link-img";
