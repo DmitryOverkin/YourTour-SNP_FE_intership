@@ -1,21 +1,14 @@
-@import '../../../base/variables';
+@import "../../../base/variables";
 
 .choose-tour__heading {
   margin-bottom: 37px;
   font-weight: $weight-700;
   font-size: 59px;
-  line-height: 117%;
+  line-height: 122%;
   text-align: center;
 }
 
-@media (max-width: 1024px) {
-  .choose-tour__heading {
-    position: relative;
-    margin-bottom: 37px;
-  }
-}
-
-@media (min-width: 361px) and (max-width: 768px) {
+@media (max-width: 768px) {
   .choose-tour__heading {
     font-size: $size-35;
   }
@@ -25,7 +18,6 @@
   .choose-tour__heading {
     margin-bottom: 32px;
     font-size: $size-34;
-    line-height: 112%;
     letter-spacing: 0.02em;
   }
 }
