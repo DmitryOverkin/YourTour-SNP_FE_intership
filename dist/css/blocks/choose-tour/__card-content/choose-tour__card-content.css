@@ -1,1 +1,1 @@
-.choose-tour__card-content{display:flex;flex-direction:column;justify-content:space-between;width:270px;height:100%;color:#fff}@media (max-width:550px){.choose-tour__card-content{width:268px}}
+.choose-tour__card-content{position:relative;z-index:5;display:flex;flex-direction:column;justify-content:space-between;width:270px;height:100%;color:#fff}@media (max-width:550px){.choose-tour__card-content{width:268px}}

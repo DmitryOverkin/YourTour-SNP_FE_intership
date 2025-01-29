@@ -1,1 +1,1 @@
-.choose-tour__list{display:flex;justify-content:center;gap:30px;margin-bottom:100px}@media (min-width:361px) and (max-width:768px){.choose-tour__list{flex-wrap:wrap;gap:20px;font-size:20px}}@media (max-width:360px){.choose-tour__list{flex-wrap:wrap;gap:10px}}
+.choose-tour__list{display:flex;justify-content:center;gap:30px;margin-bottom:100px}@media (max-width:768px){.choose-tour__list{flex-wrap:wrap;gap:20px;font-size:20px}}@media (max-width:360px){.choose-tour__list{gap:10px}}
