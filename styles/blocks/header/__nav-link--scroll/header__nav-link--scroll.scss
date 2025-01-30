@@ -1,4 +1,4 @@
-@import '../../../base/variables';
+@import "../../../base/variables";
 
 .header__nav-link--scroll {
   position: relative;
@@ -6,20 +6,20 @@
   cursor: pointer;
   line-height: 142%;
   text-decoration: none;
-}
 
-.header__nav-link--scroll::after {
-  position: absolute;
-  left: 0; 
-  display: block;
-  width: 0; 
-  height: 2px; 
-  background-color: $black;
-  content: "";
-  transition: width 0.3s ease; 
-}
+  &::after {
+    position: absolute;
+    left: 0;
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: $black;
+    content: "";
+    transition: width 0.3s ease;
+  }
 
-.header__nav-link--scroll:hover:after, 
-.header__nav-link--scroll:focus:after {
-  width: 100%;
+  &:hover:after,
+  &:focus:after {
+    width: 100%;
+  }
 }
