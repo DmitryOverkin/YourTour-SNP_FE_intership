@@ -1,15 +1,9 @@
-@import '../../../base/variables';
+@import "../../../base/variables";
 
 .choose-tour__card-heading {
   font-weight: $weight-500;
   font-size: $size-35;
-  line-height: 124%;
-}
-
-@media (max-width: 1024px) {
-  .choose-tour__card-heading {
-    line-height: 123%;
-  }
+  line-height: 122%;
 }
 
 @media (max-width: 768px) {
@@ -22,7 +16,6 @@
   .choose-tour__card-heading {
     margin-bottom: 14px;
     font-size: $size-23;
-    line-height: 120%;
     letter-spacing: 0.04em;
   }
 }
