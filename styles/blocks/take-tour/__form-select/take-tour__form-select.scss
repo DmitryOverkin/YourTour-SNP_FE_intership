@@ -9,24 +9,22 @@
   background-color: $beige-100;
   color: $gray-300;
   font-size: $size-20;
-  background-image: url(../../images/icons/dropdown.png);
+  background-image: url("../../images/icons/dropdown.png");
   background-repeat: no-repeat;
   background-position: calc(100% - 19px) calc(1em + 1px),
     calc(100% - 15px) calc(1em + 2px), 100% 0;
   box-sizing: border-box;
   appearance: none;
-  transition: background-color .3s ease, border .3s ease;
-
+  transition: background-color 0.3s ease, border 0.3s ease;
   &:hover {
     cursor: pointer;
     border: 1px solid $beige-200;
     background-color: $beige-200;
-    background-image: url(../../images/icons/dropdown.png);
+    background-image: url("../../images/icons/dropdown.png");
     background-repeat: no-repeat;
     background-position: calc(100% - 19px) calc(1em + 1px),
       calc(100% - 15px) calc(1em + 2px), 100% 0;
   }
-
   &:focus {
     border: 1px solid $gray-300;
   }
@@ -43,7 +41,6 @@
     padding: 21px 19px;
     background-position: calc(100% - 20px) calc(1em + 2px),
       calc(100% - 15px) calc(1em + 2px), 100% 0;
-
     &:hover {
       background-position: calc(100% - 20px) calc(1em + 2px),
         calc(100% - 15px) calc(1em + 2px), 100% 0;
@@ -55,7 +52,6 @@
   .take-tour__form-select {
     background-position: calc(100% - 20px) calc(1em + 0px),
       calc(100% - 15px) calc(1em + 2px), 100% 0;
-
     &:hover {
       background-position: calc(100% - 20px) calc(1em + 0px),
         calc(100% - 15px) calc(1em + 2px), 100% 0;
@@ -68,7 +64,6 @@
     background-position: calc(100% - 20px) calc(1em + 3px),
       calc(100% - 15px) calc(1em + 2px), 100% 0;
     font-size: $size-16;
-
     &:hover {
       background-position: calc(100% - 20px) calc(1em + 3px),
         calc(100% - 15px) calc(1em + 2px), 100% 0;
@@ -89,7 +84,6 @@
     background-position: calc(103% - 19px) calc(1em + -8px),
       calc(100% - 15px) calc(1em + 2px), 100% 0;
     font-size: $size-16;
-
     &:hover {
       background-position: calc(103% - 19px) calc(1em + -8px),
         calc(100% - 15px) calc(1em + 2px), 100% 0;
@@ -105,7 +99,6 @@
     padding: 9px;
     background-position: calc(103% - 17px) calc(1em + -8px),
       calc(100% - 15px) calc(1em + 2px), 100% 0;
-
     &:hover {
       background-position: calc(103% - 17px) calc(1em + -8px),
         calc(100% - 15px) calc(1em + 2px), 100% 0;

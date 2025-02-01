@@ -5,7 +5,6 @@
   cursor: pointer;
   line-height: 142%;
   text-decoration: none;
-
   &::after {
     position: absolute;
     left: 0;
@@ -16,18 +15,18 @@
     content: "";
     transition: width 0.3s ease;
   }
-
   &:hover::after,
   &:focus::after {
     width: 100%;
   }
+}
 
-  @media (hover: none) {
+@media (hover: none) {
+  .header__nav-link {
     &::after {
       transition: none;
       width: 0;
     }
-
     &:hover::after,
     &:focus::after {
       width: 0;

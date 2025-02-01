@@ -12,7 +12,6 @@
   border-radius: 50px;
   cursor: pointer;
   color: $white;
-
   &::before {
     content: "";
     position: absolute;
@@ -29,11 +28,9 @@
     );
     transition: opacity 0.3s ease;
   }
-
   &:not(:last-child) {
     margin-bottom: 50px;
   }
-
   &:hover {
     .histories__card-img {
       transform: scale(1.2);
@@ -43,7 +40,6 @@
       background-color: $green-400;
     }
   }
-
   &:active .histories__card-links-btn {
     background-color: $orange-200;
   }

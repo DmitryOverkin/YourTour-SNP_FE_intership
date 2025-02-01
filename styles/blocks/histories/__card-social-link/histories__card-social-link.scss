@@ -3,7 +3,6 @@
 .histories__card-social-link {
   position: relative;
   left: -1px;
-
   &::after {
     position: absolute;
     left: 0;
@@ -15,11 +14,9 @@
     content: "";
     transition: width 0.3s ease;
   }
-
   &:hover::after {
     width: 100%;
   }
-
   &:active {
     color: $orange-200;
   }

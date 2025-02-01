@@ -11,11 +11,9 @@
   font-size: $size-20;
   cursor: pointer;
   transition: background 0.3s ease;
-
   &:hover {
     background: $gray-100;
   }
-
   &:active {
     background: $gray-200;
   }

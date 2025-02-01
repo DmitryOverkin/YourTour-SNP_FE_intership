@@ -3,9 +3,8 @@
 .header__contact-link {
   position: relative;
   cursor: pointer;
-  line-height: 1;
+  line-height: 142%;
   text-decoration: none;
-
   &::after {
     position: absolute;
     left: 0;
@@ -17,7 +16,6 @@
     content: "";
     transition: width 0.3s ease;
   }
-
   &:hover::after,
   &:focus::after {
     width: 100%;

@@ -19,10 +19,9 @@
     min-height: 841px;
     width: 445px;
     padding: 40px 38px 41px;
-  }
-
-  .reviews__card:nth-child(2) {
-    padding: 40px 30px 41px 41px;
+    &:nth-child(2) {
+      padding: 40px 30px 41px 41px;
+    }
   }
 }
 
@@ -37,9 +36,9 @@
     width: fit-content;
     height: fit-content;
     min-height: 408px;
-  }
-  .reviews__card:nth-child(2) {
-    min-height: 592px;
+    &:nth-child(2) {
+      min-height: 592px;
+    }
   }
 }
 
@@ -49,9 +48,8 @@
     padding: 21px 23px 22px;
     gap: 0;
     border-radius: 20px;
-  }
-
-  .reviews__card:nth-child(2) {
-    padding: 21px 24px 22px 23px;
+    &:nth-child(2) {
+      padding: 21px 24px 22px 23px;
+    }
   }
 }

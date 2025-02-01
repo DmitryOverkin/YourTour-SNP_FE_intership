@@ -9,7 +9,6 @@
   font-weight: $weight-700;
   font-size: $size-23;
   line-height: 122%;
-
   &::after {
     position: absolute;
     left: 0;
@@ -21,7 +20,6 @@
     content: "";
     transition: width 0.3s ease;
   }
-
   &:hover::after {
     width: 100%;
   }
