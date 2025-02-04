@@ -8,6 +8,7 @@
   letter-spacing: -0.026em;
   color: $gray-300;
   text-transform: uppercase;
+  cursor: pointer;
   &:focus,
   &:valid {
     color: $black;
