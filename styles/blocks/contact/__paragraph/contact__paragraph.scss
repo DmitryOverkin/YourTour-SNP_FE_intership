@@ -3,6 +3,7 @@
 .contact__paragraph {
   @include regular-text;
   text-align: left;
+  color: $gray-300;
 }
 
 @media (max-width: 768px) {
