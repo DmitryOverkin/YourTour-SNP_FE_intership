@@ -1,4 +1,5 @@
 @import "../../../base/variables";
+
 .choose-tour__card {
   position: relative;
   width: 100%;
@@ -8,7 +9,6 @@
   border-radius: 50px;
   overflow: hidden;
   cursor: pointer;
-
   &::before {
     position: absolute;
     top: 0;

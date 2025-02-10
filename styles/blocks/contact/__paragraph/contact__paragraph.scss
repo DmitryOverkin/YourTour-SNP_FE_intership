@@ -1,9 +1,8 @@
 @import "../../../base/variables";
 
 .contact__paragraph {
-  font-size: $size-20;
-  line-height: 142%;
-  color: $gray-300;
+  @include regular-text;
+  text-align: left;
 }
 
 @media (max-width: 768px) {

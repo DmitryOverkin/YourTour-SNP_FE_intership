@@ -1,10 +1,12 @@
 @import "../../../base/variables";
 
 .header__nav-link {
+  @include regular-text;
+
   position: relative;
   cursor: pointer;
-  line-height: 142%;
   text-decoration: none;
+  color: $white;
   &::after {
     position: absolute;
     left: 0;

@@ -1,11 +1,7 @@
 @import "../../../base/variables";
 
 .header__heading {
-  text-align: center;
-  font-size: 96px;
-  line-height: 109%;
-  letter-spacing: 0.02em;
-  color: $white;
+  @include h1;
 }
 
 @media (max-width: 768px) {

@@ -1,1 +1,1 @@
-.reviews__heading{position:relative;top:-6px;line-height:124%}@media (max-width:1024px){.reviews__heading{top:-7px;margin-bottom:37px}}@media (max-width:360px){.reviews__heading{margin-bottom:26px}}
+.reviews__heading{position:relative;top:-6px;margin-bottom:37px;font-weight:700;font-size:59px;line-height:124%;text-align:center;color:#1b1f2b}@media (max-width:1024px){.reviews__heading{top:-7px;margin-bottom:37px}}@media (max-width:360px){.reviews__heading{margin-bottom:26px}}

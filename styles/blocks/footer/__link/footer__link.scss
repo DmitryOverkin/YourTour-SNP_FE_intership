@@ -1,8 +1,8 @@
 @import "../../../base/variables";
 .footer__link {
   position: relative;
-  font-size: $size-20;
-  line-height: 142%;
+  @include regular-text;
+  color: $black;
   &::after {
     position: absolute;
     left: 0;

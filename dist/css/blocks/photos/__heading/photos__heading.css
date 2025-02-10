@@ -1,1 +1,1 @@
-.photos__heading{position:relative;top:2px}@media (max-width:1024px){.photos__heading{top:0}}@media (max-width:550px){.photos__heading{top:-9px;margin-bottom:20px}}@media (max-width:360px){.photos__heading{margin-bottom:16px}}
+.photos__heading{position:relative;top:2px;margin-bottom:37px;font-weight:700;font-size:59px;line-height:124%;text-align:center;color:#1b1f2b}@media (max-width:1024px){.photos__heading{top:0}}@media (max-width:550px){.photos__heading{top:-9px;margin-bottom:20px}}@media (max-width:360px){.photos__heading{margin-bottom:16px}}

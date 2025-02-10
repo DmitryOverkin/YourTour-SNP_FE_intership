@@ -1,10 +1,11 @@
 @import "../../../base/variables";
 
 .header__nav-link--scroll {
+  @include regular-text;
+
   position: relative;
   color: $black;
   cursor: pointer;
-  line-height: 142%;
   text-decoration: none;
   &::after {
     position: absolute;

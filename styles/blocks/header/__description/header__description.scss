@@ -1,10 +1,10 @@
 @import "../../../base/variables";
 
 .header__description {
+  @include regular-text;
+
   max-width: 562px;
   text-align: center;
-  font-size: $size-20;
-  line-height: 142%;
   color: $white;
 }
 

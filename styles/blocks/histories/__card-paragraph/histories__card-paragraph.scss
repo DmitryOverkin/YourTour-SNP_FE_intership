@@ -1,14 +1,15 @@
 @import "../../../base/variables";
 
 .histories__card-paragraph {
+  @include regular-text;
+
   position: relative;
   left: -2px;
   top: 3px;
   z-index: 5;
   max-width: 560px;
   padding-bottom: 40px;
-  font-size: $size-20;
-  line-height: 142%;
+  color: $white;
 }
 @media (max-width: 1024px) {
   .histories__card-paragraph {

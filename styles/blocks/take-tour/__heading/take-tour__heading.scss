@@ -1,3 +1,9 @@
+@import "../../../base/variables";
+
+.take-tour__heading {
+  @include h2;
+}
+
 @media (max-width: 1024px) {
   .take-tour__heading {
     margin-bottom: 36px;

@@ -1,6 +1,13 @@
+@import "../../../base/variables";
+
 .photos__paragraph {
+  @include regular-text;
+
   position: relative;
   top: -4px;
+  margin-bottom: 95px;
+  text-align: center;
+  color: $gray-300;
 }
 
 @media (max-width: 1024px) {

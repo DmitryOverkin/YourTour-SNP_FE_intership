@@ -1,9 +1,11 @@
 @import "../../../base/variables";
 
 .header__contact-link {
+  @include regular-text;
+
   position: relative;
   cursor: pointer;
-  line-height: 142%;
+  color: $white;
   text-decoration: none;
   &::after {
     position: absolute;

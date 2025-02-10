@@ -1,10 +1,13 @@
 @import "../../../base/variables";
 
 .histories__paragraph {
+  @include regular-text;
+
   position: relative;
   top: -25px;
   margin-bottom: 96px;
-  line-height: 142%;
+  text-align: center;
+  color: $gray-300;
 }
 
 @media (max-width: 1024px) {
@@ -17,8 +20,6 @@
 @media (max-width: 550px) {
   .histories__paragraph {
     margin-bottom: 61px;
-    text-align: center;
-    line-height: 142%;
   }
 }
 

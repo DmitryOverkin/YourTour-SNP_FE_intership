@@ -1,30 +1,57 @@
-  /* Colors */
-  $black: #1b1f2b;
-  $white: #ffffff;
-  $orange-200: #efa501;
-  $orange-100: #f8e6be;
-  $green-400: #286562;
-  $green-300: #3b7e7b;
-  $green-200: #627f7e;
-  $green-100: #e0f0e5;
-  $gray-300: #a6a6a6;
-  $gray-200: #d9dfdb;
-  $gray-100: #f1f3f2;
-  $beige-200: #f4f0e9;
-  $beige-100: #f9f7f4;
+/* Colors */
+$black: #1b1f2b;
+$white: #ffffff;
+$orange-200: #efa501;
+$orange-100: #f8e6be;
+$green-400: #286562;
+$green-300: #3b7e7b;
+$green-200: #627f7e;
+$green-100: #e0f0e5;
+$gray-300: #a6a6a6;
+$gray-200: #d9dfdb;
+$gray-100: #f1f3f2;
+$beige-200: #f4f0e9;
+$beige-100: #f9f7f4;
 
-  /* Fonts */
-  $font-family: "Roboto", sans-serif;
-  $weight-400: 400;
-  $weight-500: 500;
-  $weight-700: 700;
+/* Fonts */
+$font-family: "Roboto", sans-serif;
+$weight-400: 400;
+$weight-500: 500;
+$weight-700: 700;
 
-  /* Sizes */
-  $size-16: 16px;
-  $size-17: 17px;
-  $size-20: 20px;
-  $size-23: 23px;
-  $size-34: 34px;
-  $size-35: 35px;
-  $size-40: 40px;
-  $size-59: 59px;
+/* Sizes */
+$size-16: 16px;
+$size-17: 17px;
+$size-20: 20px;
+$size-23: 23px;
+$size-34: 34px;
+$size-35: 35px;
+$size-40: 40px;
+$size-59: 59px;
+$size-96: 96px;
+
+// mixins
+
+@mixin h1 {
+  font-weight: $weight-700;
+  font-size: $size-96;
+  line-height: 109%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: $white;
+}
+
+@mixin h2 {
+  margin-bottom: 37px;
+  font-weight: $weight-700;
+  font-size: $size-59;
+  line-height: 124%;
+  text-align: center;
+  color: $black;
+}
+
+@mixin regular-text {
+  font-weight: $weight-400;
+  font-size: $size-20;
+  line-height: 142%;
+}

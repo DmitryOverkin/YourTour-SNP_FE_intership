@@ -3,8 +3,7 @@
 .take-tour__form {
   border-radius: 50px;
   background: $white;
-  font-size: $size-20;
-  line-height: 142%;
+  @include regular-text;
 }
 
 @media (max-width: 550px) {

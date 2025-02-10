@@ -1,10 +1,11 @@
 @import "../../../base/variables";
 
 .header__contact-link--scroll {
+  @include regular-text;
+
   position: relative;
   cursor: pointer;
   color: $black;
-  line-height: 142%;
   text-decoration: none;
   &::after {
     position: absolute;
