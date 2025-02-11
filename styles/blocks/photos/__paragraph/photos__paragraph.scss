@@ -2,10 +2,7 @@
 
 .photos__paragraph {
   @include regular-text;
-
-  position: relative;
-  top: -4px;
-  margin-bottom: 95px;
+  margin-bottom: 100px;
   text-align: center;
   color: $gray-300;
 }

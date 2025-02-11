@@ -1,9 +1,12 @@
 @import "../../../base/variables";
 
 .choose-tour__card-button {
+  position: relative;
+  left: -28px;
+  top: 8px;
   display: inline-flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   width: 198px;
   height: 42px;
   border-radius: 50px;

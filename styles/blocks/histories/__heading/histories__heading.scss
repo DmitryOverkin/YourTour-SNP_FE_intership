@@ -1,14 +1,12 @@
 @import "../../../base/variables";
 
 .histories__heading {
-  position: relative;
-  top: -18px;
   @include h2;
+  margin-bottom: 29px;
 }
 
 @media (max-width: 1024px) {
   .histories__heading {
-    top: -21px;
     margin-bottom: 36px;
   }
 }

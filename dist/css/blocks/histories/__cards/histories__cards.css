@@ -1,1 +1,1 @@
-.histories__cards{position:relative;top:-19px;left:-1px;display:flex;flex-direction:column}@media (max-width:550px){.histories__cards{gap:20px}}@media (max-width:360px){.histories__cards{left:0}}
+.histories__cards{display:flex;flex-direction:column}@media (max-width:550px){.histories__cards{gap:20px}}@media (max-width:360px){.histories__cards{left:0}}

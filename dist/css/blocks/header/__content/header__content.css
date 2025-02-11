@@ -1,1 +1,1 @@
-.header__content{position:absolute;width:100%;display:flex;justify-content:center;align-items:center;margin:0 auto;padding:20px 0;gap:181px;line-height:142%;font-size:20px}
+.header__content{font-weight:400;font-size:20px;line-height:142%;position:absolute;width:100%;display:flex;justify-content:center;align-items:center;margin:0 auto;padding:28px 0;gap:181px}

@@ -2,10 +2,7 @@
 
 .histories__paragraph {
   @include regular-text;
-
-  position: relative;
-  top: -25px;
-  margin-bottom: 96px;
+  margin-bottom: 100px;
   text-align: center;
   color: $gray-300;
 }

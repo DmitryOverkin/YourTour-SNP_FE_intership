@@ -1,14 +1,13 @@
 @import "../../../base/variables";
 
 .header__content {
+  @include regular-text;
   position: absolute;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 28px 0;
   gap: 181px;
-  line-height: 142%;
-  font-size: $size-20;
 }

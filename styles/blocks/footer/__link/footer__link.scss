@@ -3,6 +3,7 @@
   position: relative;
   @include regular-text;
   color: $black;
+  margin: -2px 0 0 36px;
   &::after {
     position: absolute;
     left: 0;
@@ -15,12 +16,6 @@
   }
   &:hover::after {
     width: 100%;
-  }
-  &:not(:last-child) {
-    margin-right: 61px;
-  }
-  &:last-child {
-    left: 1px;
   }
 }
 @media (max-width: 1024px) {

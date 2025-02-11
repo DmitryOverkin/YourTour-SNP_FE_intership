@@ -11,7 +11,7 @@
   font-size: $size-20;
   background-image: url("../../images/icons/dropdown.png");
   background-repeat: no-repeat;
-  background-position: calc(100% - 19px) calc(1em + 1px),
+  background-position: calc(100% - 19px) calc(1em + 0px),
     calc(100% - 15px) calc(1em + 2px), 100% 0;
   box-sizing: border-box;
   appearance: none;
@@ -22,7 +22,7 @@
     background-color: $beige-200;
     background-image: url("../../images/icons/dropdown.png");
     background-repeat: no-repeat;
-    background-position: calc(100% - 19px) calc(1em + 1px),
+    background-position: calc(100% - 19px) calc(1em + 0px),
       calc(100% - 15px) calc(1em + 2px), 100% 0;
   }
   &:focus {

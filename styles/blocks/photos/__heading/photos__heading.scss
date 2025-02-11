@@ -1,19 +1,12 @@
 @import "../../../base/variables";
 
 .photos__heading {
-  position: relative;
-  top: 2px;
   @include h2;
-}
-@media (max-width: 1024px) {
-  .photos__heading {
-    top: 0;
-  }
+  margin-bottom: 30px;
 }
 
 @media (max-width: 550px) {
   .photos__heading {
-    top: -9px;
     margin-bottom: 20px;
   }
 }

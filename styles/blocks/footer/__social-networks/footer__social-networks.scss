@@ -2,16 +2,7 @@
 
 .footer__social-networks {
   @include regular-text;
-
-  position: relative;
-  left: 1px;
   color: $gray-300;
-}
-
-@media (max-width: 1024px) {
-  .footer__social-networks {
-    left: -4px;
-  }
 }
 
 @media (max-width: 768px) {
@@ -22,14 +13,6 @@
 
 @media (max-width: 550px) {
   .footer__social-networks {
-    left: -1px;
-    top: -7px;
     font-size: $size-16;
-  }
-}
-
-@media (max-width: 360px) {
-  .footer__social-networks {
-    left: 0;
   }
 }

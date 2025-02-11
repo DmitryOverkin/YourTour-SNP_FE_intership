@@ -2,6 +2,7 @@
 
 .take-tour__heading {
   @include h2;
+  margin-bottom: 30px;
 }
 
 @media (max-width: 1024px) {
