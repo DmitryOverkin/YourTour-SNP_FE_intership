@@ -1,15 +1,13 @@
 @import "../../../base/variables";
 
 .reviews__card-author-name {
-  margin-bottom: 7px;
+  margin-bottom: 8px;
   font-weight: $weight-500;
   font-size: $size-35;
   line-height: 122%;
 }
 @media (max-width: 1024px) {
   .reviews__card-author-name {
-    position: relative;
-    left: -1px;
   }
 }
 

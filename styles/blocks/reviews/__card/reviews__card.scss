@@ -1,15 +1,13 @@
 @import "../../../base/variables";
 
 .reviews__card {
-  position: relative;
-  top: -12px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 570px;
   min-height: 673px;
-  gap: 50px;
-  padding: 43px 41px 41px;
+
+  padding: 40px;
   border-radius: 50px;
   background: $beige-200;
 }
@@ -17,11 +15,7 @@
 @media (max-width: 1024px) {
   .reviews__card {
     min-height: 841px;
-    width: 445px;
-    padding: 40px 38px 41px;
-    &:nth-child(2) {
-      padding: 40px 30px 41px 41px;
-    }
+    width: 450px;
   }
 }
 

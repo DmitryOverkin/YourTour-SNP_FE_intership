@@ -6,6 +6,7 @@
 
 @media (max-width: 1024px) {
   .choose-tour__cards {
+    justify-content: center;
     grid-template-columns: 1fr 1fr;
     gap: 13px 18px;
   }

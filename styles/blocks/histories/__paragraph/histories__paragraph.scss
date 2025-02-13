@@ -7,13 +7,6 @@
   color: $gray-300;
 }
 
-@media (max-width: 1024px) {
-  .histories__paragraph {
-    top: -24px;
-    margin-bottom: 95px;
-  }
-}
-
 @media (max-width: 550px) {
   .histories__paragraph {
     margin-bottom: 61px;

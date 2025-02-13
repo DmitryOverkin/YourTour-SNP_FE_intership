@@ -8,6 +8,13 @@
   line-height: 142%;
 }
 
+@media (max-width: 1024px) {
+  .histories__card-social {
+    position: relative;
+    bottom: 2px;
+  }
+}
+
 @media (max-width: 768px) {
   .histories__card-social {
     gap: 20px;

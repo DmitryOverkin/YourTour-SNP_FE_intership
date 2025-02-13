@@ -7,7 +7,7 @@
 @media (max-width: 1024px) {
   .reviews__cards {
     flex-wrap: nowrap;
-    margin: 0 auto;
+    justify-content: center;
     gap: 18px;
   }
 }

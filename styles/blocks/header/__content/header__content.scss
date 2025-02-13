@@ -4,10 +4,11 @@
   @include regular-text;
   position: absolute;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
   padding: 28px 0;
-  gap: 181px;
+}
+
+@media (max-width: 1024px){
+  .header__content{
+    padding: 29px 0;
+  }
 }

@@ -1,17 +1,12 @@
 @import "../../../base/variables";
 
 .reviews__card-text {
-  position: relative;
-  left: -1px;
   font-weight: $weight-700;
   font-size: $size-23;
   line-height: 122%;
 }
 
 @media (max-width: 1024px) {
-  .reviews__card-text {
-    left: -2px;
-  }
 }
 
 @media (max-width: 768px) {
@@ -28,7 +23,6 @@
 
 @media (max-width: 360px) {
   .reviews__card-text {
-    top: -4px;
     line-height: 142%;
     font-size: $size-16;
   }

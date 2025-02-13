@@ -12,12 +12,6 @@
   }
 }
 
-@media (max-width: 1024px) {
-  .photos__images-col .photo__images-col-img {
-    height: 301px;
-  }
-}
-
 @media (max-width: 768px) {
   .photos__images-col:nth-child(3) .photo__images-col-img {
     display: none;

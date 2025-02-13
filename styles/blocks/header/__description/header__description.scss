@@ -10,10 +10,8 @@
 
 @media (max-width: 1024px) {
   .header__description {
-    position: relative;
-    left: 0;
-    top: 1px;
     max-width: 442px;
+    margin-bottom: -1px;
   }
 }
 

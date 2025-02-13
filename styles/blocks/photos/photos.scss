@@ -2,7 +2,13 @@
   max-width: 1860px;
   width: 100%;
   margin: 0 auto;
-  padding-top: 125px;
+  padding-top: 135px;
+}
+
+@media (max-width: 1024px) {
+  .photos {
+    max-width: 984px;
+  }
 }
 
 @media (max-width: 768px) {

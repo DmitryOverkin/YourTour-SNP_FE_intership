@@ -1,1 +1,1 @@
-.choose-tour__cards{display:grid;grid-template-columns:1fr 1fr 1fr;gap:25px 30px}@media (max-width:1024px){.choose-tour__cards{grid-template-columns:1fr 1fr;gap:13px 18px}}@media (max-width:550px){.choose-tour__cards{grid-template-columns:1fr;gap:13px}}
+.choose-tour__cards{display:grid;grid-template-columns:1fr 1fr 1fr;gap:25px 30px}@media (max-width:1024px){.choose-tour__cards{justify-content:center;grid-template-columns:1fr 1fr;gap:13px 18px}}@media (max-width:550px){.choose-tour__cards{grid-template-columns:1fr;gap:13px}}

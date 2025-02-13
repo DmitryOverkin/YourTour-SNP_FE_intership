@@ -7,13 +7,6 @@
   color: $gray-300;
 }
 
-@media (max-width: 1024px) {
-  .photos__paragraph {
-    top: -5px;
-    margin-bottom: 98px;
-  }
-}
-
 @media (max-width: 550px) {
   .photos__paragraph {
     margin-bottom: 42px;

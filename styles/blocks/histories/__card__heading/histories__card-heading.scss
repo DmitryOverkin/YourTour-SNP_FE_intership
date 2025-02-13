@@ -11,9 +11,7 @@
 
 @media (max-width: 1024px) {
   .histories__card-heading {
-    top: -1px;
-    left: 1px;
-    margin-bottom: 35px;
+    margin-bottom: 37px;
   }
 }
 
@@ -34,7 +32,7 @@
 @media (max-width: 360px) {
   .histories__card-heading {
     top: 0;
-    font-size: $size-23;;
+    font-size: $size-23;
     line-height: 120%;
   }
 }

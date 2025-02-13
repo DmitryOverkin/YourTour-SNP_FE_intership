@@ -2,10 +2,10 @@
 .histories__card-item {
   position: relative;
   margin-left: 30px;
-  margin-bottom: -2px;
+  margin-bottom: -1px;
   &::before {
     position: absolute;
-    top: 16px;
+    top: 15px;
     content: "";
     width: 5px;
     height: 5px;
@@ -16,21 +16,8 @@
   }
 }
 
-@media (max-width: 1024px) {
-  .histories__card-item {
-    left: 31px;
-    top: -10px;
-  }
-
-  .histories__card-item::before {
-    top: 13px;
-    left: 1px;
-  }
-}
-
 @media (max-width: 550px) {
   .histories__card-item {
-    left: 24px;
   }
   .histories__card-item:not(:last-child) {
     margin-bottom: 0;
