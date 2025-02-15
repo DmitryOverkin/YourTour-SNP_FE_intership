@@ -27,3 +27,9 @@
     letter-spacing: 0.04em;
   }
 }
+
+@media (max-width: 360px) {
+  .contact__heading {
+    margin-bottom: 21px;
+  }
+}

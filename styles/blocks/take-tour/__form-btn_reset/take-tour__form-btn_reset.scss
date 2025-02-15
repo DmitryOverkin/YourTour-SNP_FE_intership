@@ -36,8 +36,8 @@
 
 @media (max-width: 550px) {
   .take-tour__form-btn_reset {
-    position: relative;
-    top: -12px;
+    // position: relative;
+    // top: -12px;
     width: 133px;
     height: 47px;
     padding: 0;
@@ -46,7 +46,6 @@
 
 @media (max-width: 360px) {
   .take-tour__form-btn_reset {
-    top: -14px;
     border-radius: 9px;
   }
 }

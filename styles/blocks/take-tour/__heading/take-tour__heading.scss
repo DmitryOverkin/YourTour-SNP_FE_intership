@@ -4,3 +4,15 @@
   @include h2;
   margin-bottom: 30px;
 }
+
+@media (max-width: 768px) {
+  .take-tour__heading {
+    font-size: $size-35;
+  }
+}
+
+@media (max-width: 360px) {
+  .take-tour__heading {
+    margin-bottom: 17px;
+  }
+}

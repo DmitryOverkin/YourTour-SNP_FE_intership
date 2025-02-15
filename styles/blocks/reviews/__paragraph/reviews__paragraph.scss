@@ -7,8 +7,15 @@
   color: $gray-300;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 768px) {
   .reviews__paragraph {
     margin-bottom: 50px;
   }
 }
+
+@media (max-width: 550px) {
+  .reviews__paragraph {
+    font-size: $size-16;
+  }
+}
+

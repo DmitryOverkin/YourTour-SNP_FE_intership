@@ -13,15 +13,12 @@
 
 @media (max-width: 550px) {
   .take-tour__form-label {
-    position: relative;
-    left: -1px;
     font-size: $size-16;
   }
 }
 
 @media (max-width: 360px) {
   .take-tour__form-label {
-    left: 0;
-    margin-bottom: 7px;
+    margin-bottom: 8px;
   }
 }

@@ -74,6 +74,12 @@
   }
 }
 
+@media (max-width: 550px) {
+  .histories__card {
+    padding: 30px;
+  }
+}
+
 @media (hover: none) {
   .histories__card {
     &:hover {

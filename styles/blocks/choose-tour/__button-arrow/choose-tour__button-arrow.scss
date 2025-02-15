@@ -6,3 +6,9 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+@media (max-width: 360px){
+  .choose-tour__button-arrow{
+    margin-bottom: 3px;
+  }
+}

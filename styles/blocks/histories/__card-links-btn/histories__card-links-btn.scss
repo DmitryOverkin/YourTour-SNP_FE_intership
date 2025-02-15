@@ -1,15 +1,21 @@
 .histories__card-links-btn {
-  top: 5px;
+  top: 7px;
+}
+
+@media (max-width: 1024px) {
+  .histories__card-links-btn {
+    top: 5px;
+  }
 }
 
 @media (max-width: 550px) {
   .histories__card-links-btn {
-    top: 8px;
+    top: 0;
   }
 }
 
 @media (max-width: 360px) {
   .histories__card-links-btn {
-    top: 9px;
+    top: 8px;
   }
 }

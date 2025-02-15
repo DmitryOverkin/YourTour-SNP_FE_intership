@@ -38,12 +38,10 @@
 
 @media (max-width: 360px) {
   .reviews__card {
-    width: fit-content;
-    padding: 21px 23px 22px;
-    gap: 0;
+    padding: 19px 22px;
     border-radius: 20px;
     &:nth-child(2) {
-      padding: 21px 24px 22px 23px;
+      padding: 19px 21px;
     }
   }
 }

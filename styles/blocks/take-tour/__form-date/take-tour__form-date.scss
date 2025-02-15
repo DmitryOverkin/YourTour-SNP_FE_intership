@@ -1,8 +1,6 @@
 @import "../../../base/variables";
 
 .take-tour__form-date {
-  position: relative;
-  top: 0;
   padding: 18px;
   font-size: $size-20;
   letter-spacing: -0.026em;
@@ -33,8 +31,6 @@
 
 @media (max-width: 550px) {
   .take-tour__form-date {
-    top: -3px;
-    left: -2px;
     height: 43px;
     padding: 0 18px;
   }
@@ -42,8 +38,8 @@
 
 @media (max-width: 360px) {
   .take-tour__form-date {
-    left: -1px;
     width: 282px;
     padding: 9px;
+    letter-spacing: -0.04em;
   }
 }

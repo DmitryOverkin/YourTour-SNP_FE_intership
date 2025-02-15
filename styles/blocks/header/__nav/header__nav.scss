@@ -1,10 +1,5 @@
 @import "../../../base/variables";
 
-@media (max-width: 1023px) {
-  .header__nav {
-    font-size: $size-16;
-  }
-}
 @media (max-width: 768px) {
   .header__nav {
     display: none;

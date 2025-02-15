@@ -7,15 +7,20 @@
   color: $gray-300;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 768px) {
   .histories__paragraph {
-    margin-bottom: 61px;
+    margin-bottom: 50px;
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 550px) {
   .histories__paragraph {
-    margin-bottom: 45px;
     font-size: $size-16;
   }
 }
+
+// @media (max-width: 360px) {
+//   .histories__paragraph {
+//     margin-bottom: 45px;
+//   }
+// }

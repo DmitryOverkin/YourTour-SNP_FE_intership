@@ -9,6 +9,7 @@
 
 @media (max-width: 768px) {
   .choose-tour__list {
+    margin-bottom: 50px;
     flex-wrap: wrap;
     gap: 20px;
     font-size: $size-20;
@@ -17,6 +18,7 @@
 
 @media (max-width: 360px) {
   .choose-tour__list {
-    gap: 10px;
+    margin-bottom: 48px;
+    gap: 9px 10px;
   }
 }

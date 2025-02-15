@@ -7,14 +7,20 @@
   color: $gray-300;
 }
 
+@media (max-width: 768px) {
+  .photos__paragraph {
+    margin-bottom: 50px;
+  }
+}
+
 @media (max-width: 550px) {
   .photos__paragraph {
-    margin-bottom: 42px;
+    font-size: $size-16;
   }
 }
 
 @media (max-width: 360px) {
   .photos__paragraph {
-    margin-bottom: 45px;
+    margin-bottom: 50px;
   }
 }

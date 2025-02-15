@@ -5,6 +5,12 @@
   margin-bottom: 30px;
 }
 
+@media (max-width: 768px) {
+  .photos__heading {
+    font-size: $size-35;
+  }
+}
+
 @media (max-width: 550px) {
   .photos__heading {
     margin-bottom: 20px;
@@ -13,6 +19,7 @@
 
 @media (max-width: 360px) {
   .photos__heading {
-    margin-bottom: 16px;
+    margin-bottom: 21px;
+    line-height: 38px;
   }
 }

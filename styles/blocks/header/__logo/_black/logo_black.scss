@@ -4,6 +4,9 @@
   height: 31px;
   padding-top: 8px;
   background-image: url("../../../../images/header/logo_black.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media (max-width: 1024px) {
@@ -12,7 +15,7 @@
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 550px) {
   .logo_black {
     position: relative;
     width: 132px;

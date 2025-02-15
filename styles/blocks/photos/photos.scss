@@ -17,8 +17,9 @@
   }
 }
 
-@media (max-width: 550px) {
-  .photos {
-    margin: 0 auto 75px;
+@media (max-width: 360px){
+  .photos{
+    max-width: 318px;
+    padding-top: 74px;
   }
 }

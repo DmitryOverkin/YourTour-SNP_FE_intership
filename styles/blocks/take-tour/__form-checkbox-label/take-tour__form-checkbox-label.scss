@@ -2,7 +2,7 @@
 
 .take-tour__form-checkbox-label {
   position: relative;
-  top: -6px;
+  top: -4px;
   padding-left: 45px;
   line-height: 18px;
   user-select: none;
@@ -25,7 +25,7 @@
 
 @media (max-width: 1024px) {
   .take-tour__form-checkbox-label {
-    top: -5px;
+    top: -3px;
     padding-left: 36px;
   }
 }
@@ -41,15 +41,22 @@
 
 @media (max-width: 550px) {
   .take-tour__form-checkbox-label {
-    top: -16px;
+    top: 0;
     display: block;
     padding-left: 30px;
     font-size: $size-16;
+    line-height: 23px;
     letter-spacing: 0;
     &::before {
       top: 0;
       background: url("../../images/take_tour/chekbox-uncheked-mobile.svg") 0 0
         no-repeat;
     }
+  }
+}
+
+@media (max-width: 360px) {
+  .take-tour__form-checkbox-label {
+    top: -2px;
   }
 }

@@ -7,11 +7,6 @@
   max-width: 560px;
   margin-bottom: 28px;
 }
-@media (max-width: 1024px) {
-  .histories__card-paragraph {
-  
-  }
-}
 
 @media (max-width: 768px) {
   .histories__card-paragraph {
@@ -19,13 +14,9 @@
   }
 }
 
-@media (max-width: 550px) {
-  .histories__card-paragraph {
-    padding: 0 0 35px;
-  }
-}
 @media (max-width: 360px) {
   .histories__card-paragraph {
-    padding: 0 0 32px;
+    line-height: 23px;
+    margin-bottom: 24px;
   }
 }

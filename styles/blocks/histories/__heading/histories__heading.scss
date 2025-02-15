@@ -11,16 +11,22 @@
   }
 }
 
+@media (max-width: 768px) {
+  .histories__heading {
+    font-size: $size-35;
+  }
+}
+
 @media (max-width: 550px) {
   .histories__heading {
     margin-bottom: 9px;
     line-height: 112%;
-    letter-spacing: 0.02em;
   }
 }
 
 @media (max-width: 360px) {
   .histories__heading {
-    margin-bottom: 24px;
+    margin-bottom: 21px;
+    line-height: 38px;
   }
 }

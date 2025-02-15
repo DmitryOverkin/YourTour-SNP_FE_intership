@@ -25,9 +25,9 @@
   }
 }
 
-@media (min-width: 550px) and (max-width: 768px) {
+@media (max-width: 768px) {
   .choose-tour__card-button {
-    left: 3px;
+    left: -18px;
     width: 150px;
     font-size: $size-17;
   }
@@ -35,9 +35,15 @@
 
 @media (max-width: 550px) {
   .choose-tour__card-button {
-    left: 4px;
-    bottom: 1.07em;
     font-size: $size-16;
     line-height: 142%;
+  }
+}
+
+
+@media (max-width: 550px){
+  .choose-tour__card-button{
+    left: -22px;
+    top: 10px;
   }
 }

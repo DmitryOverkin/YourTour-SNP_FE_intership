@@ -22,3 +22,9 @@
     height: 100%;
   }
 }
+
+@media (max-width: 550px) {
+  .photos__images-col:nth-child(2) {
+    gap: 10px;
+  }
+}
