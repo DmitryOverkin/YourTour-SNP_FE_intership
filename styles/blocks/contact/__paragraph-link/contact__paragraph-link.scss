@@ -3,7 +3,6 @@
 .contact__paragraph-link {
   position: relative;
   color: $black;
-
   &::after {
     position: absolute;
     left: 0;
@@ -15,11 +14,9 @@
     content: "";
     transition: width 0.3s ease;
   }
-
   &:hover::after {
     width: 100%;
   }
-
   &:active {
     color: $green-400;
   }

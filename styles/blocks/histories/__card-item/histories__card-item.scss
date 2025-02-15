@@ -17,17 +17,15 @@
 }
 
 @media (max-width: 550px) {
-  .histories__card-item {
-  }
   .histories__card-item:not(:last-child) {
     margin-bottom: 0;
   }
 }
+
 @media (max-width: 360px) {
   .histories__card-item {
     margin-left: 24px;
   }
-
   .histories__card-item::before {
     top: 12px;
     left: 3px;

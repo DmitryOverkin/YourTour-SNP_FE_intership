@@ -17,11 +17,13 @@
     background: $green-200;
   }
 }
+
 @media (max-width: 1024px) {
   .take-tour__form-btn_submit {
     padding: 15px 30px;
   }
 }
+
 @media (max-width: 768px) {
   .take-tour__form-btn_submit {
     width: 200px;
@@ -32,18 +34,12 @@
 }
 @media (max-width: 550px) {
   .take-tour__form-btn_submit {
-    // position: relative;
-    // top: -12px;
     width: 133px;
     height: 47px;
     padding: 0;
   }
 }
-@media (max-width: 360px) {
-  .take-tour__form-btn_submit {
-    border-radius: 9px;
-  }
-}
+
 @media (hover: none) {
   .take-tour__form-btn_submit {
     &:hover {

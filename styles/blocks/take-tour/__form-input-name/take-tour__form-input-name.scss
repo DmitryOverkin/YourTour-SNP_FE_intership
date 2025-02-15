@@ -21,35 +21,35 @@
     color: $gray-300;
   }
 }
+
 @media (max-width: 1024px) {
   .take-tour__form-input-name {
     padding: 34px 19px;
   }
 }
+
 @media (max-width: 768px) {
   .take-tour__form-input-name {
     font-size: $size-16;
   }
 }
+
 @media (max-width: 550px) {
   .take-tour__form-input-name {
     padding: 8px;
     width: 278px;
     height: 43px;
-    border-radius: 10px;
   }
 }
+
 @media (max-width: 360px) {
   .take-tour__form-input-name {
     padding: 9px;
   }
 }
+
 @media (hover: none) {
   .take-tour__form-input-name {
-    &:hover {
-      border: 1px solid $beige-200;
-      background: $beige-100;
-    }
     &:focus {
       border: 1px solid $gray-300;
       background: $beige-200;

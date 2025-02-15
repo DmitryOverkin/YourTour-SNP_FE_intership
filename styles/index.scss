@@ -32,9 +32,7 @@
 @import "./blocks/choose-tour/__card/choose-tour__card";
 @import "./blocks/choose-tour/__cards/choose-tour__cards";
 @import "./blocks/choose-tour/__heading/choose-tour__heading";
-@import "./blocks/choose-tour/__list-item/choose-tour__list-item";
 @import "./blocks/choose-tour/__list/choose-tour__list";
-@import "./blocks/choose-tour/__nav/choose-tour__nav";
 // take-tour section
 @import "./blocks/take-tour/take-tour";
 @import "./blocks/take-tour/__form-btn_reset/take-tour__form-btn_reset";
@@ -44,13 +42,9 @@
 @import "./blocks/take-tour/__form-checkbox-wrapper/take-tour__form-checkbox-wrapper";
 @import "./blocks/take-tour/__form-checkbox-input/take-tour__form-checkbox-input";
 @import "./blocks/take-tour/__form-checkbox-label/take-tour__form-checkbox-label";
-@import "./blocks/take-tour/__form-label/_date/take-tour__form-label_date";
-@import "./blocks/take-tour/__form-label/_phone/take-tour__form-label_phone";
 @import "./blocks/take-tour/__form-fieldset/take-tour__form-fieldset";
-@import "./blocks/take-tour/__form-input-email/take-tour__form-input-email";
 @import "./blocks/take-tour/__form-input-name/take-tour__form-input-name";
 @import "./blocks/take-tour/__form-date/take-tour__form-date";
-@import "./blocks/take-tour/__form-input-phone/take-tour__form-input-phone";
 @import "./blocks/take-tour/__form-label/take-tour__form-label";
 @import "./blocks/take-tour/__form-radio-btns/take-tour__form-radio-btns";
 @import "./blocks/take-tour/__form-radio-btns-label/take-tour__form-radio-btns-label";
@@ -63,13 +57,11 @@
 @import "./blocks/take-tour/__form-textarea/take-tour__form-textarea";
 @import "./blocks/take-tour/__form/take-tour__form";
 @import "./blocks/take-tour/__heading/take-tour__heading";
-@import "./blocks/take-tour/__label-direction/take-tour__label-direction";
 @import "./blocks/take-tour/__paragraph/take-tour__paragraph";
 @import "./blocks/take-tour/__text/take-tour__text";
 // reviews section
 @import "./blocks/reviews/reviews";
 @import "./blocks/reviews/__card-author-name/reviews__card-author-name";
-@import "./blocks/reviews/__card-author-names/reviews__card-author-names";
 @import "./blocks/reviews/__card-author-photo/reviews__card-author-photo";
 @import "./blocks/reviews/__card-author-tour/reviews__card-author-tour";
 @import "./blocks/reviews/__card-author/reviews__card-author";
@@ -85,7 +77,6 @@
 @import "./blocks/photos/__images-row/photos__images-row";
 @import "./blocks/photos/__images/photos__images";
 @import "./blocks/photos/__paragraph/photos__paragraph";
-@import "./blocks/photos/__text/photos__text";
 // histories section
 @import "./blocks/histories/histories";
 @import "./blocks/histories/__card-img/histories__card-img";

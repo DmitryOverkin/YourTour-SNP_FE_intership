@@ -12,18 +12,10 @@
   }
 }
 
-@media (max-width: 768px) {
-  .photos__images-col:nth-child(3) .photo__images-col-img {
-    display: none;
-  }
-}
 @media (max-width: 550px) {
   .photos__images-col {
     height: 100%;
   }
-}
-
-@media (max-width: 550px) {
   .photos__images-col:nth-child(2) {
     gap: 10px;
   }

@@ -1,17 +1,8 @@
 .take-tour__form-btns {
-  // position: relative;
-  // top: -9px;
   display: flex;
   grid-column-start: 1;
   grid-column-end: 3;
   gap: 30px;
-}
-
-@media (max-width: 1024px) {
-  .take-tour__form-btns {
-    // top: -6px;
-    // left: -1px;
-  }
 }
 
 @media (max-width: 550px) {
@@ -22,8 +13,6 @@
 
 @media (max-width: 360px) {
   .take-tour__form-btns {
-    // top: -4px;
-    // left: 0;
     gap: 11px;
   }
 }

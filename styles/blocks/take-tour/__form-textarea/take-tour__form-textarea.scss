@@ -2,18 +2,3 @@
   grid-column-start: 1;
   grid-column-end: 3;
 }
-
-@media (max-width: 550px) {
-  .take-tour__form-textarea {
-    // position: relative;
-    // top: -7px;
-    // left: -1px;
-  }
-}
-
-@media (max-width: 360px) {
-  .take-tour__form-textarea {
-    // top: -6px;
-    // left: 0;
-  }
-}

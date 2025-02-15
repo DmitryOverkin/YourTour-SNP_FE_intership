@@ -1,16 +1,8 @@
 @import "../../../base/variables";
 
 .take-tour__form-textarea-label {
-  // position: relative;
-  // top: -1px;
   display: block;
   margin-bottom: 8px;
-}
-
-@media (max-width: 1024px) {
-  .take-tour__form-textarea-label {
-    // top: 1px;
-  }
 }
 
 @media (max-width: 550px) {
@@ -21,7 +13,6 @@
 
 @media (max-width: 360px) {
   .take-tour__form-textarea-label {
-    // top: -1px;
     margin: -2px 0 8px;
   }
 }

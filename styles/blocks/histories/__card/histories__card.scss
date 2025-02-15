@@ -35,7 +35,6 @@
     .histories__card-img {
       transform: scale(1.2);
     }
-
     .choose-tour__card-button {
       background-color: $green-400;
     }
@@ -59,11 +58,10 @@
 
 @media (max-width: 550px) {
   .histories__card {
-    left: 0;
     width: 318px;
     height: 455px;
     margin: 0 auto;
-    padding: 31px;
+    padding: 30px;
     border-radius: 20px;
     &::before {
       border-radius: 20px;
@@ -74,19 +72,12 @@
   }
 }
 
-@media (max-width: 550px) {
-  .histories__card {
-    padding: 30px;
-  }
-}
-
 @media (hover: none) {
   .histories__card {
     &:hover {
       .histories__card-img {
         transform: none;
       }
-
       .choose-tour__card-button {
         background-color: initial;
       }

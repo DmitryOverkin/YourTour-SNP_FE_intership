@@ -23,12 +23,6 @@
   .choose-tour__card-heading {
     margin-bottom: 14px;
     font-size: $size-23;
-    letter-spacing: 0.04em;
-  }
-}
-
-@media (max-width: 360px) {
-  .choose-tour__card-heading {
     letter-spacing: 0.043em;
   }
 }
