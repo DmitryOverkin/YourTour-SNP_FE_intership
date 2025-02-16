@@ -1,1 +1,1 @@
-.header__heading{font-weight:700;font-size:96px;line-height:109%;letter-spacing:.02em;text-align:center;color:#fff}@media (max-width:768px){.header__heading{font-size:40px}}@media (max-width:360px){.header__heading{margin-bottom:40px;line-height:112%;font-size:34px}}
+.header__heading{font-weight:700;font-size:96px;line-height:109%;letter-spacing:.02em;text-align:center;color:#fff}@media (max-width:768px){.header__heading{font-size:40px}}@media (max-width:360px){.header__heading{margin-bottom:40px;font-size:34px;line-height:112%}}

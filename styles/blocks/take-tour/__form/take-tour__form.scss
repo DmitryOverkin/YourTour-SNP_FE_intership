@@ -1,9 +1,9 @@
 @import "../../../base/variables";
 
 .take-tour__form {
+  @include regular-text;
   border-radius: 50px;
   background: $white;
-  @include regular-text;
 }
 
 @media (max-width: 550px) {

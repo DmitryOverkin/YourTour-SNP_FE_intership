@@ -1,1 +1,1 @@
-.reviews__card-text{font-weight:700;font-size:23px;line-height:122%}@media (max-width:768px){.reviews__card-text{font-size:20px}}@media (max-width:550px){.reviews__card-text{font-size:17px}}@media (max-width:360px){.reviews__card-text{line-height:144%;font-size:16px}}
+.reviews__card-text{font-size:23px;font-weight:700;line-height:122%}@media (max-width:768px){.reviews__card-text{font-size:20px}}@media (max-width:550px){.reviews__card-text{font-size:17px}}@media (max-width:360px){.reviews__card-text{font-size:16px;line-height:144%}}

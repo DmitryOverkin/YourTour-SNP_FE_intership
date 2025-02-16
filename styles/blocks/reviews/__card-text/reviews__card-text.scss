@@ -1,8 +1,8 @@
 @import "../../../base/variables";
 
 .reviews__card-text {
-  font-weight: $weight-700;
   font-size: $size-23;
+  font-weight: $weight-700;
   line-height: 122%;
 }
 
@@ -20,7 +20,7 @@
 
 @media (max-width: 360px) {
   .reviews__card-text {
-    line-height: 144%;
     font-size: $size-16;
+    line-height: 144%;
   }
 }

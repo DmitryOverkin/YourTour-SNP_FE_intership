@@ -1,17 +1,16 @@
 @import "../../../base/variables";
 .histories__card-item {
   position: relative;
-  margin-left: 30px;
-  margin-bottom: -1px;
+  margin: 0 0 -1px 30px;
   &::before {
     position: absolute;
     top: 15px;
-    content: "";
     width: 5px;
     height: 5px;
-    border-radius: 50%;
     margin-left: -15px;
+    border-radius: 50%;
     background-color: $white;
+    content: "";
     transform: translate(-45%, -100%);
   }
 }
@@ -25,11 +24,11 @@
 @media (max-width: 360px) {
   .histories__card-item {
     margin-left: 24px;
-  }
-  .histories__card-item::before {
-    top: 12px;
-    left: 3px;
-    width: 4px;
-    height: 4px;
+    &::before {
+      top: 12px;
+      left: 3px;
+      width: 4px;
+      height: 4px;
+    }
   }
 }

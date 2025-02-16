@@ -6,9 +6,9 @@
     position: absolute;
     left: 0;
     bottom: 5px;
-    display: block;
     width: 0;
     height: 1px;
+    display: block;
     background-color: $white;
     content: "";
     transition: width 0.3s ease;

@@ -4,22 +4,22 @@
   position: relative;
   top: -4px;
   padding-left: 45px;
-  line-height: 18px;
-  user-select: none;
   font-weight: $weight-400;
   font-size: $size-17;
+  line-height: 18px;
   letter-spacing: -0.011em;
   color: $gray-300;
+  user-select: none;
   cursor: pointer;
   &::before {
     position: absolute;
     left: 0;
     bottom: -3px;
-    display: inline-block;
     width: 26px;
     height: 26px;
-    content: "";
+    display: inline-block;
     background: url("../../images/take_tour/chekbox-uncheked.svg") 0 0 no-repeat;
+    content: "";
   }
 }
 
@@ -42,8 +42,8 @@
 @media (max-width: 550px) {
   .take-tour__form-checkbox-label {
     top: 0;
-    display: block;
     padding-left: 30px;
+    display: block;
     font-size: $size-16;
     line-height: 23px;
     letter-spacing: 0;

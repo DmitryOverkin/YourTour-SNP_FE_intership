@@ -1,8 +1,8 @@
 .photos__images {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: stretch;
-  width: 100%;
   gap: 30px;
 }
 

@@ -1,9 +1,9 @@
 @import "../../../../base/variables";
 
 .choose-tour__button_active {
+  color: $orange-200;
   text-decoration: underline;
   text-underline-offset: 10px;
-  color: $orange-200;
   &::after {
     width: 0 !important;
     transition: none !important;

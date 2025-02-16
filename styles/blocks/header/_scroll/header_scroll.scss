@@ -1,11 +1,10 @@
-@import '../../../base/variables';
+@import "../../../base/variables";
 
 .header_scroll {
   position: fixed;
   z-index: 100;
   width: 100vw;
-  backdrop-filter: blur(5px);
   background: rgba(243, 239, 232, 0.6);
+  backdrop-filter: blur(5px);
   transition: background 0.3s ease;
 }
-

@@ -7,9 +7,9 @@
     position: absolute;
     left: 0;
     bottom: 2px;
-    display: block;
     width: 0;
     height: 1px;
+    display: block;
     background-color: $black;
     content: "";
     transition: width 0.3s ease;
@@ -28,8 +28,8 @@
 @media (hover: none) {
   .contact__paragraph-link {
     &::after {
-      transition: none;
       width: 0;
+      transition: none;
     }
     &:hover::after {
       width: 0;

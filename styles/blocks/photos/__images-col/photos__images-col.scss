@@ -15,8 +15,8 @@
 @media (max-width: 550px) {
   .photos__images-col {
     height: 100%;
-  }
-  .photos__images-col:nth-child(2) {
-    gap: 10px;
+    &:nth-child(2) {
+      gap: 10px;
+    }
   }
 }

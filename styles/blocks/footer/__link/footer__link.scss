@@ -1,15 +1,16 @@
 @import "../../../base/variables";
+
 .footer__link {
-  position: relative;
   @include regular-text;
-  color: $black;
+  position: relative;
   margin: -2px 0 0 36px;
+  color: $black;
   &::after {
     position: absolute;
     left: 0;
-    display: block;
     width: 0;
     height: 1px;
+    display: block;
     background-color: $black;
     content: "";
     transition: width 0.3s ease;
@@ -23,9 +24,9 @@
   .footer__link {
     margin: 0;
     font-size: $size-17;
-  }
-  .footer__link:not(:last-child) {
-    margin-right: 20px;
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
   }
 }
 
@@ -33,17 +34,17 @@
   .footer__link {
     display: flex;
     font-size: $size-16;
-  }
-  .footer__link:not(:last-child) {
-    margin-right: 15px;
+    &:not(:last-child) {
+      margin-right: 15px;
+    }
   }
 }
 
 @media (hover: none) {
   .footer__link {
     &::after {
-      transition: none;
       width: 0;
+      transition: none;
     }
     &:hover::after {
       width: 0;

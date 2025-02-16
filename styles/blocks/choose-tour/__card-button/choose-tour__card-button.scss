@@ -4,12 +4,12 @@
   position: relative;
   left: -28px;
   top: 8px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
   width: 198px;
   height: 42px;
+  display: inline-flex;
   border-radius: 50px;
+  align-items: center;
+  justify-content: center;
   background-color: transparent;
   color: $white;
   font-weight: $weight-700;
@@ -35,15 +35,11 @@
 
 @media (max-width: 550px) {
   .choose-tour__card-button {
+    left: -22px;
+    top: 10px;
     font-size: $size-16;
     line-height: 142%;
   }
 }
 
 
-@media (max-width: 550px){
-  .choose-tour__card-button{
-    left: -22px;
-    top: 10px;
-  }
-}

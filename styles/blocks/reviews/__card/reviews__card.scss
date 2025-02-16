@@ -1,20 +1,20 @@
 @import "../../../base/variables";
 
 .reviews__card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   width: 570px;
   min-height: 673px;
   padding: 40px;
   border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background: $beige-200;
 }
 
 @media (max-width: 1024px) {
   .reviews__card {
-    min-height: 841px;
     width: 450px;
+    min-height: 841px;
   }
 }
 

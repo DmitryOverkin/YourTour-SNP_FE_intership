@@ -1,1 +1,1 @@
-.choose-tour__button_active{text-decoration:underline;text-underline-offset:10px;color:#efa501}.choose-tour__button_active::after{width:0!important;transition:none!important}@media (max-width:550px){.choose-tour__button_active{font-size:16px;line-height:142%;text-underline-offset:5px}}
+.choose-tour__button_active{color:#efa501;text-decoration:underline;text-underline-offset:10px}.choose-tour__button_active::after{width:0!important;transition:none!important}@media (max-width:550px){.choose-tour__button_active{font-size:16px;line-height:142%;text-underline-offset:5px}}

@@ -3,19 +3,19 @@
 
 .choose-tour__button {
   position: relative;
-  background-color: transparent;
   border: none;
-  cursor: pointer;
+  background-color: transparent;
   font-weight: $weight-700;
   font-size: $size-23;
   line-height: 122%;
+  cursor: pointer;
   &::after {
     position: absolute;
     left: 0;
-    display: block;
-    width: 0;
     bottom: -6px;
+    width: 0;
     height: 2px;
+    display: block;
     background-color: $black;
     content: "";
     transition: width 0.3s ease;
@@ -40,7 +40,7 @@
 
 @media (hover: none) {
   .choose-tour__button::after {
-    transition: none;
     width: 0;
+    transition: none;
   }
 }
