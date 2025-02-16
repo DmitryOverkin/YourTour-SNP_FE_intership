@@ -21,28 +21,38 @@ const logo = document.querySelector(".logo");
 const headerLinkScroll = document.querySelectorAll(".header__nav-link");
 const headerContactLink = document.querySelector(".header__contact-link");
 
-
-function updateHeaderState(isScrolled) {
-  header.classList.toggle("header_scroll", isScrolled);
-  logo.classList.toggle("logo_black", isScrolled);
-  logo.classList.toggle("logo", !isScrolled);
-
-  headerContactLink.classList.toggle("header__contact-link", !isScrolled);
-  headerContactLink.classList.toggle(
-    "header__contact-link--scroll",
-    isScrolled
-  );
+function addStylesHeaderScroll() {
+  header.classList.add("header_scroll");
+  logo.classList.add("logo_black");
+  headerContactLink.classList.add("header__contact-link--scroll");
 
   headerLinkScroll.forEach((link) => {
-    link.classList.toggle("header__nav-link", !isScrolled);
-    link.classList.toggle("header__nav-link--scroll", isScrolled);
+    link.classList.add("header__nav-link--scroll");
   });
 }
 
-window.addEventListener("scroll", () => {
-  const isScrolled = window.scrollY > 450;
-  updateHeaderState(isScrolled);
-});
+function removeStylesHeaderScroll() {
+  header.classList.remove("header_scroll");
+  logo.classList.remove("logo_black");
+
+  headerLinkScroll.forEach((link) => {
+    link.classList.remove("header__nav-link--scroll");
+  });
+
+  headerContactLink.classList.remove("header__contact-link--scroll");
+}
+
+function scrollHeaderStyle() {
+  window.addEventListener("scroll", () => {
+    if (window.scrollY >= 450) {
+      addStylesHeaderScroll();
+    } else {
+      removeStylesHeaderScroll();
+    }
+  });
+}
+
+scrollHeaderStyle();
 
 // Изменение цвета шрифта при выборе места путешествия
 

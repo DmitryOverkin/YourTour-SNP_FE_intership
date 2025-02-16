@@ -1,1 +1,1 @@
-.header__nav-link--scroll{font-weight:400;font-size:20px;line-height:142%;position:relative;text-decoration:none;color:#1b1f2b;cursor:pointer}.header__nav-link--scroll::after{position:absolute;left:0;width:0;height:2px;display:block;background-color:#1b1f2b;content:"";transition:width .3s ease}.header__nav-link--scroll:focus:after,.header__nav-link--scroll:hover:after{width:100%}@media (max-width:1023px){.header__nav-link--scroll{font-size:16px}}
+.header__nav-link--scroll{color:#1b1f2b}.header__nav-link--scroll::after{background-color:#1b1f2b}

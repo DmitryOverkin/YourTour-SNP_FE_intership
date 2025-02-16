@@ -1,48 +1,8 @@
 @import "../../../base/variables";
 
 .header__contact-link--scroll {
-  @include regular-text;
-  position: relative;
-  text-decoration: none;
   color: $black;
-  cursor: pointer;
   &::after {
-    position: absolute;
-    left: 0;
-    bottom: -6px;
-    width: 0;
-    height: 2px;
-    display: block;
     background-color: $black;
-    content: "";
-    transition: width 0.3s ease;
-  }
-  &:hover::after,
-  &:focus::after {
-    width: 100%;
-  }
-}
-
-@media (max-width: 1023px) {
-  .header__contact-link--scroll {
-    font-size: $size-16;
-  }
-}
-
-@media (max-width: 550px) {
-  .header__contact-link--scroll {
-    font-size: $size-16;
-  }
-}
-
-@media (hover: none) {
-  .header__contact-link--scroll::after {
-    width: 0;
-    transition: none;
-  }
-
-  .header__contact-link--scroll:hover::after,
-  .header__contact-link--scroll:focus::after {
-    width: 0;
   }
 }

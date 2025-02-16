@@ -1,29 +1,8 @@
 @import "../../../base/variables";
 
 .header__nav-link--scroll {
-  @include regular-text;
-  position: relative;
-  text-decoration: none;
   color: $black;
-  cursor: pointer;
   &::after {
-    position: absolute;
-    left: 0;
-    width: 0;
-    height: 2px;
-    display: block;
     background-color: $black;
-    content: "";
-    transition: width 0.3s ease;
-  }
-  &:hover:after,
-  &:focus:after {
-    width: 100%;
-  }
-}
-
-@media (max-width: 1023px) {
-  .header__nav-link--scroll {
-    font-size: $size-16;
   }
 }
