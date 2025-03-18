@@ -54,10 +54,13 @@ function scrollHeaderStyle() {
 
 scrollHeaderStyle();
 
+
+
 // Изменение цвета шрифта при выборе места путешествия
 
 const selectElement = document.querySelector(".take-tour__form-select");
 const form = document.querySelector(".take-tour__form");
+const emailInput = document.querySelector('.take-tour__form-input-email');
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
@@ -104,3 +107,23 @@ phoneInput.addEventListener("input", (e) => {
 
   e.target.value = formattedValue;
 });
+
+
+// Черынй цвет для поля input[date]
+
+const dateInputs = document.querySelectorAll('.take-tour__form-date');
+
+dateInputs.forEach((input) => input.addEventListener('input', function () {
+  const gray300 = input.dataset.gray;
+  const black = input.dataset.black;
+  input.style.color = input.value ? black : gray300;
+
+  form.addEventListener('reset', () => {
+    input.style.color = '';
+  })
+}))
+
+
+
+
+

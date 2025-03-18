@@ -7,11 +7,13 @@
   letter-spacing: -0.026em;
   text-transform: uppercase;
   cursor: pointer;
+
   &:focus,
   &:valid {
     color: $black;
   }
 }
+
 
 .take-tour__form-date::-webkit-calendar-picker-indicator {
   opacity: 0;
