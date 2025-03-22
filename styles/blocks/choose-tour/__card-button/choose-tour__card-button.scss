@@ -6,7 +6,8 @@
   top: 8px;
   width: 198px;
   height: 42px;
-  display: inline-flex;
+  display: flex;
+  border: none;
   border-radius: 50px;
   align-items: center;
   justify-content: center;
@@ -41,5 +42,3 @@
     line-height: 142%;
   }
 }
-
-
