@@ -1,0 +1,18 @@
+.footer__link-img_type_facebook {
+    top: 5px;
+    left: -10px;
+    background-image: url("../../images/icons/fb.png");
+}
+
+@media (max-width: 550px) {
+    .footer__link-img_type_facebook {
+        top: -2px;
+    }
+}
+
+@media (max-width: 360px) {
+    .footer__link-img_type_facebook {
+        top: -3px;
+        left: -2px;
+    }
+}

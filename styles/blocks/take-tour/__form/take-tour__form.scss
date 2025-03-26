@@ -2,13 +2,42 @@
 
 .take-tour__form {
   @include regular-text;
+  width: 100%;
+  padding: 69px 70px;
+  border: none;
+  display: grid;
   border-radius: 50px;
+  grid-template-columns: 1fr 1fr;
+  gap: 34px 30px;
   background: $white;
 }
 
+@media (max-width: 1024px) {
+  .take-tour__form {
+    padding: 60px;
+    gap: 33px 20px;
+  }
+}
+
+
 @media (max-width: 550px) {
   .take-tour__form {
+    width: 318px;
+    margin: 0 auto;
+    padding: 40px 20px 40px;
     border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
     font-size: $size-16;
+  }
+}
+
+
+@media (max-width: 360px) {
+  .take-tour__form {
+    height: 1110px;
+    padding: 21px;
+    gap: 31px;
   }
 }

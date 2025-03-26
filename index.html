@@ -163,84 +163,74 @@
       </div>
       <form class="take-tour__form" action="#">
         <fieldset class="take-tour__form-fieldset">
-          <div>
-            <label for="name" class="take-tour__form-label">Имя</label>
-            <input name="name" class="take-tour__form-input-name" type="text" placeholder="Введите Ваше имя" required />
-          </div>
-          <div>
-            <label for="to" class="take-tour__form-label take-tour__label-direction">Направление</label>
-            <select class="take-tour__form-select" name="to" id="to" required>
-              <option disabled selected value="">Куда хотите ехать</option>
-              <option value="Канада">Канада</option>
-              <option value="Рио">Рио</option>
-              <option value="Индия">Индия</option>
-            </select>
-          </div>
-          <div>
-            <label for="email" class="take-tour__form-label">Email</label>
-
-            <input name="email" class="take-tour__form-input-name take-tour__form-input-email" type="email"
-              placeholder="example@mail.com" required pattern="^\S+@\S+\.\S+$"
-              title="Введите корректный email (например, example@mail.com)" />
-          </div>
-          <div>
-            <label for="tel" class="take-tour__form-label">Телефон</label>
-
-            <input id="phone" name="tel" class="take-tour__form-input-name take-tour__form-input-phone" type="tel"
-              placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _" pattern="\+7 \(\d{3}\) \d{3}-\d{2}-\d{2}" title="Введите
+          <label for="name" class="take-tour__form-label">Имя</label>
+          <input name="name" class="take-tour__form-input-name" type="text" placeholder="Введите Ваше имя" required />
+        </fieldset>
+        <fieldset class="take-tour__form-fieldset">
+          <label for="to" class="take-tour__form-label take-tour__label-direction">Направление</label>
+          <select class="take-tour__form-select" name="to" id="to" required>
+            <option disabled selected value="">Куда хотите ехать</option>
+            <option value="Канада">Канада</option>
+            <option value="Рио">Рио</option>
+            <option value="Индия">Индия</option>
+          </select>
+        </fieldset>
+        <fieldset class="take-tour__form-fieldset">
+          <label for="email" class="take-tour__form-label">Email</label>
+          <input name="email" class="take-tour__form-input-name take-tour__form-input-email" type="email"
+            placeholder="example@mail.com" required pattern="^\S+@\S+\.\S+$"
+            title="Введите корректный email (например, example@mail.com)" />
+        </fieldset>
+        <fieldset class="take-tour__form-fieldset">
+          <label for="tel" class="take-tour__form-label">Телефон</label>
+          <input id="phone" name="tel" class="take-tour__form-input-name take-tour__form-input-phone" type="tel"
+            placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _" pattern="\+7 \(\d{3}\) \d{3}-\d{2}-\d{2}" title="Введите
                 номер телефона в формате +7 (XXX) XXX-XX-XX" required />
-          </div>
-          <div>
-            <label for="date-from" class="take-tour__form-label">Дата от</label>
-
-            <input name="date-from" class="take-tour__form-input-name take-tour__form-date" type="date" max="2050-12-31"
-              min="2024-01-01" required data-gray="#a6a6a6" data-black="#1b1f2b" />
-          </div>
-          <div>
-            <label for="date-to" class="take-tour__form-label">Дата до</label>
-
-            <input name="date-to" class="take-tour__form-input-name take-tour__form-date" type="date" max="2050-12-31"
-              min="2024-01-01" required data-gray="#a6a6a6" data-black="#1b1f2b" />
-          </div>
-
-          <div class="take-tour__form-textarea">
-            <label class="take-tour__form-textarea-label" for="textarea">Комментарий</label>
-            <textarea name="textarea" class="take-tour__form-textarea-input" required></textarea>
-          </div>
-
-          <div class="take-tour__form-radio-btns">
-            <label class="take-tour__form-radio-btns-label" for="radio">Вам есть 18 лет?</label>
-
-            <div class="take-tour__form-radio-wrapper">
-              <div class="take-tour__form-radio">
-                <input class="take-tour__form-radio-input" id="radio-yes" type="radio" name="radio" value="yes"
-                  required />
-                <label class="take-tour__form-radio-label" for="radio-yes">Да</label>
-              </div>
-
-              <div class="take-tour__form-radio">
-                <input class="take-tour__form-radio-input" id="radio-no" type="radio" name="radio" value="no" />
-                <label class="take-tour__form-radio-label" for="radio-no">Нет</label>
-              </div>
+        </fieldset>
+        <fieldset class="take-tour__form-fieldset">
+          <label for="date-from" class="take-tour__form-label">Дата от</label>
+          <input name="date-from" class="take-tour__form-input-name take-tour__form-date" type="date" max="2050-12-31"
+            min="2024-01-01" required data-gray="#a6a6a6" data-black="#1b1f2b" />
+        </fieldset>
+        <fieldset class="take-tour__form-fieldset">
+          <label for="date-to" class="take-tour__form-label">Дата до</label>
+          <input name="date-to" class="take-tour__form-input-name take-tour__form-date" type="date" max="2050-12-31"
+            min="2024-01-01" required data-gray="#a6a6a6" data-black="#1b1f2b" />
+        </fieldset>
+        <fieldset class="take-tour__form-textarea take-tour__form-fieldset">
+          <label class="take-tour__form-textarea-label" for="textarea">Комментарий</label>
+          <textarea name="textarea" class="take-tour__form-textarea-input" required></textarea>
+        </fieldset>
+        <fieldset class="take-tour__form-radio-btns take-tour__form-fieldset">
+          <label class="take-tour__form-radio-btns-label" for="radio">Вам есть 18 лет?</label>
+          <div class="take-tour__form-radio-wrapper">
+            <div class="take-tour__form-radio">
+              <input class="take-tour__form-radio-input" id="radio-yes" type="radio" name="radio" value="yes"
+                required />
+              <label class="take-tour__form-radio-label" for="radio-yes">Да</label>
+            </div>
+            <div class="take-tour__form-radio">
+              <input class="take-tour__form-radio-input" id="radio-no" type="radio" name="radio" value="no" />
+              <label class="take-tour__form-radio-label" for="radio-no">Нет</label>
             </div>
           </div>
-          <div class="take-tour__form-checkbox-wrapper">
-            <input class="take-tour__form-checkbox-input" id="checkbox" type="checkbox" name="checkbox" value="agree"
-              required />
-            <label class="take-tour__form-checkbox-label" for="checkbox">
-              Нажимая кнопку, я принимаю условия
-              <a class="take-tour__form-checkbox-link" href="#!">Лицензионного договора</a>
-            </label>
-          </div>
-          <div class="take-tour__form-btns">
-            <button type="submit" class="take-tour__form-btn take-tour__form-btn_submit">
-              Найти тур
-            </button>
-            <button type="reset" class="take-tour__form-btn take-tour__form-btn_reset">
-              Сбросить
-            </button>
-          </div>
         </fieldset>
+        <fieldset class="take-tour__form-checkbox-wrapper take-tour__form-fieldset">
+          <input class="take-tour__form-checkbox-input" id="checkbox" type="checkbox" name="checkbox" value="agree"
+            required />
+          <label class="take-tour__form-checkbox-label" for="checkbox">
+            Нажимая кнопку, я принимаю условия
+            <a class="take-tour__form-checkbox-link" href="#!">Лицензионного договора</a>
+          </label>
+        </fieldset>
+        <div class="take-tour__form-btns">
+          <button type="submit" class="take-tour__form-btn take-tour__form-btn_submit">
+            Найти тур
+          </button>
+          <button type="reset" class="take-tour__form-btn take-tour__form-btn_reset">
+            Сбросить
+          </button>
+        </div>
       </form>
     </section>
     <section class="reviews container" id="review">
@@ -457,19 +447,17 @@
     </section>
   </main>
   <footer class="footer">
-    <div class="container">
-      <div class="footer__content">
+      <div class="footer__content container">
         <p class="footer__social-networks">Наши социальные сети</p>
         <div class="footer__links">
-          <a class="footer__link" href="#!"><span class="footer__link-img footer__link-img-inst"></span>
+          <a class="footer__link" href="#!"><span class="footer__link-img footer__link-img_type_inst"></span>
             instagram</a>
           <a class="footer__link" href="#!">
-            <span class="footer__link-img footer__link-img-facebook"></span>facebook</a>
+            <span class="footer__link-img footer__link-img_type_facebook"></span>facebook</a>
           <a class="footer__link" href="#!">
-            <span class="footer__link-img footer__link-img-vk"></span>vkontakte</a>
+            <span class="footer__link-img footer__link-img_type_vk"></span>vkontakte</a>
         </div>
       </div>
-    </div>
   </footer>
   <script src="./scripts/main.js"></script>
 </body>

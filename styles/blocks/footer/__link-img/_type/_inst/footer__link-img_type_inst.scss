@@ -1,0 +1,18 @@
+.footer__link-img_type_inst {
+    top: 5px;
+    left: -4px;
+    background-image: url("../../images/icons/inst.png");
+}
+
+@media (max-width: 550px) {
+    .footer__link-img_type_inst {
+        top: -2px;
+    }
+}
+
+@media (max-width: 360px) {
+    .footer__link-img_type_inst {
+        top: -3px;
+        left: -3px;
+    }
+}

@@ -42,7 +42,7 @@
 @import "./blocks/take-tour/__form-checkbox-wrapper/take-tour__form-checkbox-wrapper";
 @import "./blocks/take-tour/__form-checkbox-input/take-tour__form-checkbox-input";
 @import "./blocks/take-tour/__form-checkbox-label/take-tour__form-checkbox-label";
-@import "./blocks/take-tour/__form-fieldset/take-tour__form-fieldset";
+@import "./blocks/take-tour/__form-fieldset/take-tour__form-fieldset.scss";
 @import "./blocks/take-tour/__form-input-name/take-tour__form-input-name";
 @import "./blocks/take-tour/__form-date/take-tour__form-date";
 @import "./blocks/take-tour/__form-label/take-tour__form-label";
@@ -105,9 +105,13 @@
 @import "./blocks/footer/footer";
 @import "./blocks/footer/__content/footer__content";
 @import "./blocks/footer/__link-img/footer__link-img";
+@import "./blocks/footer/__link-img/_type/_facebook/footer__link-img_type_facebook.scss";
+@import "./blocks/footer/__link-img/_type/_inst/footer__link-img_type_inst.scss";
+@import "./blocks/footer/__link-img/_type/_vk/footer__link-img_type_vk.scss";
 @import "./blocks/footer/__link/footer__link";
 @import "./blocks/footer/__links/footer__links";
 @import "./blocks/footer/__social-networks/footer__social-networks";
+
 html {
   scroll-behavior: smooth;
 }
