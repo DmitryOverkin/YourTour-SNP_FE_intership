@@ -79,7 +79,6 @@
 @import "./blocks/photos/__paragraph/photos__paragraph";
 // histories section
 @import "./blocks/histories/histories";
-@import "./blocks/histories/__card-img/histories__card-img";
 @import "./blocks/histories/__card-item/histories__card-item";
 @import "./blocks/histories/__card-links-btn/histories__card-links-btn";
 @import "./blocks/histories/__card-links/histories__card-links";
@@ -89,6 +88,9 @@
 @import "./blocks/histories/__card-social-link/histories__card-social-link";
 @import "./blocks/histories/__card-socials/histories__card-social";
 @import "./blocks/histories/__card/histories__card";
+@import "./blocks/histories/__card/_type/_img-one/histories__card_type_img-one.scss";
+@import "./blocks/histories/__card/_type/_img-two/histories__card_type_img-two.scss";
+@import "./blocks/histories/__card/_type/_img-three/histories__card_type_img-three.scss";
 @import "./blocks/histories/__card__heading/histories__card-heading";
 @import "./blocks/histories/__cards/histories__cards";
 @import "./blocks/histories/__heading/histories__heading";

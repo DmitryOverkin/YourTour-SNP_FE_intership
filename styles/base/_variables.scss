@@ -54,3 +54,10 @@ $size-96: 96px;
   font-size: $size-20;
   line-height: 142%;
 }
+
+
+@mixin histories-bg-styles{
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
+}
