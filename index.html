@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Cервис туризма YourTour. Идеальные путешествия существуют." />
   <meta name="keywords" content="путешествия, туризм, YourTour" />
-  <link rel="shortcut icon" href="./images/favicon/favicon 32х32.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="./images/favicon/favicon.png" type="image/x-icon" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
@@ -80,7 +80,7 @@
       </ul>
       <ul class="choose-tour__cards">
         <li class="choose-tour__card">
-          <img class="choose-tour__card-img" src="./images/choose_tour/card tour photo-1.png"
+          <img class="choose-tour__card-img" src="./images/choose_tour/card_tour_photo-1.png"
             alt="Белый винтажный фургон с выдвижной крышей припаркован на природе с видом на холмы и воду под голубым небом" />
           <div class="choose-tour__card-content">
             <div class="choose-tour__card-text">
@@ -92,7 +92,7 @@
           </div>
         </li>
         <li class="choose-tour__card">
-          <img class="choose-tour__card-img" src="./images/choose_tour/card tour photo-2.png"
+          <img class="choose-tour__card-img" src="./images/choose_tour/card_tour_photo-2.png"
             alt="Девушка в синей куртке сидит на вершине песчаной дюны, глядя на бескрайние волнистые пески пустыни на закате." />
           <div class="choose-tour__card-content">
             <div class="choose-tour__card-text">
@@ -104,7 +104,7 @@
           </div>
         </li>
         <li class="choose-tour__card">
-          <img class="choose-tour__card-img" src="./images/choose_tour/card tour photo-3.png"
+          <img class="choose-tour__card-img" src="./images/choose_tour/card_tour_photo-3.png"
             alt="Группа людей, сидящих на краю скалы с видом на берег моря  и город." />
           <div class="choose-tour__card-content">
             <div class="choose-tour__card-text">
@@ -116,7 +116,7 @@
           </div>
         </li>
         <li class="choose-tour__card">
-          <img class="choose-tour__card-img" src="./images/choose_tour/card tour photo-4.png"
+          <img class="choose-tour__card-img" src="./images/choose_tour/card_tour_photo-4.png"
             alt="Фотография небольшой улицы старинного города европы." />
           <div class="choose-tour__card-content">
             <div class="choose-tour__card-text">
@@ -128,7 +128,7 @@
           </div>
         </li>
         <li class="choose-tour__card">
-          <img class="choose-tour__card-img" src="./images/choose_tour/card tour photo-5.jpg"
+          <img class="choose-tour__card-img" src="./images/choose_tour/card_tour_photo-5.jpg"
             alt="Вид на галечный берег моря с небольшими домиками для отдыха." />
           <div class="choose-tour__card-content">
             <div class="choose-tour__card-text">
@@ -140,7 +140,7 @@
           </div>
         </li>
         <li class="choose-tour__card">
-          <img class="choose-tour__card-img" src="./images/choose_tour/card tour photo-6.png"
+          <img class="choose-tour__card-img" src="./images/choose_tour/card_tour_photo-6.png"
             alt="Мужчина, сидящий на пирсе у озера и любующийся видом на горы." />
           <div class="choose-tour__card-content">
             <div class="choose-tour__card-text">
@@ -164,7 +164,7 @@
       <form class="take-tour__form" action="#">
         <fieldset class="take-tour__form-fieldset">
           <label for="name" class="take-tour__form-label">Имя</label>
-          <input name="name" class="take-tour__form-input-name" type="text" placeholder="Введите Ваше имя" required />
+          <input id="name" name="name" class="take-tour__form-input-name" type="text" placeholder="Введите Ваше имя" required />
         </fieldset>
         <fieldset class="take-tour__form-fieldset">
           <label for="to" class="take-tour__form-label take-tour__label-direction">Направление</label>
@@ -177,32 +177,32 @@
         </fieldset>
         <fieldset class="take-tour__form-fieldset">
           <label for="email" class="take-tour__form-label">Email</label>
-          <input name="email" class="take-tour__form-input-name take-tour__form-input-email" type="email"
+          <input id="email" name="email" class="take-tour__form-input-name take-tour__form-input-email" type="email"
             placeholder="example@mail.com" required pattern="^\S+@\S+\.\S+$"
             title="Введите корректный email (например, example@mail.com)" />
         </fieldset>
         <fieldset class="take-tour__form-fieldset">
-          <label for="tel" class="take-tour__form-label">Телефон</label>
-          <input id="phone" name="tel" class="take-tour__form-input-name take-tour__form-input-phone" type="tel"
+          <label for="phone" class="take-tour__form-label">Телефон</label>
+          <input id="phone" name="phone" class="take-tour__form-input-name take-tour__form-input-phone" type="tel"
             placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _" pattern="\+7 \(\d{3}\) \d{3}-\d{2}-\d{2}" title="Введите
                 номер телефона в формате +7 (XXX) XXX-XX-XX" required />
         </fieldset>
         <fieldset class="take-tour__form-fieldset">
           <label for="date-from" class="take-tour__form-label">Дата от</label>
-          <input name="date-from" class="take-tour__form-input-name take-tour__form-date" type="date" max="2050-12-31"
+          <input id="date-from" name="date-from" class="take-tour__form-input-name take-tour__form-date" type="date" max="2050-12-31"
             min="2024-01-01" required data-gray="#a6a6a6" data-black="#1b1f2b" />
         </fieldset>
         <fieldset class="take-tour__form-fieldset">
           <label for="date-to" class="take-tour__form-label">Дата до</label>
-          <input name="date-to" class="take-tour__form-input-name take-tour__form-date" type="date" max="2050-12-31"
+          <input id="date-to" name="date-to" class="take-tour__form-input-name take-tour__form-date" type="date" max="2050-12-31"
             min="2024-01-01" required data-gray="#a6a6a6" data-black="#1b1f2b" />
         </fieldset>
         <fieldset class="take-tour__form-textarea take-tour__form-fieldset">
           <label class="take-tour__form-textarea-label" for="textarea">Комментарий</label>
-          <textarea name="textarea" class="take-tour__form-textarea-input" required></textarea>
+          <textarea id="textarea" name="textarea" class="take-tour__form-textarea-input" required></textarea>
         </fieldset>
         <fieldset class="take-tour__form-radio-btns take-tour__form-fieldset">
-          <label class="take-tour__form-radio-btns-label" for="radio">Вам есть 18 лет?</label>
+          <label class="take-tour__form-radio-btns-label">Вам есть 18 лет?</label>
           <div class="take-tour__form-radio-wrapper">
             <div class="take-tour__form-radio">
               <input class="take-tour__form-radio-input" id="radio-yes" type="radio" name="radio" value="yes"
@@ -257,7 +257,7 @@
               <p class="reviews__card-author-tour">Тур: Вдали от дома</p>
             </div>
             <div class="reviews__card-author-photo">
-              <img class="reviews__card-img" src="./images/reviews/review photo-1.png"
+              <img class="reviews__card-img" src="./images/reviews/review_photo-1.png"
                 alt="Фото автора отзыва. Девушка с рыжими волосами на фоне гор и озера." />
             </div>
           </div>
@@ -282,7 +282,7 @@
               </p>
             </div>
             <div class="reviews__card-author-photo reviews__card-author-photo_two">
-              <img class="reviews__card-img" src="./images/reviews/review photo-2.png"
+              <img class="reviews__card-img" src="./images/reviews/review_photo-2.png"
                 alt="Фото автора отзыва. Мужчина с бородой в зеленой кепке на фоне домов." />
             </div>
           </div>
@@ -299,59 +299,59 @@
       <div class="photos__images">
         <div class="photos__images-row">
           <div class="photos__images-col">
-            <img class="photo__images-col-img" src="./images/photos/travel photo-1.png"
+            <img class="photo__images-col-img" src="./images/photos/travel_photo-1.png"
               alt="Фотография взлетающего самолета на фоне моряи скал с домами на них." />
           </div>
           <div class="photos__images-col">
-            <img class="photo__images-col-img" src="./images/photos/travel photo-2.jpg"
+            <img class="photo__images-col-img" src="./images/photos/travel_photo-2.jpg"
               alt="Вид из палатки на кемпинг в пустыне." />
           </div>
           <div class="photos__images-col">
-            <img class="photo__images-col-img" src="./images/photos/travel photo-3.png"
+            <img class="photo__images-col-img" src="./images/photos/travel_photo-3.png"
               alt="Фотография человека, стоящего на камнях в пустыне на фоне заката." />
           </div>
           <div class="photos__images-col">
-            <img class="photo__images-col-img" src="./images/photos/travel photo-4.png"
+            <img class="photo__images-col-img" src="./images/photos/travel_photo-4.png"
               alt="Фотография дороги, идущей вдоль береговой линии. Слева от дороги находятся горы и посутся животные. Справа от дороги море." />
           </div>
         </div>
         <div class="photos__images-row">
           <div class="photos__images-col">
-            <img class="photo__images-col-img" src="./images/photos/travel photo-5.png"
+            <img class="photo__images-col-img" src="./images/photos/travel_photo-5.png"
               alt="Фотография двух людей, стоящих на краю скалы у моря и любующихся закатом." />
           </div>
           <div class="photos__images-col">
-            <img class="photo__images-col-img" src="./images/photos/travel photo-6.jpg"
+            <img class="photo__images-col-img" src="./images/photos/travel_photo-6.jpg"
               alt="Фотография человека, который сидит в машине и рассматривает бумажную карту территории." />
           </div>
           <div class="photos__images-col">
-            <img class="photo__images-col-img" src="./images/photos/travel photo-7.jpg"
+            <img class="photo__images-col-img" src="./images/photos/travel_photo-7.jpg"
               alt="Фотография моста, идущего через реку в лесу." />
           </div>
           <div class="photos__images-col">
-            <img class="photo__images-col-img" src="./images/photos/travel photo-8.png"
+            <img class="photo__images-col-img" src="./images/photos/travel_photo-8.png"
               alt="Фотография двух людей, мило общающихся на природе. Женщина стоит внизу, а мужчина находится в палатке, расположенной на крыше автомобиля." />
           </div>
           <div class="photos__images-col">
-            <img class="photo__images-col-img" src="./images/photos/travel photo-13.png"
+            <img class="photo__images-col-img" src="./images/photos/travel_photo-13.png"
               alt="Фотография небольшой улицы старинного города европы." />
           </div>
         </div>
         <div class="photos__images-row">
           <div class="photos__images-col">
-            <img class="photo__images-col-img" src="./images/photos/travel photo-9.png"
+            <img class="photo__images-col-img" src="./images/photos/travel_photo-9.png"
               alt="Фотография небольшой улицы старинного города европы." />
           </div>
           <div class="photos__images-col">
-            <img class="photo__images-col-img" src="./images/photos/travel photo-10.png"
+            <img class="photo__images-col-img" src="./images/photos/travel_photo-10.png"
               alt="Мужчина, сидящий на пирсе у озера и любующийся видом на горы." />
           </div>
           <div class="photos__images-col">
-            <img class="photo__images-col-img" src="./images/photos/travel photo-11.png"
+            <img class="photo__images-col-img" src="./images/photos/travel_photo-11.png"
               alt="Фотография небольшой улицы старинного города европы с толпой людей." />
           </div>
           <div class="photos__images-col">
-            <img class="photo__images-col-img" src="./images/photos/travel photo-12.jpg"
+            <img class="photo__images-col-img" src="./images/photos/travel_photo-12.jpg"
               alt="Фотография девушки, плывущей на САП доске." />
           </div>
         </div>
@@ -430,7 +430,7 @@
     </section>
     <section class="contact">
       <div class="contact__content">
-        <img class="contact__img" src="./images/footer/footer photo.jpg"
+        <img class="contact__img" src="./images/footer/footer_photo.jpg"
           alt="Фотография небольших домиков расположенных на берегу реки. На другом берегу реки виднеется угстой лес, а за ним горы." />
         <div class="contact__text">
           <h2 class="contact__heading">
