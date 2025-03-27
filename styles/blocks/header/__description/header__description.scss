@@ -1,7 +1,6 @@
 @import "../../../base/variables";
 
 .header__description {
-  @include regular-text;
   max-width: 562px;
   text-align: center;
   color: $white;
@@ -24,6 +23,5 @@
   .header__description {
     max-width: 310px;
     margin-bottom: 39px;
-    font-size: $size-16;
   }
 }

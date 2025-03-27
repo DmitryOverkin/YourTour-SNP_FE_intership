@@ -36,9 +36,9 @@
 
 @media (max-width: 550px) {
   .choose-tour__card-button {
+    @include mobile-regular-text;
     left: -22px;
     top: 10px;
-    font-size: $size-16;
-    line-height: 142%;
+    font-weight: $weight-700;
   }
 }

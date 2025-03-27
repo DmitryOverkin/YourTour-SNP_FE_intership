@@ -1,13 +1,13 @@
 @import "../../../base/variables";
 
 .choose-tour__card-price {
+  @include regular-text;
   font-size: $size-17;
-  line-height: 142%;
   letter-spacing: -0.01em;
 }
 
 @media (max-width: 768px) {
   .choose-tour__card-price {
-    font-size: $size-16;
+    @include mobile-regular-text;
   }
 }

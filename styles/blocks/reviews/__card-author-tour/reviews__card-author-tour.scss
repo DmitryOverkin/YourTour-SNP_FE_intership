@@ -1,9 +1,9 @@
 @import "../../../base/variables";
 
 .reviews__card-author-tour {
+  @include regular-text;
   color: $gray-300;
   font-size: $size-17;
-  line-height: 142%;
   letter-spacing: -0.01em;
 }
 

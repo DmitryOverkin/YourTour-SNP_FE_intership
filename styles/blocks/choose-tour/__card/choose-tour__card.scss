@@ -72,11 +72,6 @@
   }
 }
 
-@media (max-width: 360px) {
-  .choose-tour__card::before {
-    border-radius: 20px;
-  }
-}
 
 @media (hover: none) {
   .choose-tour__card:hover .choose-tour__card-img {

@@ -55,6 +55,17 @@ $size-96: 96px;
   line-height: 142%;
 }
 
+@mixin mobile-regular-text {
+  @include regular-text;
+  font-size: $size-16;
+}
+
+@mixin cards-heading-style {
+  font-weight: $weight-500;
+  font-size: $size-35;
+  line-height: 122%;
+}
+
 
 @mixin histories-bg-styles($bg-url) {
   position: absolute;

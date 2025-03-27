@@ -1,11 +1,9 @@
 @import "../../../base/variables";
 
 .histories__card-heading {
+  @include cards-heading-style;
   position: relative;
   margin-bottom: 36px;
-  font-weight: $weight-500;
-  font-size: $size-35;
-  line-height: 122%;
 }
 
 @media (max-width: 1024px) {

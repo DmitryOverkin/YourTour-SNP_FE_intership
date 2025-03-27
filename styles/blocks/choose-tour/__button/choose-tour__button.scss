@@ -33,8 +33,8 @@
 
 @media (max-width: 550px) {
   .choose-tour__button {
-    font-size: $size-16;
-    line-height: 142%;
+    @include mobile-regular-text;
+    font-weight: $weight-700;
   }
 }
 
