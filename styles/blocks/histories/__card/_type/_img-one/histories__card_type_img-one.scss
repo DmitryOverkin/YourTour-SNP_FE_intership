@@ -1,17 +1,7 @@
 @import '../../../../../base/variables';
 
 .histories__card_type_img-one::before {
-    @include histories-bg-styles;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    content: "";
-    background:
-        linear-gradient(270deg, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.2) 100%),
-        url('/images/histories/story photo-1.png');
-    transition: transform 0.3s ease;
+    @include histories-bg-styles('/images/histories/story photo-1.png');
 }
 
 .histories__card_type_img-one:hover::before {
