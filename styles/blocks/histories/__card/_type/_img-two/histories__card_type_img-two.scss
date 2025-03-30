@@ -1,7 +1,7 @@
 @import '../../../../../base/variables';
 
 .histories__card_type_img-two::before {
-    @include histories-bg-styles('../../images/histories/story photo-2.png');
+    @include histories-bg-styles('../../../../../../images/histories/story\ photo-2.png');
 }
 
 .histories__card_type_img-two:hover::before {
