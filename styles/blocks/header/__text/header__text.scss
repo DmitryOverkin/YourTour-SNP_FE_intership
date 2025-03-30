@@ -1,4 +1,7 @@
+@import "../../../base/variables";
+
 .header__text {
+  @include regular-text;
   max-width: 768px;
   margin: 0 auto;
   padding: 207px 0;
@@ -16,6 +19,7 @@
 
 @media (max-width: 360px) {
   .header__text {
+    @include mobile-regular-text;
     padding-top: 141px;
     gap: 0;
   }
