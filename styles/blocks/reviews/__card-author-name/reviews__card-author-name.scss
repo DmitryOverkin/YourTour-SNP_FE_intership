@@ -1,10 +1,8 @@
 @import "../../../base/variables";
 
 .reviews__card-author-name {
+  @include cards-heading-style;
   margin-bottom: 8px;
-  font-weight: $weight-500;
-  font-size: $size-35;
-  line-height: 122%;
 }
 
 @media (max-width: 768px) {

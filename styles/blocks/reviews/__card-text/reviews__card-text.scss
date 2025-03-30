@@ -1,9 +1,7 @@
 @import "../../../base/variables";
 
 .reviews__card-text {
-  font-size: $size-23;
-  font-weight: $weight-700;
-  line-height: 122%;
+  @include bold-text;
 }
 
 @media (max-width: 768px) {

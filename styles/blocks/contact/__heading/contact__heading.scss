@@ -1,10 +1,8 @@
 @import "../../../base/variables";
 
 .contact__heading {
+  @include cards-heading-style;
   margin-bottom: 20px;
-  font-weight: $weight-500;
-  font-size: $size-35;
-  line-height: 122%;
 }
 
 @media (max-width: 1024px) {

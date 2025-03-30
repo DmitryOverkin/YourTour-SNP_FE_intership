@@ -7,7 +7,6 @@
   border: 1px solid $beige-200;
   border-radius: 10px;
   color: $gray-300;
-  font-size: $size-20;
   background-color: $beige-100;
   background-image: url("../../images/icons/dropdown.png");
   background-repeat: no-repeat;
@@ -76,7 +75,6 @@
     width: 278px;
     height: 43px;
     padding: 8px;
-    font-size: $size-16;
     background-position: calc(103% - 19px) calc(1em + -8px),
       calc(100% - 15px) calc(1em + 2px), 100% 0;
     &:hover {

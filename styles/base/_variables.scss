@@ -60,6 +60,12 @@ $size-96: 96px;
   font-size: $size-16;
 }
 
+@mixin bold-text {
+  font-weight: $weight-700;
+  font-size: $size-23;
+  line-height: 122%;
+}
+
 @mixin cards-heading-style {
   font-weight: $weight-500;
   font-size: $size-35;

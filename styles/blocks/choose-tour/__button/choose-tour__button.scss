@@ -2,12 +2,10 @@
 @import "./_active/choose-tour__button_active";
 
 .choose-tour__button {
+  @include bold-text;
   position: relative;
   border: none;
   background-color: transparent;
-  font-weight: $weight-700;
-  font-size: $size-23;
-  line-height: 122%;
   cursor: pointer;
   &::after {
     position: absolute;

@@ -4,6 +4,7 @@
   color: $orange-200;
   text-decoration: underline;
   text-underline-offset: 10px;
+
   &::after {
     width: 0 !important;
     transition: none !important;
@@ -12,8 +13,6 @@
 
 @media (max-width: 550px) {
   .choose-tour__button_active {
-    @include mobile-regular-text;
-    font-weight: $weight-700;
     text-underline-offset: 5px;
   }
 }

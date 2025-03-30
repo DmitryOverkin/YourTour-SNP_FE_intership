@@ -15,7 +15,7 @@
 
 @media (max-width: 360px){
   .header__content{
-    @include mobile-regular-text;
     padding: 33px 0;
+    font-size: $size-16;
   }
 }
