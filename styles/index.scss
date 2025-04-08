@@ -1,3 +1,5 @@
+@import "./base/variables";
+
 html {
   scroll-behavior: smooth;
 }
@@ -8,7 +10,6 @@ body {
   font-family: $font-family;
 }
 
-@import "./base/variables";
 @import "./base/normilize";
 // container
 @import "./blocks/container/container";
