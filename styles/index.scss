@@ -1,3 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: $beige-100;
+  color: $black;
+  font-family: $font-family;
+}
+
 @import "./base/variables";
 @import "./base/normilize";
 // container
@@ -113,13 +123,3 @@
 @import "./blocks/footer/__link/footer__link";
 @import "./blocks/footer/__links/footer__links";
 @import "./blocks/footer/__social-networks/footer__social-networks";
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  background-color: $beige-100;
-  color: $black;
-  font-family: $font-family;
-}
