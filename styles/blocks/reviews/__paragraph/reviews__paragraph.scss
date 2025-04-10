@@ -2,14 +2,15 @@
 
 .reviews__paragraph {
   @include regular-text;
-  margin-bottom: 99px;
+  max-width: 420px;
+  margin: 0 auto 99px;
   text-align: center;
   color: $gray-300;
 }
 
 @media (max-width: 768px) {
   .reviews__paragraph {
-    margin-bottom: 50px;
+    margin: 0 auto 50px;
   }
 }
 

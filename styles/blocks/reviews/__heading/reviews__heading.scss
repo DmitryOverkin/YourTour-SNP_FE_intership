@@ -2,7 +2,8 @@
 
 .reviews__heading {
   @include h2;
-  margin-bottom: 30px;
+  max-width: 530px;
+  margin: 0 auto 30px;
 }
 
 @media (max-width: 768px) {
@@ -13,7 +14,7 @@
 
 @media (max-width: 360px) {
   .reviews__heading {
-    margin-bottom: 21px;
+    margin: 0 auto 21px;
     line-height: 109%;
   }
 }
