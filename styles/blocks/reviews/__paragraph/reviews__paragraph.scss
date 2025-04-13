@@ -1,11 +1,11 @@
 @import "../../../base/variables";
 
 .reviews__paragraph {
-  @include regular-text;
-  max-width: 420px;
+  max-width: 400px;
   margin: 0 auto 99px;
   text-align: center;
   color: $gray-300;
+  @include regular-text;
 }
 
 @media (max-width: 768px) {

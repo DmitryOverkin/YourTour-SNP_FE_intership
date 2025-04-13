@@ -1,8 +1,8 @@
 @import "../../../base/variables";
 
 .choose-tour__heading {
-  @include h2;
   margin-bottom: 35px;
+  @include h2;
 }
 
 @media (max-width: 768px) {

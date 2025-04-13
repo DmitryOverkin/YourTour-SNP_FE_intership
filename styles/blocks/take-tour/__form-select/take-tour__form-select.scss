@@ -15,6 +15,7 @@
   box-sizing: border-box;
   appearance: none;
   transition: background-color 0.3s ease, border 0.3s ease;
+
   &:hover {
     border: 1px solid $beige-200;
     background-color: $beige-200;
@@ -24,6 +25,7 @@
       calc(100% - 15px) calc(1em + 2px), 100% 0;
     cursor: pointer;
   }
+
   &:focus {
     border: 1px solid $gray-300;
   }
@@ -40,6 +42,7 @@
     padding: 22px 19px;
     background-position: calc(100% - 19px) calc(1em + 1px),
       calc(100% - 15px) calc(1em + 2px), 100% 0;
+
     &:hover {
       background-position: calc(100% - 19px) calc(1em + 1px),
         calc(100% - 15px) calc(1em + 2px), 100% 0;
@@ -51,6 +54,7 @@
   .take-tour__form-select {
     background-position: calc(100% - 20px) calc(1em + 0px),
       calc(100% - 15px) calc(1em + 2px), 100% 0;
+
     &:hover {
       background-position: calc(100% - 20px) calc(1em + 0px),
         calc(100% - 15px) calc(1em + 2px), 100% 0;
@@ -63,6 +67,7 @@
     font-size: $size-16;
     background-position: calc(100% - 20px) calc(1em + 3px),
       calc(100% - 15px) calc(1em + 2px), 100% 0;
+
     &:hover {
       background-position: calc(100% - 20px) calc(1em + 3px),
         calc(100% - 15px) calc(1em + 2px), 100% 0;
@@ -77,6 +82,7 @@
     padding: 8px;
     background-position: calc(103% - 19px) calc(1em + -8px),
       calc(100% - 15px) calc(1em + 2px), 100% 0;
+
     &:hover {
       border: 1px solid $gray-300;
       background-position: calc(103% - 19px) calc(1em + -8px),
@@ -88,8 +94,9 @@
 @media (max-width: 360px) {
   .take-tour__form-select {
     padding: 9px;
-    background-position: calc(103% - 16px) calc(1em + -9px),
+    background-position: calc(103% - 18px) calc(1em + -9px),
       calc(100% - 15px) calc(1em + 2px), 100% 0;
+      
     &:hover {
       background-position: calc(103% - 16px) calc(1em + -9px),
         calc(100% - 15px) calc(1em + 2px), 100% 0;

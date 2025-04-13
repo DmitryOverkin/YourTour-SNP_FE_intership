@@ -1,9 +1,9 @@
 @import "../../../base/variables";
 
 .reviews__heading {
-  @include h2;
   max-width: 530px;
-  margin: 0 auto 30px;
+  margin: 0 auto 29px;
+  @include h2;
 }
 
 @media (max-width: 768px) {

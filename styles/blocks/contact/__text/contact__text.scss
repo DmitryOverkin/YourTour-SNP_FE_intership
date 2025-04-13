@@ -1,13 +1,5 @@
 .contact__text {
-  position: relative;
-  left: 3px;
   max-width: 371px;
-}
-
-@media (max-width: 1024px) {
-  .contact__text {
-    top: -1px;
-  }
 }
 
 @media (max-width: 550px) {
@@ -20,9 +12,3 @@
   }
 }
 
-@media (max-width: 360px) {
-  .contact__text {
-    left: 0;
-    top: 0;
-  }
-}

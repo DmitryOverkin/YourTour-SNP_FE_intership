@@ -8,6 +8,7 @@
   line-height: 18px;
   user-select: none;
   cursor: pointer;
+
   &::before {
     position: absolute;
     left: 0;
@@ -24,6 +25,7 @@
   .take-tour__form-radio-label {
     padding-left: 30px;
     font-size: $size-16;
+    
     &::before {
       bottom: -6px;
       background: url("../../images/take_tour/radio-uncheked-mobile.svg") 0 0

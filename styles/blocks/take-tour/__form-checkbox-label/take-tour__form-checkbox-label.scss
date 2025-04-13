@@ -11,6 +11,7 @@
   color: $gray-300;
   user-select: none;
   cursor: pointer;
+
   &::before {
     position: absolute;
     left: 0;
@@ -33,6 +34,7 @@
 @media (max-width: 768px) {
   .take-tour__form-checkbox-label {
     display: inline-block;
+
     &::before {
       top: 0;
     }
@@ -47,6 +49,7 @@
     font-size: $size-16;
     line-height: 23px;
     letter-spacing: 0;
+    
     &::before {
       background: url("../../images/take_tour/chekbox-uncheked-mobile.svg") 0 0
         no-repeat;
@@ -57,5 +60,6 @@
 @media (max-width: 360px) {
   .take-tour__form-checkbox-label {
     top: -2px;
+    left: -1px;
   }
 }

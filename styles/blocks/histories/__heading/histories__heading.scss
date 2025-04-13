@@ -1,8 +1,8 @@
 @import "../../../base/variables";
 
 .histories__heading {
-  @include h2;
   margin-bottom: 29px;
+  @include h2;
 }
 
 @media (max-width: 1024px) {

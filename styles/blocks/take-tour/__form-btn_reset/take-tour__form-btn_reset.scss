@@ -10,9 +10,11 @@
   color: $green-400;
   cursor: pointer;
   transition: background 0.3s ease;
+
   &:hover {
     background: $gray-100;
   }
+
   &:active {
     background: $gray-200;
   }
@@ -46,6 +48,7 @@
     &:hover {
       background: $green-100;
     }
+    
     &:active {
       background: $gray-200;
     }

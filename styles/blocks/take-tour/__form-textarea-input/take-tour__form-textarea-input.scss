@@ -10,10 +10,12 @@
   background: $beige-100;
   resize: none;
   transition: background-color 0.3s ease, border 0.3s ease;
+
   &:hover {
     border: 1px solid $beige-200;
     background: $beige-200;
   }
+
   &:focus {
     border: 1px solid $gray-300;
     background: $beige-200;
@@ -40,6 +42,7 @@
       border: none;
       background: inherit;
     }
+    
     &:focus {
       border: 1px solid $gray-300;
       background: $beige-200;

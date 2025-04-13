@@ -1,8 +1,8 @@
 @import "../../../base/variables";
 
 .reviews__card-author-name {
-  @include cards-heading-style;
   margin-bottom: 8px;
+  @include cards-heading-style;
 }
 
 @media (max-width: 768px) {

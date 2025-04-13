@@ -5,3 +5,15 @@
 .reviews__card-text_span:first-child{
     margin-bottom: 30px;
 }
+
+@media (max-width: 1024px){
+    .reviews__card-text_span:first-child{
+        margin-bottom: 28px;
+    }
+}
+
+@media (max-width: 360px){
+    .reviews__card-text_span:first-child{
+        margin-bottom: 22px;
+    }
+}

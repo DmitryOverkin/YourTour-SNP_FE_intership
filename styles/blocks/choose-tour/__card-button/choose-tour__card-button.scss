@@ -1,7 +1,6 @@
 @import "../../../base/variables";
 
 .choose-tour__card-button {
-  @include bold-text;
   position: relative;
   left: -28px;
   top: 8px;
@@ -13,6 +12,7 @@
   align-items: center;
   justify-content: center;
   background-color: transparent;
+  @include bold-text;
   color: $white;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -34,9 +34,9 @@
 
 @media (max-width: 550px) {
   .choose-tour__card-button {
-    @include mobile-regular-text;
     left: -22px;
     top: 10px;
+    @include mobile-regular-text;
     font-weight: $weight-700;
   }
 }

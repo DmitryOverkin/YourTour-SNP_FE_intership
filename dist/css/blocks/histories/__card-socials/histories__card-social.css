@@ -1,1 +1,1 @@
-.histories__card-social{font-weight:400;font-size:20px;line-height:142%;display:flex;align-self:end;gap:36px}@media (max-width:1024px){.histories__card-social{position:relative;bottom:2px}}@media (max-width:768px){.histories__card-social{gap:20px;font-size:16px}}@media (max-width:550px){.histories__card-social{display:none}}
+.histories__card-social{display:flex;align-self:end;gap:36px;font-weight:400;font-size:20px;line-height:142%}@media (max-width:768px){.histories__card-social{gap:20px;font-size:16px}}@media (max-width:550px){.histories__card-social{display:none}}

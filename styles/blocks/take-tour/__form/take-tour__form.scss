@@ -1,7 +1,6 @@
 @import "../../../base/variables";
 
 .take-tour__form {
-  @include regular-text;
   width: 100%;
   padding: 69px 70px;
   border: none;
@@ -10,6 +9,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 34px 30px;
   background: $white;
+  @include regular-text;
 }
 
 @media (max-width: 1024px) {

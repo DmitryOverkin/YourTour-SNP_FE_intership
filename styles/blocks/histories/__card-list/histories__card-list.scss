@@ -1,9 +1,9 @@
 @import "../../../base/variables";
 
 .histories__card-list {
-  @include regular-text;
   position: relative;
   list-style-type: none;
+  @include regular-text;
 }
 
 @media (max-width: 768px) {

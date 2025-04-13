@@ -3,6 +3,7 @@
 .take-tour__form-checkbox-link {
   position: relative;
   color: $black;
+
   &::after {
     position: absolute;
     left: 0;
@@ -14,12 +15,15 @@
     content: "";
     transition: width 0.3s ease;
   }
+
   &:hover:after {
     width: 100%;
   }
+
   &:active {
     color: $green-400;
   }
+
   &:active::after {
     background-color: $green-400;
   }
@@ -31,9 +35,11 @@
       width: 0;
       transition: none;
     }
+
     &:hover:after {
       width: 0;
     }
+    
     &:active {
       color: $green-400;
     }

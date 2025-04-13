@@ -8,16 +8,20 @@
   border-radius: 10px;
   background: $beige-100;
   transition: background-color 0.3s ease, border 0.3s ease;
+
   &:hover,
   &:focus {
     background: $beige-200;
   }
+
   &:hover {
     border: 1px solid $beige-200;
   }
+
   &:focus {
     border: 1px solid $gray-300;
   }
+  
   &::placeholder {
     color: $gray-300;
   }

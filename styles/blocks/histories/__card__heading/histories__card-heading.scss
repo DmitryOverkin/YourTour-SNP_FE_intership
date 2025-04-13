@@ -1,9 +1,9 @@
 @import "../../../base/variables";
 
 .histories__card-heading {
-  @include cards-heading-style;
   position: relative;
   margin-bottom: 37px;
+  @include cards-heading-style;
 }
 
 @media (max-width: 1024px) {

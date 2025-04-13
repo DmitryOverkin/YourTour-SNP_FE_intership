@@ -1,10 +1,10 @@
 @import "../../../base/variables";
 
 .header__content {
-  @include regular-text;
   position: absolute;
   width: 100%;
   padding: 28px 0;
+  @include regular-text;
 }
 
 @media (max-width: 1024px){

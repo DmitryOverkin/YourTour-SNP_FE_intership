@@ -1,17 +1,10 @@
 @import "../../../base/variables";
 
 .histories__card-social {
-  @include regular-text;
   display: flex;
   align-self: end;
   gap: 36px;
-}
-
-@media (max-width: 1024px) {
-  .histories__card-social {
-    position: relative;
-    bottom: 2px;
-  }
+  @include regular-text;
 }
 
 @media (max-width: 768px) {

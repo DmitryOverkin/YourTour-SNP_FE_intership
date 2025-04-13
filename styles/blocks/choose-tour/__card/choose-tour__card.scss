@@ -9,6 +9,7 @@
   border-radius: 50px;
   overflow: hidden;
   cursor: pointer;
+
   &::before {
     position: absolute;
     top: 0;
@@ -67,6 +68,7 @@
     padding: 25px;
     border-radius: 20px;
   }
+  
   .choose-tour__card::before {
     border-radius: 20px;
   }

@@ -1,1 +1,1 @@
-.reviews__card-author-name{font-weight:500;font-size:35px;line-height:122%;margin-bottom:8px}@media (max-width:768px){.reviews__card-author-name{font-size:23px}}@media (max-width:360px){.reviews__card-author-name{margin-bottom:0;letter-spacing:.035em;line-height:144%}}
+.reviews__card-author-name{margin-bottom:8px;font-weight:500;font-size:35px;line-height:122%}@media (max-width:768px){.reviews__card-author-name{font-size:23px}}@media (max-width:360px){.reviews__card-author-name{margin-bottom:0;letter-spacing:.035em;line-height:144%}}
